@@ -57,7 +57,12 @@
       "fieldType": "Tags",
       "dataType": "array",
       "title": "interior_design",
-      "values": []
+      "values": [
+        {
+          "value": "ok",
+          "label": "ok"
+        }
+      ]
     }
   }
 }
