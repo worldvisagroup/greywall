@@ -8,7 +8,7 @@ export default async function Index() {
 }
 
 async function getData() {
-  const posts = getDocuments("projects");
+  const posts = getDocuments("projects", ["title", "imageOne", "imageTwo"]);
   console.log("projects", posts);
   return posts;
 }
