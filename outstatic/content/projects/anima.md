@@ -1,6 +1,6 @@
 ---
 title: 'Anima'
-status: 'published'
+status: 'draft'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
