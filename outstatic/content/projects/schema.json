@@ -43,6 +43,14 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Image five"
+    },
+    "category": {
+      "required": false,
+      "description": "",
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "category",
+      "values": []
     }
   }
 }
