@@ -10,39 +10,46 @@
       "title": "Project Name"
     },
     "imageOne": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "image one"
     },
     "imageTwo": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "image two"
     },
     "imageThree": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image Three"
     },
     "imageFour": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image Four"
     },
     "imageFive": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image five"
+    },
+    "category": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "category"
     }
   }
 }
