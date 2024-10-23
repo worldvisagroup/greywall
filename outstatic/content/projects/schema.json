@@ -24,32 +24,42 @@
       "title": "image two"
     },
     "imageThree": {
-      "required": true,
+      "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image Three"
     },
     "imageFour": {
-      "required": true,
+      "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image Four"
     },
     "imageFive": {
-      "required": true,
+      "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
       "title": "Image five"
     },
     "category": {
-      "required": true,
+      "required": false,
       "description": "",
-      "fieldType": "String",
-      "dataType": "string",
-      "title": "category"
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "category",
+      "values": [
+        {
+          "value": "interiorDesign",
+          "label": "interior_design"
+        },
+        {
+          "value": "construction",
+          "label": "construction"
+        }
+      ]
     }
   }
 }
