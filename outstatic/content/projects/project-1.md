@@ -7,6 +7,12 @@ author:
 slug: 'project-1'
 description: 'This is the description'
 coverImage: '/images/anima-1-QxNz.webp'
+projectName: 'Travel'
+imageOne: ''
+imageTwo: ''
+imageThree: ''
+imageFour: ''
+imageFive: ''
 publishedAt: '2024-10-23T11:45:18.325Z'
 ---
 
