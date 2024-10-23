@@ -58,6 +58,10 @@
         {
           "value": "construction",
           "label": "construction"
+        },
+        {
+          "value": "commercial",
+          "label": "commercial"
         }
       ]
     }
