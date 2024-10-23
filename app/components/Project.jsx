@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import Slider from "react-slick";
 import Image from "next/image";
+import { useState } from "react";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 
 import Project1Image1 from "../../public/images/projects/DuraniEnclave/image1.webp";
@@ -8,15 +8,15 @@ import Project1Image2 from "../../public/images/projects/DuraniEnclave/image2.we
 import Project1Image3 from "../../public/images/projects/DuraniEnclave/image3.webp";
 import Project1Image4 from "../../public/images/projects/DuraniEnclave/image4.webp";
 
+import Project2Image3 from "../../public/images/projects/WLDDimages/main-image.webp";
 import Project2Image1 from "../../public/images/projects/WLDDimages/small-image1.webp";
 import Project2Image2 from "../../public/images/projects/WLDDimages/small-image2.webp";
-import Project2Image3 from "../../public/images/projects/WLDDimages/main-image.webp";
 
+import Project3Image4 from "../../public/images/projects/Chilli_garlic/image4.webp";
+import Project3Image5 from "../../public/images/projects/Chilli_garlic/image5.webp";
 import Project3Image1 from "../../public/images/projects/Chilli_garlic/img1.webp";
 import Project3Image2 from "../../public/images/projects/Chilli_garlic/img2.webp";
 import Project3Image3 from "../../public/images/projects/Chilli_garlic/img3.webp";
-import Project3Image4 from "../../public/images/projects/Chilli_garlic/image4.webp";
-import Project3Image5 from "../../public/images/projects/Chilli_garlic/image5.webp";
 
 const Project = () => {
   const [activeCategory, setActiveCategory] = useState("Construction");
