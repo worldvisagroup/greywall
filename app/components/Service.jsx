@@ -6,13 +6,19 @@ const Service = () => {
     {
       title: "Construction",
       content:
-        "Crafting spaces that stand the test of time. We build more than structures; we build legacies.",
+        "Designing spaces that endure through time, we construct more than just buildings; we create lasting legacies.",
       backgroundImage: "/images/construction.jpg",
     },
     {
       title: "Interior Design",
       content:
-        "Elevate your living space with our curated collection of exquisite interior design elements.",
+        "Enhance your living environment with our meticulously curated selection of refined interior design elements",
+      backgroundImage: "/images/interior.jpg",
+    },
+    {
+      title: "Architecture",
+      content:
+        "Refine your architectural vision with our expertly crafted selection of sophisticated design solutions.",
       backgroundImage: "/images/interior.jpg",
     },
   ];
