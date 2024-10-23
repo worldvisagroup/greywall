@@ -45,7 +45,7 @@
       "title": "Image five"
     },
     "category": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
