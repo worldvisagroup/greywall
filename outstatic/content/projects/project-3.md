@@ -1,6 +1,6 @@
 ---
 title: 'Project 3'
-status: 'draft'
+status: 'published'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
