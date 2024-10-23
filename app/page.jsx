@@ -22,7 +22,7 @@ export default function Home() {
       <HomePage
         scrollToSection={scrollToSection}
         aboutRef={aboutRef}
-        projectRef={projectRef}i
+        projectRef={projectRef} i
         serviceRef={serviceRef}
         contactRef={contactRef}
       />

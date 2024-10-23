@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Slider from "react-slick";
 import Image from "next/image";
 import "slick-carousel/slick/slick-theme.css";
@@ -23,6 +23,7 @@ const Project = () => {
   const [activeConstructionProject, setActiveConstructionProject] = useState(0);
   const [activeInteriorProject, setActiveInteriorProject] = useState(0);
   const [mainImage, setMainImage] = useState("");
+
 
   const categories = [
     {
