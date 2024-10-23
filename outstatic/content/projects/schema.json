@@ -38,7 +38,7 @@
       "title": "Image Four"
     },
     "imageFive": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
