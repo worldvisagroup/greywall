@@ -32,9 +32,6 @@ export default function Home() {
       <div ref={projectRef}>
         <Project />
       </div>
-      <div ref={projectRef}>
-        <Project2 />
-      </div>
       <div ref={serviceRef}>
         <Service />
       </div>
