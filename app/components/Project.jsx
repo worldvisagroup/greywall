@@ -16,14 +16,14 @@ const Project = () => {
         <div className="flex flex-wrap justify-center mt-[8%] gap-12">
           {projects.map((project, index) => (
             <Link href="/projects" key={index} className="w-full max-w-[290px]">
-              <div className="card group relative h-[370px] bg-gradient-to-b from-[#c3e6ec] to-[#a7d1d9] rounded-[10px] p-5 overflow-hidden cursor-pointer">
+              <div className="card group relative h-[370px] bg-gradient-to-b from-[#ffede6] to-[#faf4f2] rounded-[10px] p-5 overflow-hidden cursor-pointer">
                 <div className="card-title text-[#262626] text-2xl font-bold mb-5 mt-28 font-montserrat group-hover:text-white transition-all duration-500 relative z-10">{project.title}</div>
                 <div className="small-desc font-semibold text-sm text-[#452c2c] group-hover:text-white/80 transition-all duration-500 relative z-10 font-montserrat">Click to view projects</div>
                 <div className="absolute inset-0 bg-cover bg-center z-0 opacity-50 group-hover:opacity-80 transition-opacity duration-500" style={{backgroundImage: `url(${project.image})`}}></div>
-                <div className="go-corner absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[#6293c8] to-[#384c6c] rounded-bl-[60px] flex items-center justify-center">
+                <div className="go-corner absolute top-0 right-0 w-16 h-16 bg-gradient-to-br from-[#7C7C7C] to-[#272626] rounded-bl-[60px] flex items-center justify-center">
                   <div className="go-arrow text-white font-courier text-2xl -mt-2 -mr-2">&rarr;</div>
                 </div>
-                <div className="absolute -top-8 -right-8 w-16 h-16 bg-gradient-to-br from-[#364a60] to-[#384c6c] rounded-full transform scale-100 origin-center transition-transform duration-350 ease-out group-hover:scale-[25]"></div>
+                <div className="absolute -top-8 -right-8 w-16 h-16 bg-gradient-to-br from-[#7C7C7C] to-[#585757] rounded-full transform scale-100 origin-center transition-transform duration-350 ease-out group-hover:scale-[25]"></div>
               </div>
             </Link>
           ))}
