@@ -44,13 +44,6 @@
       "dataType": "string",
       "title": "Image five"
     },
-    "category": {
-      "required": true,
-      "description": "",
-      "fieldType": "String",
-      "dataType": "string",
-      "title": "category"
-    },
     "interiorDesign": {
       "required": true,
       "description": "",
