@@ -31,7 +31,7 @@
       "title": "Image Three"
     },
     "imageFour": {
-      "required": true,
+      "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
