@@ -54,6 +54,10 @@
         {
           "value": "interiorDesign",
           "label": "interior_design"
+        },
+        {
+          "value": "construction",
+          "label": "construction"
         }
       ]
     }

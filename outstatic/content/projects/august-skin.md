@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywal
 imageThree: ''
 imageFour: ''
 imageFive: ''
-category: ''
+category: [{"label":"construction","value":"construction"}]
 publishedAt: '2024-10-23T13:42:02.591Z'
 ---
 
