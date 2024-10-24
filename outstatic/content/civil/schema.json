@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Project Name"
+    },
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Image one"
     }
   }
 }
