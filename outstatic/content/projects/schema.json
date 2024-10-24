@@ -62,6 +62,10 @@
         {
           "value": "commercial",
           "label": "commercial"
+        },
+        {
+          "value": "residential",
+          "label": "residential"
         }
       ]
     }
