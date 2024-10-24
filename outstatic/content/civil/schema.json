@@ -1,0 +1,13 @@
+{
+  "title": "civil",
+  "type": "object",
+  "properties": {
+    "projectName": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Project Name"
+    }
+  }
+}
