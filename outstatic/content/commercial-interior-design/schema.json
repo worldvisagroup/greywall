@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Eminent"
+    },
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image one"
     }
   }
 }
