@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-10_vf1pjc.jpg'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-11_apkivg.jpg'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753824/greywall/projects/Vrindavan%20Villa/vrindavan-6_ekumlc.png'
-category: [{"value":"interiorDesign","label":"interior_design"},{"value":"residential","label":"residential"}]
+category: [{"value":"residentialInteriorDesing","label":"residential_interior_desing"}]
 publishedAt: '2024-10-24T07:43:24.740Z'
 ---
 
