@@ -15,6 +15,34 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "image one"
+    },
+    "imageTwo": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image two"
+    },
+    "imageThree": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image three"
+    },
+    "imageFour": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image four"
+    },
+    "imageFive": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image five"
     }
   }
 }
