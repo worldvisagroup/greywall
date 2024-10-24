@@ -36,6 +36,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "image five"
+    },
+    "projectName": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "project name"
     }
   }
 }
