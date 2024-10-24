@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywal
 imageThree: ''
 imageFour: ''
 imageFive: ''
-category: [{"value":"residentialInteriorDesing","label":"residential_interior_desing"}]
+category: [{"value":"residentialInteriorDesign","label":"residential_interior_design"}]
 publishedAt: '2024-10-24T07:46:10.780Z'
 ---
 
