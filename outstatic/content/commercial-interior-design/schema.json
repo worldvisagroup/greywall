@@ -1,0 +1,48 @@
+{
+  "title": "commercial-interior-design",
+  "type": "object",
+  "properties": {
+    "eminent": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Eminent"
+    },
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image one"
+    },
+    "imageTwo": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Image two"
+    },
+    "imageThree": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image three"
+    },
+    "imageFour": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image four"
+    },
+    "imageFive": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image five"
+    }
+  }
+}
