@@ -55,6 +55,10 @@
         {
           "value": "residentialInteriorDesing",
           "label": "residential_interior_desing"
+        },
+        {
+          "value": "commercialInteriorDesign",
+          "label": "commercial_interior_design"
         }
       ],
       "fieldType": "Tags",
