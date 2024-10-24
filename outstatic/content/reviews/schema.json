@@ -1,0 +1,13 @@
+{
+  "title": "reviews",
+  "type": "object",
+  "properties": {
+    "name": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "name"
+    }
+  }
+}
