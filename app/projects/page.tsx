@@ -17,7 +17,11 @@ export default async function Index() {
         <h1 className="text-xl font-bold leading-10" key={title}>
           {title}
         </h1>
-        {category ? <p>{category[0].value}</p> : <></>}
+        {category ? (
+          <p className="capitalize">{category[0].label.replace(/_/g, " ")}</p>
+        ) : (
+          <></>
+        )}
         <div className="flex items-center gap-[12px]">
           {imageOne ? (
             <Image
