@@ -1,0 +1,13 @@
+{
+  "title": "commercial-interior-design",
+  "type": "object",
+  "properties": {
+    "eminent": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Eminent"
+    }
+  }
+}
