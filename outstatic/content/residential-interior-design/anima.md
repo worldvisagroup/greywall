@@ -13,9 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-12_miv75o.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp'
-category: [{"value":"residentialInteriorDesign","label":"residential_interior_design"}]
-interiorDesign: [{"label":"ok","value":"ok"}]
-publishedAt: '2024-10-23T13:20:46.019Z'
+publishedAt: '2024-10-24T11:15:57.508Z'
 ---
 
 Anima

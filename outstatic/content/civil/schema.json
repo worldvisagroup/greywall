@@ -1,5 +1,5 @@
 {
-  "title": "projects",
+  "title": "civil",
   "type": "object",
   "properties": {
     "projectName": {
@@ -14,60 +14,35 @@
       "description": "",
       "fieldType": "String",
       "dataType": "string",
-      "title": "image one"
+      "title": "Image one"
     },
     "imageTwo": {
       "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
-      "title": "image two"
+      "title": "Image two"
     },
     "imageThree": {
       "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
-      "title": "Image Three"
+      "title": "Image three"
     },
     "imageFour": {
       "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
-      "title": "Image Four"
+      "title": "Image four"
     },
     "imageFive": {
       "required": false,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
-      "title": "Image five"
-    },
-    "category": {
-      "required": false,
-      "description": "",
-      "values": [
-        {
-          "value": "construction",
-          "label": "construction"
-        },
-        {
-          "value": "residentialInteriorDesing",
-          "label": "residential_interior_desing"
-        },
-        {
-          "value": "commercialInteriorDesign",
-          "label": "commercial_interior_design"
-        },
-        {
-          "value": "residentialInteriorDesign",
-          "label": "residential_interior_design"
-        }
-      ],
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "category"
+      "title": "image five"
     }
   }
 }
