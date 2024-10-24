@@ -1,0 +1,20 @@
+{
+  "title": "construction",
+  "type": "object",
+  "properties": {
+    "projectName": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "project name"
+    },
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "image one"
+    }
+  }
+}
