@@ -47,27 +47,19 @@
     "category": {
       "required": false,
       "description": "",
-      "fieldType": "Tags",
-      "dataType": "array",
-      "title": "category",
       "values": [
-        {
-          "value": "interiorDesign",
-          "label": "interior_design"
-        },
         {
           "value": "construction",
           "label": "construction"
         },
         {
-          "value": "commercial",
-          "label": "commercial"
-        },
-        {
-          "value": "residential",
-          "label": "residential"
+          "value": "residentialInteriorDesing",
+          "label": "residential_interior_desing"
         }
-      ]
+      ],
+      "fieldType": "Tags",
+      "dataType": "array",
+      "title": "category"
     }
   }
 }

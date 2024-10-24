@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-3_vpwgn2.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-9_rpvaoy.webp'
-category: [{"value":"interiorDesign","label":"interior_design"},{"value":"residential","label":"residential"}]
+category: [{"label":"residential_interior_desing","value":"residentialInteriorDesing"}]
 publishedAt: '2024-10-24T07:44:51.602Z'
 ---
 
