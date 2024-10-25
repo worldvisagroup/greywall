@@ -1,6 +1,7 @@
 import { X } from "lucide-react";
+import Link from "next/link";
 
-export default function MenuOverlay({ isOpen, onClose}) {
+export default function MenuOverlay({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
@@ -19,20 +20,10 @@ export default function MenuOverlay({ isOpen, onClose}) {
         <X size={32} className="text-white opacity-100" />
       </button>
       <nav
-        className="absolute text-white text-2xl"
-        style={{
-          width: "calc(100% - 118px)",
-          height: "323px",
-          top: "109px",
-          left: "59px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "65px",
-          opacity: 1,
-        }}
+        className="absolute text-white text-2xl min-w-[calc(100%-118px)] h-[323px] top-[109px] left-[29px]  sm:left-[59px] flex flex-col gap-[42px] sm:gap-[65px] opacity-100"
       >
         {["aboutus", "project", "service", "contact"].map((section) => (
-          <a
+          <Link
             key={section}
             href={`#${section}`}
             className="block hover:text-gray-300"
@@ -45,10 +36,10 @@ export default function MenuOverlay({ isOpen, onClose}) {
               }
             }}
           >
-            {section === "aboutus" ? "About us" : 
-             section === "project" ? "Projects" : 
-             section === "service" ? "Services" : "Contact us"}
-          </a>
+            {section === "aboutus" ? "About us" :
+              section === "project" ? "Projects" :
+                section === "service" ? "Services" : "Contact us"}
+          </Link>
         ))}
       </nav>
     </div>
