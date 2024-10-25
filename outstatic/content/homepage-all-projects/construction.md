@@ -1,5 +1,5 @@
 ---
-title: 'Construction'
+title: 'Architecture'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -10,4 +10,4 @@ coverImage: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729835796/greyw
 publishedAt: '2024-10-25T05:44:32.252Z'
 ---
 
-Construction
+Architecture
