@@ -4,12 +4,18 @@ import { useState } from "react";
 import { Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import MenuOverlay from "./MenuOverlay";
+import { useRouter } from 'next/navigation';
 import Image from "next/image";
 
 export default function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+  const scrollToContact = () => {
+    router.push('/#contact');
+  };
 
   return (
     <div className="relative min-h-screen bg-gray-90 text-white flex flex-col">
@@ -76,18 +82,7 @@ export default function Homepage() {
     transform hover:-translate-y-2 hover:shadow-lg
     hover:border-none
   "
-            onClick={() => {
-              setTimeout(() => {
-                if (contactRef && contactRef.current) {
-                  contactRef.current.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-                } else {
-                  console.error("Contact section ref is not available.");
-                }
-              }, 100);
-            }}
+            onClick={scrollToContact}
           >
             Contact us
           </Button>
