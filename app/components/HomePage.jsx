@@ -25,11 +25,11 @@ export default function Homepage() {
       <div className="relative z-20 flex-grow flex flex-col text-black">
         <header className="p-4 md:p-6 relative flex justify-between items-center">
           <div className="relative z-20">
-            <img
+            {/* <img
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-HDwHuLrPJ68UhSQrQyQMqXWFFGztmK.svg"
               alt="The Grey Wall Logo"
               className="w-[180px] my-4 h-[77px] md:w-[214px] md:h-[92px]"
-            />
+            /> */}
           </div>
           <button
             className="hidden md:block text-white z-20"
@@ -66,7 +66,8 @@ export default function Homepage() {
             />
           </h1>
           <p className="text-lg my-7 md:text-xl mb-[2%] md:mb-[4%] text-[#FFEDE6]">
-            <span className="mr-2"> CONSTRUCTION </span> |{" "}
+            <span className="mr-2"> ARCHITECTURE </span> |{" "}
+            <span className="mx-2"> CIVIL </span> |{" "}
             <span className="mx-2"> INTERIORS </span>
           </p>
           <Button
@@ -77,6 +78,7 @@ export default function Homepage() {
     rounded-none 
     transition-all duration-300 ease-in-out
     transform hover:-translate-y-2 hover:shadow-lg
+    hover:border-none
   "
             onClick={() => {
               setTimeout(() => {
