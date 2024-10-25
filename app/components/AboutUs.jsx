@@ -9,11 +9,11 @@ export default function AboutUs() {
       className="bg-[#FFF1EC] flex flex-col lg:flex-row items-center overflow-hidden justify-center"
     >
       <div className="min-h-[70%] h-[800px] w-full lg:min-w-[70%] px-[20px] flex flex-col lg:mt-[22px] lg:mx-[40px]">
-        <h1 className="text-4xl text-[#363636] mt-5 lg:text-6xl font-serif mb-7 text-center lg:pt-[60px] lg:ml-[10%] lg:pb-[20px] lg:text-center">
+        <h1 className="text-4xl text-[#363636] mt-5 lg:text-6xl font-playfair mb-7 text-center lg:pt-[60px] lg:ml-[10%] lg:pb-[20px] lg:text-center">
           <span className="border-b-4 border-[#363636]">Abo</span>ut Us
         </h1>
         <div className="w-full lg:w-[70%] self-start lg:mt-[5%]">
-          <h2 className="text-4xl lg:ml-[10%] lg:text-4xl font-cursive mb-8">
+          <h2 className="text-3xl lg:ml-[10%] lg:text-4xl font-cursive mb-8">
             <Image
               src="/images/We_are_a_creative_studio.svg"
               alt="We are a creative studio"

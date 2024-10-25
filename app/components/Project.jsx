@@ -11,22 +11,23 @@ const Project = async () => {
       className="bg-[#313131] text-white min-h-screen p-4 lg:p-8"
     >
       <div className="container mx-auto">
-        <h1 className="font-serif text-[50px] lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
+        <h1 className="font-playfair text-4xl lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
           <span className="relative">
-            <span className="absolute -left-4 bottom-0 w-[calc(100%+8px)] h-[4px] bg-white"></span>
-            Pr
+            <span className="absolute bottom-0 w-[calc(100%+1px)] h-[2px] bg-white"></span>
+            Pro
           </span>
-          ojects
+          jects
         </h1>
         <div className="flex flex-wrap justify-center mt-[8%] gap-12">
           {data?.map((collection, index) => (
             <Link
               href={`/projects/${collection.slug}`}
               key={index}
-              className="w-[540px] h-[260px]"
+              className="w-full sm:w-[540px] h-[260px]"
             >
               <div className="card group relative w-full h-full rounded-[5px] overflow-hidden cursor-pointer">
-                <div className="absolute inset-0 z-0 opacity-35 group-hover:opacity-20 transition-opacity duration-500">
+                {/* Desktop version */}
+                <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-15 transition-opacity duration-700 sm:block hidden">
                   <div className="absolute inset-0 bg-black opacity-30"></div>
                   <Image
                     src={collection.coverImage}
@@ -39,15 +40,43 @@ const Project = async () => {
                     }}
                   />
                 </div>
-                <div className="relative overflow-hidden h-full w-full">
+                {/* Mobile version - Updated background opacity */}
+                <div className="absolute inset-0 z-0 sm:hidden">
+                  <div className="absolute inset-0 bg-black opacity-80"></div>
+                  <div className="absolute inset-0 bg-[#000000] opacity-40"></div>
+                  <Image
+                    src={collection.coverImage}
+                    alt={collection.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    style={{
+                      objectFit: "cover",
+                      objectPosition: "center",
+                      opacity: 0.4,
+                    }}
+                  />
+                </div>
+                {/* Desktop content */}
+                <div className="relative overflow-hidden h-full w-full sm:block hidden">
                   <div className="absolute inset-0 flex flex-col justify-center items-center transition-all duration-500 transform group-hover:justify-start group-hover:items-start group-hover:p-8">
-                    <h2 className="card-title text-[#ffff] text-3xl  mb-5 font-playfair transition-all duration-500 relative z-15 w-full text-center group-hover:text-left group-hover:mb-1 transform group-hover:translate-x-0 group-hover:translate-y-0">
+                    <h2 className="card-title text-[#ffff] text-3xl mb-5 font-playfair transition-all duration-500 relative z-15 w-full text-center group-hover:text-left group-hover:mb-1 transform group-hover:translate-x-0 group-hover:translate-y-0">
                       {collection.title}
                     </h2>
                   </div>
                 </div>
-
-                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 text-white transition-all duration-500">
+                {/* Mobile content */}
+                <div className="sm:hidden relative pt-[10%] px-[5%] h-full w-full p-4 flex flex-col justify-between z-10">
+                  <h2 className="card-title text-[#ffff] text-2xl font-playfair">
+                    {collection.title}
+                  </h2>
+                  <div className="self-end">
+                    <span className="text-white font-medium font-playfair text-lg">
+                      View Portfolio <span className="ml-2">&rarr;</span>
+                    </span>
+                  </div>
+                </div>
+                {/* Desktop hover content */}
+                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 text-white transition-all duration-500 sm:block hidden">
                   <span className="text-white font-semibold font-playfair text-xl">
                     View Portfolio <span className="ml-2">&rarr;</span>
                   </span>
