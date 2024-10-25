@@ -1,3 +1,4 @@
+import ProjectSlider from "@/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
 import Image from "next/image";
 import Link from "next/link";
@@ -5,7 +6,7 @@ import { getDocuments } from "outstatic/server";
 
 export default async function Index({ params }: any) {
   const projects = await getProjects(params.project);
-  
+
   if (projects) {
     const heading = params.project
       .split("-")
@@ -17,10 +18,13 @@ export default async function Index({ params }: any) {
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-playfair mb-8 text-center">
             <div className="flex items-center gap-4 mt-[12px]">
-          <Link href="/" className="text-[#FFEDE6] hover:text-[#CCBDB6] transition-colors inline-block">
-              <ArrowBack className="h-8 w-8" />
-            </Link>
-          </div>
+              <Link
+                href="/"
+                className="text-[#FFEDE6] hover:text-[#CCBDB6] transition-colors inline-block"
+              >
+                <ArrowBack className="h-8 w-8" />
+              </Link>
+            </div>
             <span className="relative">
               <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#FFEDE6]"></span>
               {heading.slice(0, 3)}
@@ -36,23 +40,15 @@ export default async function Index({ params }: any) {
               imageFour,
               imageFive,
             }: any) => (
-              <div key={title}>
-                <h1 className="text-xl font-bold leading-10">{title}</h1>
-                <div className="flex items-center gap-[12px]">
-                  {[imageOne, imageTwo, imageThree, imageFour, imageFive]
-                    .filter(Boolean)
-                    .map((image, index) => (
-                      <Image
-                        key={index}
-                        width={200}
-                        height={200}
-                        alt={`${title} - Image ${index + 1}`}
-                        src={image}
-                        className="h-[200px] w-[200px]"
-                      />
-                    ))}
-                </div>
-              </div>
+              <ProjectSlider
+                key={title}
+                title={title}
+                imageOne={imageOne}
+                imageTwo={imageTwo}
+                imageThree={imageThree}
+                imageFour={imageFour}
+                imageFive={imageFive}
+              />
             )
           )}
         </div>
@@ -74,7 +70,8 @@ export async function getProjects(projectSlug: string) {
 
   // projects[0].category.label
   const filteredProjects = projects.filter(
-    (project: any) => project.category[0].label.replace(/_/g, "-") === projectSlug
+    (project: any) =>
+      project.category[0].label.replace(/_/g, "-") === projectSlug
   );
 
   return filteredProjects;
