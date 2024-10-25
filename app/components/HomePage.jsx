@@ -5,7 +5,7 @@ import { Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import MenuOverlay from "./MenuOverlay";
 
-export default function Homepage({aboutRef, contactRef , scrollToSection , projectRef, serviceRef }) {
+export default function Homepage() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -102,11 +102,10 @@ export default function Homepage({aboutRef, contactRef , scrollToSection , proje
       <MenuOverlay 
         isOpen={isMenuOpen} 
         onClose={toggleMenu}
-        scrollToSection={scrollToSection}
-        projectRef={projectRef}
-        serviceRef={serviceRef}
-        contactRef={contactRef}
-        aboutRef={aboutRef}
+        projectRef="project"
+        serviceRef="service"
+        contactRef="contact"
+        aboutRef="aboutus"
       />
     </div>
   );

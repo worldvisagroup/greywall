@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutUs() {
   return (
-    <div className="bg-[#FFF1EC] flex flex-col lg:flex-row items-center overflow-hidden justify-center">
+    <div id="aboutus" className="bg-[#FFF1EC] flex flex-col lg:flex-row items-center overflow-hidden justify-center">
       <div className="min-h-[70%] h-[800px] w-full lg:min-w-[70%] px-[20px] flex lg:mt-[22px] lg:mx-[40px]">
         <div className="w-full lg:w-[70%]">
           <h1 className="text-4xl text-[#363636] mt-[10%] lg:text-6xl font-serif mb-7">

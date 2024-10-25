@@ -49,7 +49,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#363636] text-white p-8 md:p-16">
+    <div id="contact" className="bg-[#363636] text-white p-8 md:p-16">
       <div className="container mx-auto">
         <h1 className="text-5xl md:text-5xl font-light mb-6 font-serif">
           Contact

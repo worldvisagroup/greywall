@@ -59,6 +59,7 @@ const config: Config = {
 		fontFamily: {
 			montserrat: ['Montserrat', 'sans-serif'],
 			cursive: ['Cedarville Cursive', 'cursive'],
+			playfair: ['Playfair Display', 'serif'],
 		}
   	}
   },
