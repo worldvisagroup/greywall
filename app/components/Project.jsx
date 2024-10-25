@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getDocuments } from "outstatic/server";
+import Image from "next/image";
 
 const Project = async () => {
   const data = await getAllProjects();
@@ -40,14 +41,18 @@ const Project = async () => {
           {data?.map((collection, index) => (
             <Link href={`/projects/${collection.slug}`} key={index} className="w-[561px] h-[284px]">
               <div className="card group relative w-full h-full rounded-[5px] overflow-hidden cursor-pointer">
-                <div
-                  className="absolute inset-0 bg-cover bg-center z-0 opacity-60 group-hover:opacity-80 transition-opacity duration-500"
-                  style={{
-                    backgroundImage: `url(${
-                      projects[index % projects.length].image
-                    })`,
-                  }}
-                ></div>
+                <div className="absolute inset-0 z-0 opacity-60 group-hover:opacity-80 transition-opacity duration-500">
+                  <Image
+                    src={projects[index % projects.length].image}
+                    alt={collection.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    style={{
+                      objectFit: 'cover',
+                      objectPosition: 'center'
+                    }}
+                  />
+                </div>
                 <div className="absolute inset-0 flex flex-col justify-center items-center group-hover:justify-start group-hover:items-start group-hover:p-8 transition-all duration-500">
                   <h2 className="card-title text-[#ffff] text-3xl font-bold mb-5 font-playfair group-hover:text-white transition-all duration-500 relative z-10">
                     {collection.title}
