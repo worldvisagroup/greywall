@@ -39,7 +39,7 @@ export default function Homepage() {
             /> */}
           </div>
           <button
-            className="text-white z-20 absolute top-[26px] sm:top-[86px] right-[20px] sm:right-[40px] w-[48px] h-[48px]"
+            className="text-[#FAEFE6] z-20 absolute top-[26px] sm:top-[86px] right-[20px] sm:right-[40px] w-[48px] h-[48px]"
             aria-label="Menu"
             onClick={toggleMenu}
           >
