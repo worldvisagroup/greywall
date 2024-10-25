@@ -41,12 +41,12 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="min-h-[40%] lg:min-h-full h-[260px] sm:h-[400px] lg:h-[785px]  bg-[#7C7C7C] w-full px-[20px] relative">
+      <div className="min-h-[40%] lg:min-h-full h-[260px] sm:h-[400px] lg:h-[850px] lg:w-[140%] bg-[#313131] w-full px-[30px] relative">
         <div className="flex items-center justify-center relative">
           <Image
             src="/images/interior_design.png"
             alt="Luxurious interior design"
-            className="object-cover rounded-lg shadow-lg absolute top-[-130px] lg:top-[100px] lg:left-[-200px] h-[360px] sm:h-[420px] lg:h-[580px] w-full lg:min-w-[500px]"
+            className="object-cover rounded-lg shadow-lg absolute top-[-90px] lg:top-[100px] lg:left-[-200px] h-[360px] sm:h-[420px] lg:h-[580px] w-full lg:min-w-[500px]"
             width={500}
             height={500}
           />
