@@ -18,16 +18,24 @@ export default function Homepage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-gray-90 text-white flex flex-col">
-      <div
+    <div className="relative min-h-screen text-white flex flex-col">
+      <Image
+        src="/images/bg-main.webp"
+        alt="Background"
+        fill
+        sizes="(max-width: 1000px) 100vw, (max-width: 1000px) 50vw, 33vw"
+        style={{ objectFit: "cover", objectPosition: "center" }}
+      />
+      {/* <div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
           backgroundImage:
             "url('https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bg1-9ZH3bB652MI58rlS0bFlgTNErsKU34.png')",
         }}
-      />
+      /> */}
 
-      <div className="absolute inset-0 bg-black opacity-30 z-10" />
+      {/* Adjust the opacity here */}
+      <div className="absolute inset-0  z-10" />
 
       <div className="relative z-20 flex-grow flex flex-col text-black">
         <header className="p-4 md:p-6 relative flex justify-between items-center">
@@ -70,7 +78,7 @@ export default function Homepage() {
           <p className="text-lg my-7 md:text-xl mb-[2%] md:mb-[4%] text-[#FFEDE6]">
             <span className="mr-2">ARCHITECTURE</span> |{" "}
             <span className="mx-2">CIVIL</span> |{" "}
-            <span className="mx-2">INTERIORS</span>
+            <span className="lg:mx-2">INTERIORS</span>
           </p>
           <Button
             variant="outline"
