@@ -1,5 +1,5 @@
 ---
-title: 'Residential Interior Design'
+title: 'Residential Design'
 status: 'published'
 author:
   name: 'World Visa Consultants'
