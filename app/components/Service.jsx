@@ -24,7 +24,7 @@ const Service = () => {
   ];
 
   return (
-    <div className="bg-[#FFF1E9] min-h-[532px] flex flex-col items-center justify-center p-4 sm:p-8">
+    <div id="service" className="bg-[#FFF1E9] min-h-[532px] flex flex-col items-center justify-center p-4 sm:p-8">
       <h1 className="font-serif w-full max-w-[223px] text-4xl sm:text-5xl text-center mb-8 sm:mb-12">
         Services
       </h1>

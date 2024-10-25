@@ -1,41 +1,26 @@
-"use client";
-import { useRef } from "react";
 import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Project from "./components/Project";
-import Project2 from "./components/Project2";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
-
+import Testimonials from "./components/Testimonials";
 export default function Home() {
-  const aboutRef = useRef(null);
-  const projectRef = useRef(null);
-  const serviceRef = useRef(null);
-  const contactRef = useRef(null);
-
-  const scrollToSection = (ref) => {
-    ref.current.scrollIntoView({ behavior: "smooth" });
-  };
-
   return (
     <div>
-      <HomePage
-        scrollToSection={scrollToSection}
-        aboutRef={aboutRef}
-        projectRef={projectRef} i
-        serviceRef={serviceRef}
-        contactRef={contactRef}
-      />
-      <div ref={aboutRef}>
+      <HomePage />
+      <div>
         <AboutUs />
       </div>
-      <div ref={projectRef}>
+      <div>
         <Project />
       </div>
-      <div ref={serviceRef}>
+      <div>
         <Service />
       </div>
-      <div ref={contactRef}>
+      <div>
+        <Testimonials />
+      </div>
+      <div>
         <Contact />
       </div>
     </div>

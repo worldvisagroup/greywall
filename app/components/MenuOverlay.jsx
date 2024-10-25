@@ -1,12 +1,7 @@
 import { X } from "lucide-react";
 
-export default function MenuOverlay({ isOpen, onClose, scrollToSection, projectRef, serviceRef, contactRef,aboutRef }) {
+export default function MenuOverlay({ isOpen, onClose}) {
   if (!isOpen) return null;
-
-  const handleNavClick = (ref) => {
-    onClose();
-    scrollToSection(ref);
-  };
 
   return (
     <div className="fixed inset-y-0 right-0 w-1/2 bg-black bg-opacity-95 z-50">
@@ -36,18 +31,25 @@ export default function MenuOverlay({ isOpen, onClose, scrollToSection, projectR
           opacity: 1,
         }}
       >
-        <a href="#about" className="block hover:text-gray-300" onClick={() => handleNavClick(aboutRef)}>
-          About us
-        </a>
-        <a href="#projects" className="block hover:text-gray-300" onClick={() => handleNavClick(projectRef)}>
-          Projects
-        </a>
-        <a href="#services" className="block hover:text-gray-300" onClick={() => handleNavClick(serviceRef)}>
-          Services
-        </a>
-        <a href="#contact" className="block hover:text-gray-300" onClick={() => handleNavClick(contactRef)}>
-          Contact us
-        </a>
+        {["aboutus", "project", "service", "contact"].map((section) => (
+          <a
+            key={section}
+            href={`#${section}`}
+            className="block hover:text-gray-300"
+            onClick={(e) => {
+              e.preventDefault();
+              onClose();
+              const element = document.getElementById(section);
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            {section === "aboutus" ? "About us" : 
+             section === "project" ? "Projects" : 
+             section === "service" ? "Services" : "Contact us"}
+          </a>
+        ))}
       </nav>
     </div>
   );
