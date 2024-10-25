@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
 slug: 'construction'
 description: ''
-coverImage: '/images/360-f-231690594-1xpugvgkzspivivryrkgly5ze11d3yev-671b6c8025bab-IxOT.webp'
+coverImage: '/images/whatsapp-image-2024-10-25-at-155324-32948bab-671b8586642ae-kyMT.webp'
 publishedAt: '2024-10-25T05:44:32.252Z'
 ---
 
