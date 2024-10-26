@@ -19,7 +19,7 @@ export default async function Index({ params }: any) {
           <div className="relative z-10">
             <div className="flex items-center justify-between mt-8 mb-24">
               <Link
-                href="/"
+                href="/#projects"
                 className="text-[#FFEDE6] hover:text-[#CCBDB6] transition-colors"
               >
                 <ArrowBack className="h-8 w-8" />
