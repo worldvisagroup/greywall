@@ -27,9 +27,9 @@ const testimonials = [
 
 const Testimonials = () => {
   return (
-    <div id="testimonials" className="bg-[#383838] py-12 px-4 sm:px-6 lg:px-8">
+    <div id="testimonials" className="bg-[#383838] py-8 lg:py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto my-7">
-        <h1 className="text-white text-4xl lg:text-6xl font-playfair lg:mb-[8%] text-center">
+        <h1 className="text-[#FFEDE6] text-5xl mb-10 lg:text-6xl font-playfair lg:mb-[8%] text-center">
           <span className="relative">
             Tes
             <span className="absolute bottom-0 left-0 w-full h-[2px] bg-white"></span>

@@ -29,9 +29,9 @@ const Service = () => {
 
   return (
     <div id="service" className="bg-[#FFF1E9] min-h-[477px] flex flex-col items-center sm:p-8 relative">
-      <h1 className="font-playfair text-[50px] sm:mt-0 lg:text-[60px] lg:mb-8 text-center relative pt-8">
+      <h1 className="font-playfair text-[45px] sm:mt-0 lg:text-[60px] lg:mb-8 text-center relative pt-8">
         <span className="relative">
-          <span className="absolute bottom-0 -left-4 w-[calc(100%*8/7)] h-[3px] bg-black"></span>
+          <span className="absolute bottom-0 w-[calc(100%*6/7)] h-[3px] bg-black"></span>
           Ser
         </span>
         vices

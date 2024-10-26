@@ -23,7 +23,7 @@ const TestimonialCard = ({ review }) => {
   };
 
   return (
-    <div className="bg-transparent text-white max-w-xs lg:max-w-sm mx-auto mb-6">
+    <div className="bg-transparent text-[#FFEDE6] max-w-xs lg:max-w-sm mx-auto mb-6">
       <div className="flex items-center text-left">
         <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
           <Image src={review.image} alt={review.name} className="w-full h-full object-cover" />
@@ -35,7 +35,7 @@ const TestimonialCard = ({ review }) => {
           </div>
         </div>
       </div>
-      <p className="text-gray-300 leading-relaxed mt-3 text-sm">
+      <p className="text-[#FFEDE6] leading-relaxed mt-3 text-sm">
         &ldquo;{review.text}&rdquo;
       </p>
     </div>

@@ -8,10 +8,10 @@ const Project = async () => {
   return (
     <div
       id="project"
-      className="bg-[#313131] text-white min-h-screen p-4 lg:p-8"
+      className="bg-[#313131] text-[#FFEDE6] min-h-screen p-4 lg:p-8"
     >
       <div className="container mx-auto">
-        <h1 className="font-playfair text-4xl lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
+        <h1 className="font-playfair text-[45px] lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
           <span className="relative">
             <span className="absolute bottom-0 w-[calc(100%+1px)] h-[2px] bg-white"></span>
             Pro

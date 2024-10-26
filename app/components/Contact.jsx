@@ -51,14 +51,14 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-[#FFEDE6] text-[#fff] p-8 md:p-16">
       <div className="container mx-auto">
-        <h1 className="text-4xl lg:text-6xl text-[#313131] text-center md:text-5xl font-light mb-6 font-playfair">
+        <h1 className="text-4xl mb-8 lg:text-6xl text-[#313131] text-center md:text-5xl font-light lg:mb-6 font-playfair">
           <span className="relative">
             <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#313131]"></span>
             Con
           </span>
           tact
         </h1>
-        <p className="text-3xl mb-8 text-[#313131] font-montserrat">
+        <p className="text-2xl mb-6 lg:text-3xl lg:mb-8 text-[#313131] font-montserrat">
           Feel free to contact us at any time.
           <br />
           We will get back to you as soon as we can.

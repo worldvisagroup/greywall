@@ -15,6 +15,41 @@ body {
   scroll-behavior: smooth;
 }
 
+.embla {
+  position: relative;
+  overflow: hidden;
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__container {
+  display: flex;
+  gap: 20px;
+}
+
+.embla__slide {
+  position: relative;
+  flex: 0 0 100%;
+  min-height: 400px; 
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+}
+button {
+  cursor: pointer;
+}
+
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -84,4 +119,17 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Add these new styles */
+.card {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
