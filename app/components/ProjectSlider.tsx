@@ -59,8 +59,8 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
 
   return (
     <div className="relative mb-40">
-      <h2 className="text-4xl my-8 font-playfair">{title}</h2>
-      <p className="text-lg mb-4">{location}</p>
+      <h2 className="text-4xl mt-8 mb-4 font-playfair">{title}</h2>
+      <p className="text-lg font-playfair mb-6">{location}</p>
       {/* Embla carousel container */}
       <div className="embla overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex">
@@ -84,7 +84,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
       </div>
 
       {/* Navigation buttons */}
-      <div className="absolute -bottom-20 left-0 flex gap-4">
+      <div className="absolute -bottom-20 left-0 hidden sm:flex gap-4">
         <button
           className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${!canScrollPrev ? 'opacity-50' : ''}`}
           onClick={scrollPrev}
