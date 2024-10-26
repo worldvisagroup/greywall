@@ -14,6 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-9_rpvaoy.webp'
 category: [{"label":"residential_interior_design","value":"residentialInteriorDesign"}]
+location: 'Bangalore'
 publishedAt: '2024-10-24T07:44:51.602Z'
 ---
 
