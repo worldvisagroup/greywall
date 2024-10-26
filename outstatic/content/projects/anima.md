@@ -15,6 +15,7 @@ imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywa
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp'
 category: [{"value":"residentialInteriorDesign","label":"residential_interior_design"}]
 interiorDesign: [{"label":"ok","value":"ok"}]
+location: 'Bangalore'
 publishedAt: '2024-10-23T13:20:46.019Z'
 ---
 
