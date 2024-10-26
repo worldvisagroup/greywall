@@ -5,7 +5,7 @@ import { getDocuments } from "outstatic/server";
 
 export default async function Index({ params }: any) {
   const projects = await getProjects(params.project);
-
+  console.log(projects[0].location);
   if (projects) {
     const heading = params.project
       .split("-")
@@ -24,12 +24,12 @@ export default async function Index({ params }: any) {
               >
                 <ArrowBack className="h-8 w-8" />
               </Link>
-              <h1 className="text-4xl font-playfair text-center flex-grow">
-                <span className="relative">
+              <h1 className="text-2xl lg:text-4xl font-playfair text-center flex-grow mt-[15%] mr-5 sm:mt-0">
+                <span className="relative inline-block">
                   <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#FFEDE6]"></span>
                   {heading.slice(0, 3)}
                 </span>
-                {heading.slice(3)}
+                <span className="inline-block mt-2 sm:mt-0">{heading.slice(3)}</span>
               </h1>
             </div>
             <div className="space-y-16">
@@ -41,6 +41,7 @@ export default async function Index({ params }: any) {
                   imageThree,
                   imageFour,
                   imageFive,
+                  location,
                 }: any) => (
                   <div key={title}>
                     <ProjectSlider
@@ -50,6 +51,7 @@ export default async function Index({ params }: any) {
                       imageThree={imageThree}
                       imageFour={imageFour}
                       imageFive={imageFive}
+                      location={location}
                     />
                   </div>
                 )
@@ -71,6 +73,7 @@ export async function getProjects(projectSlug: string) {
     "imageFour",
     "imageFive",
     "category",
+    "location",
   ]);
 
   // projects[0].category.label

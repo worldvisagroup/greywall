@@ -98,6 +98,6 @@ export async function getAllProjects() {
     "slug",
     "coverImage",
   ]);
-
+  console.log(allServices);
   return allServices;
 }

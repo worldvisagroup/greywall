@@ -11,6 +11,7 @@ interface ProjectSliderProps {
   imageThree?: string;
   imageFour?: string;
   imageFive?: string;
+  location?: string;
 }
 
 const ProjectSlider: React.FC<ProjectSliderProps> = ({
@@ -20,6 +21,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   imageThree,
   imageFour,
   imageFive,
+  location,
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, skipSnaps: false });
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -53,7 +55,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   return (
     <div className="relative mb-40">
       <h2 className="text-4xl my-8 font-playfair">{title}</h2>
-      
+      <p className="text-lg mb-4">{location}</p>
       {/* Embla carousel container */}
       <div className="embla overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex">
@@ -77,20 +79,20 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
       </div>
 
       {/* Navigation buttons */}
-      <div className="absolute -bottom-20 left-0 flex gap-4">
+      <div className="absolute -bottom-20 left-0 flex gap-4 mt-6 sm:mt-0">
         <button
-          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${!canScrollPrev ? 'opacity-50' : ''}`}
+          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 flex items-center justify-center ${!canScrollPrev ? 'opacity-50' : ''}`}
           onClick={scrollPrev}
           disabled={!canScrollPrev}
         >
-          <ArrowBackIos />
+          <ArrowBackIos className="w-6 h-6" />
         </button>
         <button
-          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${!canScrollNext ? 'opacity-50' : ''}`}
+          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 flex items-center justify-center ${!canScrollNext ? 'opacity-50' : ''}`}
           onClick={scrollNext}
           disabled={!canScrollNext}
         >
-          <ArrowForwardIos />
+          <ArrowForwardIos className="w-6 h-6" />
         </button>
       </div>
 
