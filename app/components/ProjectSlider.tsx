@@ -76,6 +76,8 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
                   layout="fill"
                   objectFit="cover"
                   className="rounded-lg"
+                  placeholder="blur"
+                  blurDataURL="https://res.cloudinary.com/djvvz62dw/image/upload/v1730118236/greywall/Eclipse_1x-1.0s-200px-200px_fihtnz.svg"
                 />
               </div>
             </div>
@@ -86,14 +88,18 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
       {/* Navigation buttons */}
       <div className="absolute -bottom-20 left-0 hidden sm:flex gap-4">
         <button
-          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${!canScrollPrev ? 'opacity-50' : ''}`}
+          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${
+            !canScrollPrev ? "opacity-50" : ""
+          }`}
           onClick={scrollPrev}
           disabled={!canScrollPrev}
         >
           <ArrowBackIos className="w-6 h-6" />
         </button>
         <button
-          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${!canScrollNext ? 'opacity-50' : ''}`}
+          className={`bg-[#FFEDE6] text-[#333333] rounded-full p-3 ${
+            !canScrollNext ? "opacity-50" : ""
+          }`}
           onClick={scrollNext}
           disabled={!canScrollNext}
         >
