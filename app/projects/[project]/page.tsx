@@ -5,7 +5,7 @@ import { getDocuments } from "outstatic/server";
 
 export default async function Index({ params }: any) {
   const projects = await getProjects(params.project);
-  console.log(projects[0].location);
+
   if (projects) {
     const heading = params.project
       .split("-")
@@ -29,32 +29,38 @@ export default async function Index({ params }: any) {
                   <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#FFEDE6]"></span>
                   {heading.slice(0, 3)}
                 </span>
-                <span className="inline-block mt-2 sm:mt-0">{heading.slice(3)}</span>
+                <span className="inline-block mt-2 sm:mt-0">
+                  {heading.slice(3)}
+                </span>
               </h1>
             </div>
             <div className="space-y-16">
-              {projects.map(
-                ({
-                  title,
-                  imageOne,
-                  imageTwo,
-                  imageThree,
-                  imageFour,
-                  imageFive,
-                  location,
-                }: any) => (
-                  <div key={title}>
-                    <ProjectSlider
-                      title={title}
-                      imageOne={imageOne}
-                      imageTwo={imageTwo}
-                      imageThree={imageThree}
-                      imageFour={imageFour}
-                      imageFive={imageFive}
-                      location={location}
-                    />
-                  </div>
+              {projects.length > 0 ? (
+                projects.map(
+                  ({
+                    title,
+                    imageOne,
+                    imageTwo,
+                    imageThree,
+                    imageFour,
+                    imageFive,
+                    location,
+                  }: any) => (
+                    <div key={title}>
+                      <ProjectSlider
+                        title={title}
+                        imageOne={imageOne}
+                        imageTwo={imageTwo}
+                        imageThree={imageThree}
+                        imageFour={imageFour}
+                        imageFive={imageFive}
+                        location={location}
+                      />
+                    </div>
+                  )
                 )
+              ) : (
+                <p>No Projects Found</p>
               )}
             </div>
           </div>
