@@ -76,7 +76,7 @@ const Contact = () => {
                 <Input
                   id="name"
                   value={formData.name}
-                  className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Full name"
                   onChange={handleInputChange}
                   required
@@ -93,7 +93,7 @@ const Contact = () => {
                   id="email"
                   type="email"
                   value={formData.email}
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Email Address"
                   onChange={handleInputChange}
                   required
@@ -110,7 +110,7 @@ const Contact = () => {
                   id="phone"
                   type="tel"
                   value={formData.phone}
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Phone Number"
                   onChange={handleInputChange}
                   required
