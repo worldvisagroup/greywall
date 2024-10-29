@@ -56,7 +56,7 @@ const Contact = () => {
             <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#313131]"></span>
             Con
           </span>
-          tact
+          tact Us
         </h1>
         <p className="text-2xl mb-6 lg:text-3xl lg:mb-8 text-[#313131] font-montserrat">
           Feel free to contact us at any time.
@@ -141,11 +141,11 @@ const Contact = () => {
             <div className="bg-[#252525] p-4 lg:p-12 space-y-6 w-full md:w-auto shadow-lg shadow-gray-700/50 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-gray-600/50">
               <div className="flex items-center gap-4">
                 <CallIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="tel:+919900104114">+91 9900104114</a>
+                <a href="tel:+919900104114" className="hover:underline">+91 9900104114</a>
               </div>
               <div className="flex items-center gap-4">
                 <EmailIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="mailto:info@thegreywalinteriors.com" target="_blank" className="break-all">
+                <a href="mailto:info@thegreywalinteriors.com" target="_blank" className="break-all hover:underline">
                   info@thegreywalinteriors.com
                 </a>
               </div>

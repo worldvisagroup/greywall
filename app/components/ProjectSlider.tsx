@@ -61,7 +61,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   return (
     <div className="relative mb-40">
       <h2 className="text-4xl mt-8 mb-4 font-playfair">{title}</h2>
-      <p className="text-lg font-playfair mb-6">{location}</p>
+      <p className="text-lg font-playfair mb-8">{location}</p>
       {/* Embla carousel container */}
       <div className="embla overflow-hidden" ref={emblaRef}>
         <div className="embla__container flex">

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import MenuOverlay from "./MenuOverlay";
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 
 export default function Homepage() {
@@ -14,13 +14,13 @@ export default function Homepage() {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   const scrollToContact = () => {
-    router.push('/#contact');
+    router.push("/#contact");
   };
 
   return (
     <div className="relative min-h-screen text-white flex flex-col">
       <Image
-        src="/images/bg-main.webp"
+        src="/images/bg-svg.svg"
         alt="Background"
         fill
         sizes="(max-width: 1000px) 100vw, (max-width: 1000px) 50vw, 33vw"
@@ -83,13 +83,13 @@ export default function Homepage() {
           <Button
             variant="outline"
             className="
-    px-6 my-8 md:px-9 py-4 md:py-6 text-black bg-[#DDDDDD]
-    hover:bg-[#313131] hover:text-[#DDDDDD]
-    rounded-none
-    transition-all duration-300 ease-in-out
-    transform hover:-translate-y-2 hover:shadow-lg
-    hover:border-none
-  "
+                        px-6 my-8 font-montserrat md:px-9 py-4 md:py-6 text-black bg-[#DDDDDD]
+                        hover:bg-[#313131] hover:text-[#DDDDDD]
+                        rounded-none
+                        transition-all duration-300 ease-in-out
+                        transform hover:-translate-y-2 hover:shadow-lg
+                        hover:border-none
+                      "
             onClick={scrollToContact}
           >
             Contact us

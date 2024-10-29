@@ -25,9 +25,9 @@ const Project = async () => {
               key={index}
               className="w-full sm:w-[540px] h-[260px]"
             >
-              <div className="card group relative w-full h-full rounded-[5px] overflow-hidden cursor-pointer">
-                {/* Desktop version */}
-                <div className="absolute inset-0 z-0 opacity-20 group-hover:opacity-15 transition-opacity duration-700 sm:block hidden">
+              <div className="card group relative w-full h-full rounded-[5px] overflow-hidden cursor-pointer shadow-lg">
+                {/* Desktop version  */}
+                <div className="absolute inset-0 z-0 bg-black opacity-100 group-hover:opacity-100 transition-opacity duration-500 sm:block hidden">
                   <div className="absolute inset-0 bg-black opacity-30"></div>
                   <Image
                     src={collection.coverImage}
@@ -40,10 +40,10 @@ const Project = async () => {
                     }}
                   />
                 </div>
-                {/* Mobile version - Updated background opacity */}
+                {/* Mobile version */}
                 <div className="absolute inset-0 z-0 sm:hidden">
-                  <div className="absolute inset-0 bg-black opacity-80"></div>
-                  <div className="absolute inset-0 bg-[#000000] opacity-40"></div>
+                  <div className="absolute inset-0 bg-black opacity-30"></div>
+                  <div className="absolute inset-0 bg-[#000000] opacity-30"></div>
                   <Image
                     src={collection.coverImage}
                     alt={collection.title}
@@ -52,13 +52,13 @@ const Project = async () => {
                     style={{
                       objectFit: "cover",
                       objectPosition: "center",
-                      opacity: 0.4,
+                      opacity: 1,
                     }}
                   />
                 </div>
                 {/* Desktop content */}
                 <div className="relative overflow-hidden h-full w-full sm:block hidden">
-                  <div className="absolute inset-0 flex flex-col justify-center items-center transition-all duration-500 transform group-hover:justify-start group-hover:items-start group-hover:p-8">
+                  <div className="absolute inset-0 flex flex-col justify-center items-center transition-all duration-1000 transform group-hover:justify-start group-hover:items-start group-hover:p-8">
                     <h2 className="card-title text-[#ffff] text-3xl mb-5 font-playfair transition-all duration-500 relative z-15 w-full text-center group-hover:text-left group-hover:mb-1 transform group-hover:translate-x-0 group-hover:translate-y-0">
                       {collection.title}
                     </h2>
@@ -76,7 +76,7 @@ const Project = async () => {
                   </div>
                 </div>
                 {/* Desktop hover content */}
-                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 text-white transition-all duration-500 sm:block hidden">
+                <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 text-white transition-all duration-700 sm:block hidden">
                   <span className="text-white font-semibold font-playfair text-xl">
                     View Portfolio <span className="ml-2">&rarr;</span>
                   </span>
