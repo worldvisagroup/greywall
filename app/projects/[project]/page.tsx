@@ -2,7 +2,7 @@ import Contact from "@/app/components/Contact";
 import ProjectSlider from "@/app/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
 import Link from "next/link";
-import { getDocuments } from "outstatic/server";
+import { getDocuments, load } from "outstatic/server";
 
 export default async function Index({
   params,
@@ -81,16 +81,20 @@ export default async function Index({
 }
 
 export async function getProjects(projectSlug: string) {
-  const projects = getDocuments("projects", [
-    "title",
-    "imageOne",
-    "imageTwo",
-    "imageThree",
-    "imageFour",
-    "imageFive",
-    "category",
-    "location",
-  ]);
+  const db = await load();
+
+  const projects = await db
+    .find({ collection: "projects" }, [
+      "title",
+      "imageOne",
+      "imageTwo",
+      "imageThree",
+      "imageFour",
+      "imageFive",
+      "category",
+      "location",
+    ])
+    .toArray();
 
   // projects[0].category.label
   const filteredProjects = projects.filter(
