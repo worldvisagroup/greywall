@@ -4,8 +4,14 @@ import { ArrowBack } from "@mui/icons-material";
 import Link from "next/link";
 import { getDocuments } from "outstatic/server";
 
-export default async function Index({ params }: any) {
+export default async function Index({
+  params,
+}: {
+  params: { project: string };
+}) {
   const projects = await getProjects(params.project);
+
+  console.log("Params", params, "Projects", projects);
 
   if (projects) {
     const heading = params.project
