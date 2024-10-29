@@ -1,0 +1,463 @@
+{
+  "commit": "fdad1e697224fb0001ed5fb850815bf2383e0242",
+  "generated": "Tue, 29 Oct 2024 08:14:12 GMT",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "00d18413c063fce95cc9ea813d691bc2372bc260",
+        "hash": "3985383450",
+        "path": "outstatic/content/homepage-all-projects/civil.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/civil-E0OT.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:33:26.262Z",
+      "slug": "civil",
+      "status": "published",
+      "title": "Civil"
+    },
+    {
+      "__outstatic": {
+        "commit": "3de212bebddc9e75171da3e3fc81bc05ad5801b2",
+        "hash": "591705832",
+        "path": "outstatic/content/projects/august-skin.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        },
+        {
+          "label": "construction",
+          "value": "construction"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
+      "imageThree": "",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
+      "location": "Residency Road Bangalore",
+      "projectName": "August Skin - Facial Studio",
+      "publishedAt": "2024-10-23T13:42:02.591Z",
+      "slug": "august-skin",
+      "status": "published",
+      "title": "August Skin - Facial Studio"
+    },
+    {
+      "__outstatic": {
+        "commit": "153c56404c41967ed1bd19b94c0520cf5779192f",
+        "hash": "3830717303",
+        "path": "outstatic/content/projects/anima.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-12_miv75o.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-2_puvsxn.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp",
+      "interiorDesign": [
+        {
+          "label": "ok",
+          "value": "ok"
+        }
+      ],
+      "location": "Old Madras Road, Bangalore",
+      "projectName": "Salarpenria East Crest Anima",
+      "publishedAt": "2024-10-23T13:20:46.019Z",
+      "slug": "anima",
+      "status": "published",
+      "title": "Anima"
+    },
+    {
+      "__outstatic": {
+        "commit": "4b13dd7a9c3618d35288cb653af830fc89b6d0d9",
+        "hash": "3505512664",
+        "path": "outstatic/content/homepage-all-projects/residential-interior.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/residential-interior-c0MT.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:42:53.939Z",
+      "slug": "residential-interior",
+      "status": "published",
+      "title": "Residential Interior "
+    },
+    {
+      "__outstatic": {
+        "commit": "f06e9358af3fbbd70484e560a522341ab428f726",
+        "hash": "4098460366",
+        "path": "outstatic/content/homepage-all-projects/construction.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/architecture-Q3MD.png",
+      "description": "",
+      "publishedAt": "2024-10-25T05:44:32.252Z",
+      "slug": "construction",
+      "status": "published",
+      "title": "Architecture"
+    },
+    {
+      "__outstatic": {
+        "commit": "ff72e8803803f295c6cc39a03b8f80664c19686d",
+        "hash": "1157183983",
+        "path": "outstatic/content/homepage-all-projects/commercial-interior.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/commercial-inte-UwMD.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:41:05.501Z",
+      "slug": "commercial-interior",
+      "status": "published",
+      "title": "Commercial Interior "
+    },
+    {
+      "__outstatic": {
+        "commit": "da1012ceec3558db7fec170605eba9e275a5b1a6",
+        "hash": "793391182",
+        "path": "outstatic/content/projects/mm-javeed.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700840/greywall/projects/MM%20Javeed/3d-671923987dfbb_alkvzb.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700836/greywall/projects/MM%20Javeed/3c-67192394acf23_e7offg.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700839/greywall/projects/MM%20Javeed/1-6719238d4b9a0_ywrvgs.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700837/greywall/projects/MM%20Javeed/3b-67192394ac702_no1glu.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700838/greywall/projects/MM%20Javeed/1a-6719238d79b1a_cgdd04.webp",
+      "location": "Bangalore",
+      "projectName": "MM Javeed - Retail Studio",
+      "publishedAt": "2024-10-23T17:00:56.188Z",
+      "slug": "mm-javeed",
+      "status": "published",
+      "title": "MM Javeed - Retail Studio"
+    },
+    {
+      "__outstatic": {
+        "commit": "59546dc3ab9d3f108b451f9c2f81b9c5007d100c",
+        "hash": "1851743783",
+        "path": "outstatic/content/projects/kulsum.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/6-6719258262aea_f58hdf.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/5-67192581c6b4b_jzkjd4.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701344/greywall/projects/Kulsum/2-6719257ae187f_vbirhi.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/3-6719257ea73da_mpsn4w.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701344/greywall/projects/Kulsum/1-6719257ab200b_ykpduz.webp",
+      "location": "Bangalore",
+      "projectName": "Kulsum Makeup Studio",
+      "publishedAt": "2024-10-23T17:09:05.700Z",
+      "slug": "kulsum",
+      "status": "published",
+      "title": "Kulsum Makeup Studio"
+    },
+    {
+      "__outstatic": {
+        "commit": "b469bbd2f4a927cb00d1af73058f3268fcda3ee1",
+        "hash": "2789768822",
+        "path": "outstatic/content/projects/eminent.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703141/greywall/projects/Eminent/a6-671928003047d_zkx6k8.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/2-671927f6a1ceb_jksaad.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703136/greywall/projects/Eminent/5-671927f691f31_p6ifw8.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/b6-6719280131f69_vgb1nv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703137/greywall/projects/Eminent/06-copy-671927faaecda_wzqrzu.webp",
+      "location": "Vasanth Nagar, Bangalore",
+      "projectName": "Eminent - Executive Suite",
+      "publishedAt": "2024-10-23T17:39:48.631Z",
+      "slug": "eminent",
+      "status": "published",
+      "title": "Eminent - Executive Suite"
+    },
+    {
+      "__outstatic": {
+        "commit": "b688dd06af556b3590d011b3644df9745a36bd0f",
+        "hash": "3809130945",
+        "path": "outstatic/content/projects/durani-enclave.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "construction",
+          "value": "construction"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
+      "projectName": "Durani Enclave",
+      "publishedAt": "2024-10-23T13:51:29.417Z",
+      "slug": "durani-enclave",
+      "status": "published",
+      "title": "Durani Enclave"
+    },
+    {
+      "__outstatic": {
+        "commit": "c63cc03270eb1c16f1e4f3fa45b6cf8ff8490d2b",
+        "hash": "1260236673",
+        "path": "outstatic/content/projects/chilli-garlic.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img2_dxlvzf.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image4_bt3yhu.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image5_xwanse.webp",
+      "location": "Indira Nagar, Bangalore",
+      "projectName": "Chilli Garlic",
+      "publishedAt": "2024-10-23T13:46:51.133Z",
+      "slug": "chilli-garlic",
+      "status": "published",
+      "title": "Chilli Garlic"
+    },
+    {
+      "__outstatic": {
+        "commit": "b160341bb205955fc30eb79456c8bacc22b326f6",
+        "hash": "1553759960",
+        "path": "outstatic/content/projects/wlld.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "construction",
+          "value": "construction"
+        },
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
+      "location": "Bangalore",
+      "projectName": "WLLD",
+      "publishedAt": "2024-10-23T16:15:22.229Z",
+      "slug": "wlld",
+      "status": "published",
+      "title": "WLLD"
+    },
+    {
+      "__outstatic": {
+        "commit": "4e6a982d49083cc51766cf32afd5b527c43ea5cd",
+        "hash": "2755964438",
+        "path": "outstatic/content/projects/vrindavan-villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753824/greywall/projects/Vrindavan%20Villa/vrindavan-6_ekumlc.png",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-11_apkivg.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywall/projects/Vrindavan%20Villa/vrindavan-1_qd7t9c.jpg",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-10_vf1pjc.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-3_taiw3v.jpg",
+      "location": "Mathura, Uttar Pradesh",
+      "projectName": "Vrindavan Villa",
+      "publishedAt": "2024-10-24T07:43:24.740Z",
+      "slug": "vrindavan-villa",
+      "status": "published",
+      "title": "Vrindavan Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "604596ccfa2bfff9941705ed3a4b3f684d95e415",
+        "hash": "372542595",
+        "path": "outstatic/content/projects/the-white-room.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730117075/greywall/projects/The%20White%20Room/img-1753-67191f2ff0f6b_wjtlnq.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730117040/greywall/projects/The%20White%20Room/img-1725-67191f1bc5bbc_tziz0e.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730116924/greywall/projects/The%20White%20Room/img-1711-67191f07d12e9_pjwhru.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729699795/greywall/projects/The%20White%20Room/img-1761-67191f3120852_kpfhxi.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730116997/greywall/projects/The%20White%20Room/img-1712-67191f07dfa3b_oz6yrj.webp",
+      "location": "Church Street, Bangalore",
+      "projectName": "The White Room Cafe",
+      "publishedAt": "2024-10-23T16:44:06.913Z",
+      "slug": "the-white-room",
+      "status": "published",
+      "title": "The White Room Cafe"
+    },
+    {
+      "__outstatic": {
+        "commit": "a80ce4bd3d5d69882dad2fa820c8a8f3a436755c",
+        "hash": "2633326987",
+        "path": "outstatic/content/projects/nti-villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/NTI%20Villa/villa-2_udvxtb.png",
+      "imageThree": "",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywall/projects/NTI%20Villa/villa-1_jse7yo.png",
+      "location": "Hebbal, Bangalore",
+      "projectName": "NTI Villa",
+      "publishedAt": "2024-10-24T07:46:10.780Z",
+      "slug": "nti-villa",
+      "status": "published",
+      "title": "NTI Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "7589804c25cac835cd3d272565b5baf547b3dbf2",
+        "hash": "12545921",
+        "path": "outstatic/content/projects/model-flat.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-9_rpvaoy.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Model%20Flat/model-1_mkioeo.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-3_vpwgn2.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-10_zfd9qu.webp",
+      "location": "Bangalore",
+      "projectName": "DS Max Sovereign Model Flat",
+      "publishedAt": "2024-10-24T07:44:51.602Z",
+      "slug": "model-flat",
+      "status": "published",
+      "title": "Model Flat"
+    }
+  ]
+}
