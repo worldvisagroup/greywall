@@ -1,4 +1,4 @@
-export const dynamic = "static";
+export const dynamic = "force-static";
 
 import Contact from "@/app/components/Contact";
 import ProjectSlider from "@/app/components/ProjectSlider";
@@ -35,8 +35,6 @@ export default async function Index({
     (project: any) =>
       project.category[0].label.replace(/_/g, "-") === params.project
   );
-
-  // const projects = await getProjects(params.project);
 
   if (projects) {
     const heading = params.project
