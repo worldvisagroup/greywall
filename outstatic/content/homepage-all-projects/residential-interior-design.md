@@ -1,13 +1,13 @@
 ---
-title: 'Residential Interiors'
+title: 'Residential Design'
 status: 'published'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
 slug: 'residential-interior-design'
 description: ''
-coverImage: '/images/whatsapp-image-2024-10-25-at-155324-3f731187-671b8587a3831-kwOT.webp'
-publishedAt: '2024-10-25T05:47:20.365Z'
+coverImage: '/images/residential-interior-c0MT.png'
+publishedAt: '2024-10-29T05:42:53.939Z'
 ---
 
-Residential Interior Design
+# Residential Interior Design
