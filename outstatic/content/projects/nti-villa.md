@@ -14,7 +14,7 @@ imageThree: ''
 imageFour: ''
 imageFive: ''
 category: [{"value":"residentialInteriorDesign","label":"residential_interior_design"}]
-location: 'Bangalore'
+location: 'Hebbal, Bangalore'
 publishedAt: '2024-10-24T07:46:10.780Z'
 ---
 
