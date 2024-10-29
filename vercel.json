@@ -1,0 +1,20 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "correct-build-script.js"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/correct-output-directory/$1"
+      }
+    ],
+    "static": {
+      "includeFiles": [
+        "outstatic/content/metadata.json" 
+      ]
+    }
+  }
+  
