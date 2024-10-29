@@ -55,6 +55,14 @@
         {
           "value": "residentialInteriorDesign",
           "label": "residential_interior_design"
+        },
+        {
+          "value": "construction",
+          "label": "construction"
+        },
+        {
+          "value": "civil",
+          "label": "civil"
         }
       ],
       "fieldType": "Tags",
