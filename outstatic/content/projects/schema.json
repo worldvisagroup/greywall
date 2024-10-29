@@ -63,6 +63,10 @@
         {
           "value": "commercialInterior",
           "label": "commercial-interior"
+        },
+        {
+          "value": "residentialInterior",
+          "label": "residential-interior"
         }
       ],
       "fieldType": "Tags",
