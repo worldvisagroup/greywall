@@ -1,5 +1,5 @@
 ---
-title: 'August Skin'
+title: 'August Skin - Facial Studio'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -7,13 +7,14 @@ author:
 slug: 'august-skin'
 description: ''
 coverImage: ''
-projectName: 'August Skin'
+projectName: 'August Skin - Facial Studio'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp'
 imageThree: ''
 imageFour: ''
 imageFive: ''
 category: [{"label":"construction","value":"construction"}]
+location: 'Residency Road Bangalore'
 publishedAt: '2024-10-23T13:42:02.591Z'
 ---
 
