@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730116997/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729699795/greywall/projects/The%20White%20Room/img-1761-67191f3120852_kpfhxi.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730117040/greywall/projects/The%20White%20Room/img-1725-67191f1bc5bbc_tziz0e.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730117075/greywall/projects/The%20White%20Room/img-1753-67191f2ff0f6b_wjtlnq.webp'
-category: [{"label":"commercial_interior_design","value":"commercialInteriorDesign"}]
+category: [{"value":"commercialInterior","label":"commercial-interior"}]
 location: 'Church Street, Bangalore'
 publishedAt: '2024-10-23T16:44:06.913Z'
 ---
