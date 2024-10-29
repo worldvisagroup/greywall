@@ -5,15 +5,38 @@ import ProjectSlider from "@/app/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
 import Link from "next/link";
 import { getDocumentSlugs, load } from "outstatic/server";
+import path from "path";
+import matter from "gray-matter";
+import { promises as fs } from "fs";
 
 export default async function Index({
   params,
 }: {
   params: { project: string };
 }) {
-  const projects = await getProjects(params.project);
+  const projectSlugs = getDocumentSlugs("projects");
 
-  console.log("Params", params, "Projects", projects);
+  const allProjects = [];
+
+  for (let i = 0; i < projectSlugs.length; i++) {
+    const filePath = path.join(
+      process.cwd(),
+      "outstatic",
+      "content",
+      "projects",
+      `${projectSlugs[i]}.md`
+    );
+    const fileContents = await fs.readFile(filePath, "utf8");
+    const { data } = matter(fileContents);
+    allProjects.push(data);
+  }
+
+  const projects = allProjects.filter(
+    (project: any) =>
+      project.category[0].label.replace(/_/g, "-") === params.project
+  );
+
+  // const projects = await getProjects(params.project);
 
   if (projects) {
     const heading = params.project
