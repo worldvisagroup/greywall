@@ -1,6 +1,6 @@
 {
-  "commit": "4e170c2f05e08e5d12ab59aaa1746e1e5eac79b7",
-  "generated": "2024-10-29T10:17:20.824Z",
+  "commit": "1a2243222808cf3a67b6b432eede23e23d2b371b",
+  "generated": "2024-10-29T12:04:40.371Z",
   "metadata": [
     {
       "__outstatic": {
@@ -54,43 +54,6 @@
       "slug": "august-skin",
       "status": "published",
       "title": "August Skin - Facial Studio"
-    },
-    {
-      "__outstatic": {
-        "commit": "153c56404c41967ed1bd19b94c0520cf5779192f",
-        "hash": "3830717303",
-        "path": "outstatic/content/projects/anima.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-12_miv75o.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-2_puvsxn.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp",
-      "interiorDesign": [
-        {
-          "label": "ok",
-          "value": "ok"
-        }
-      ],
-      "location": "Old Madras Road, Bangalore",
-      "projectName": "Salarpenria East Crest Anima",
-      "publishedAt": "2024-10-23T13:20:46.019Z",
-      "slug": "anima",
-      "status": "published",
-      "title": "Anima"
     },
     {
       "__outstatic": {
@@ -458,6 +421,43 @@
       "slug": "model-flat",
       "status": "published",
       "title": "Model Flat"
+    },
+    {
+      "__outstatic": {
+        "commit": "1a2243222808cf3a67b6b432eede23e23d2b371b",
+        "hash": "3830717303",
+        "path": "outstatic/content/projects/anima.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-12_miv75o.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-2_puvsxn.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp",
+      "interiorDesign": [
+        {
+          "label": "ok",
+          "value": "ok"
+        }
+      ],
+      "location": "Old Madras Road, Bangalore",
+      "projectName": "Salarpenria East Crest Anima",
+      "publishedAt": "2024-10-23T13:20:46.019Z",
+      "slug": "anima",
+      "status": "published",
+      "title": "Anima"
     }
   ]
 }
