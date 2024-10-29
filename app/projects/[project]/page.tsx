@@ -2,7 +2,7 @@ import Contact from "@/app/components/Contact";
 import ProjectSlider from "@/app/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
 import Link from "next/link";
-import { getDocuments, load } from "outstatic/server";
+import { getDocumentSlugs, load } from "outstatic/server";
 
 export default async function Index({
   params,
@@ -103,4 +103,10 @@ export async function getProjects(projectSlug: string) {
   );
 
   return filteredProjects;
+}
+
+export async function generateStaticParams() {
+  const projects = getDocumentSlugs("projects");
+
+  return projects.map((slug) => ({ slug }));
 }
