@@ -1,3 +1,5 @@
+export const dynamic = "static";
+
 import Contact from "@/app/components/Contact";
 import ProjectSlider from "@/app/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
