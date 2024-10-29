@@ -7,7 +7,7 @@ author:
 slug: 'anima'
 description: ''
 coverImage: ''
-projectName: 'Anima'
+projectName: 'Salarpenria East Crest Anima'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-2_puvsxn.webp'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp'
@@ -15,7 +15,7 @@ imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywa
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp'
 category: [{"value":"residentialInteriorDesign","label":"residential_interior_design"}]
 interiorDesign: [{"label":"ok","value":"ok"}]
-location: 'Bangalore'
+location: 'Old Madras Road, Bangalore'
 publishedAt: '2024-10-23T13:20:46.019Z'
 ---
 
