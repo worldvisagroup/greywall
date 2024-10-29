@@ -1,15 +1,11 @@
 import { X } from "lucide-react";
+import Link from "next/link";
 
-export default function MenuOverlay({ isOpen, onClose, scrollToSection, projectRef, serviceRef, contactRef,aboutRef }) {
+export default function MenuOverlay({ isOpen, onClose }) {
   if (!isOpen) return null;
 
-  const handleNavClick = (ref) => {
-    onClose();
-    scrollToSection(ref);
-  };
-
   return (
-    <div className="fixed inset-y-0 right-0 w-1/2 bg-black bg-opacity-95 z-50">
+    <div className="fixed inset-y-0 right-0 w-1/2 bg-[#FFEDE6] bg-opacity-95 z-50">
       <button
         className="absolute"
         style={{
@@ -21,33 +17,30 @@ export default function MenuOverlay({ isOpen, onClose, scrollToSection, projectR
         aria-label="Close menu"
         onClick={onClose}
       >
-        <X size={32} className="text-white opacity-100" />
+        <X size={32} className="text-[#383838] opacity-100" />
       </button>
       <nav
-        className="absolute text-white text-2xl"
-        style={{
-          width: "calc(100% - 118px)",
-          height: "323px",
-          top: "109px",
-          left: "59px",
-          display: "flex",
-          flexDirection: "column",
-          gap: "65px",
-          opacity: 1,
-        }}
+        className="absolute text-[#383838] text-2xl min-w-[calc(100%-118px)] h-[323px] top-[109px] left-[29px]  sm:left-[59px] flex flex-col gap-[42px] sm:gap-[65px] opacity-100"
       >
-        <a href="#about" className="block hover:text-gray-300" onClick={() => handleNavClick(aboutRef)}>
-          About us
-        </a>
-        <a href="#projects" className="block hover:text-gray-300" onClick={() => handleNavClick(projectRef)}>
-          Projects
-        </a>
-        <a href="#services" className="block hover:text-gray-300" onClick={() => handleNavClick(serviceRef)}>
-          Services
-        </a>
-        <a href="#contact" className="block hover:text-gray-300" onClick={() => handleNavClick(contactRef)}>
-          Contact us
-        </a>
+        {["aboutus", "project", "service", "contact"].map((section) => (
+          <Link
+            key={section}
+            href={`#${section}`}
+            className="block hover:text-[#535353e1]"
+            onClick={(e) => {
+              e.preventDefault();
+              onClose();
+              const element = document.getElementById(section);
+              if (element) {
+                element.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
+          >
+            {section === "aboutus" ? "About us" :
+              section === "project" ? "Projects" :
+                section === "service" ? "Services" : "Contact us"}
+          </Link>
+        ))}
       </nav>
     </div>
   );

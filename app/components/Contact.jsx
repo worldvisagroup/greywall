@@ -49,12 +49,16 @@ const Contact = () => {
   };
 
   return (
-    <div className="bg-[#363636] text-white p-8 md:p-16">
+    <div id="contact" className="bg-[#FFEDE6] text-[#fff] p-8 md:p-16">
       <div className="container mx-auto">
-        <h1 className="text-5xl md:text-5xl font-light mb-6 font-serif">
-          Contact
+        <h1 className="text-4xl mb-8 lg:text-6xl text-[#313131] text-center md:text-5xl font-light lg:mb-6 font-playfair">
+          <span className="relative">
+            <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#313131]"></span>
+            Con
+          </span>
+          tact Us
         </h1>
-        <p className="text-lg mb-8 font-montserrat">
+        <p className="text-2xl mb-6 lg:text-3xl lg:mb-8 text-[#313131] font-montserrat">
           Feel free to contact us at any time.
           <br />
           We will get back to you as soon as we can.
@@ -65,14 +69,14 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="name"
-                  className="block text-base font-medium mb-2"
+                  className="block text-base text-[#313131] font-medium mb-2"
                 >
                   Name
                 </label>
                 <Input
                   id="name"
                   value={formData.name}
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Full name"
                   onChange={handleInputChange}
                   required
@@ -81,15 +85,15 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="email"
-                  className="block text-base font-medium mb-2"
+                  className="block text-base text-[#313131] font-medium mb-2"
                 >
-                  Email id
+                  Email Id
                 </label>
                 <Input
                   id="email"
                   type="email"
                   value={formData.email}
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Email Address"
                   onChange={handleInputChange}
                   required
@@ -98,7 +102,7 @@ const Contact = () => {
               <div>
                 <label
                   htmlFor="phone"
-                  className="block text-base font-medium mb-2"
+                  className="block text-base text-[#313131] font-medium mb-2"
                 >
                   Phone number
                 </label>
@@ -106,7 +110,7 @@ const Contact = () => {
                   id="phone"
                   type="tel"
                   value={formData.phone}
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] text-black font-montserrat"
+                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] bg-[#252525dc] placeholder:text-white/60 text-white font-montserrat"
                   placeholder="Enter your Phone Number"
                   onChange={handleInputChange}
                   required
@@ -116,7 +120,7 @@ const Contact = () => {
               <div className="py-4 lg:py-[22px]">
                 <Button
                   type="submit"
-                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] py-4 bg-[#9F9F9F] text-[#000000] hover:bg-[#BFBFBF] transition-colors duration-300 font-semibold shadow-md hover:shadow-lg"
+                  className="w-full lg:w-[60%] xl:w-[50%] 2xl:w-[55%] py-4 bg-[#313131] text-[#ffff] hover:bg-[#BFBFBF] transition-colors duration-300 font-semibold shadow-md hover:shadow-lg"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? "Submitting..." : "Submit"}
@@ -134,14 +138,14 @@ const Contact = () => {
             </form>
           </div>
           <div className="w-full md:w-1/2 md:flex md:justify-end md:items-center mt-8 md:mt-0">
-            <div className="bg-[#252525] p-12 space-y-6 w-full md:w-auto shadow-lg shadow-gray-700/50 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-gray-600/50">
+            <div className="bg-[#252525] p-4 lg:p-12 space-y-6 w-full md:w-auto shadow-lg shadow-gray-700/50 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-gray-600/50">
               <div className="flex items-center gap-4">
                 <CallIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="tel:+919900104114">+91 9900104114</a>
+                <a href="tel:+919900104114" className="hover:underline">+91 9900104114</a>
               </div>
               <div className="flex items-center gap-4">
                 <EmailIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="mailto:info@thegreywalinteriors.com" target="_blank">
+                <a href="mailto:info@thegreywalinteriors.com" target="_blank" className="break-all hover:underline">
                   info@thegreywalinteriors.com
                 </a>
               </div>

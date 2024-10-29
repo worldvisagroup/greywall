@@ -1,21 +1,14 @@
-import { getDocuments } from "outstatic/server";
+"use client";
 
-export default async function Index() {
-  const projects = await getData();
-  return projects.map((project) => (
-    <>
-      <h1 key={project.title}>{project.title}</h1>
-      {project?.imageOne ? (
-        <img src={project.imageOne} className="h-[200px] w-[200px]" />
-      ) : (
-        <></>
-      )}
-    </>
-  ));
-}
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
-async function getData() {
-  const posts = getDocuments("projects", ["title", "imageOne", "imageTwo"]);
-  console.log("projects", posts);
-  return posts;
+export default function RedirectToHome() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/");
+  }, [router]);
+
+  return null;
 }
