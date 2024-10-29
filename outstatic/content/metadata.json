@@ -1,6 +1,6 @@
 {
-  "commit": "c3f4424c054a61951c66124264d230e3157a9e21",
-  "generated": "Tue, 29 Oct 2024 08:18:50 GMT",
+  "commit": "4e170c2f05e08e5d12ab59aaa1746e1e5eac79b7",
+  "generated": "2024-10-29T10:17:20.824Z",
   "metadata": [
     {
       "__outstatic": {
@@ -430,7 +430,7 @@
     },
     {
       "__outstatic": {
-        "commit": "7589804c25cac835cd3d272565b5baf547b3dbf2",
+        "commit": "4e170c2f05e08e5d12ab59aaa1746e1e5eac79b7",
         "hash": "12545921",
         "path": "outstatic/content/projects/model-flat.md"
       },
