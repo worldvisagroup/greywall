@@ -7,7 +7,7 @@ author:
 slug: 'model-flat'
 description: ''
 coverImage: ''
-projectName: 'Model Flat'
+projectName: 'DS Max Sovereign Model Flat'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Model%20Flat/model-1_mkioeo.webp'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-10_zfd9qu.webp'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-3_vpwgn2.webp'
