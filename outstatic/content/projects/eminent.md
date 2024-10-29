@@ -14,6 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/2-671927f6a1ceb_jksaad.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703141/greywall/projects/Eminent/a6-671928003047d_zkx6k8.webp'
 category: [{"value":"commercialInteriorDesign","label":"commercial_interior_design"}]
+location: 'Vasanth Nagar, Bangalore'
 publishedAt: '2024-10-23T17:39:48.631Z'
 ---
 
