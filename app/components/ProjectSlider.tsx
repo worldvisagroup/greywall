@@ -12,6 +12,7 @@ interface ProjectSliderProps {
   imageFour?: string;
   imageFive?: string;
   location?: string;
+  
 }
 
 const ProjectSlider: React.FC<ProjectSliderProps> = ({
