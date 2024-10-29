@@ -1,5 +1,5 @@
 ---
-title: 'Animaaaa'
+title: 'Anima'
 status: 'published'
 author:
   name: 'World Visa Consultants'

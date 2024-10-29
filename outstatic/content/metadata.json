@@ -1,6 +1,6 @@
 {
   "commit": "1a2243222808cf3a67b6b432eede23e23d2b371b",
-  "generated": "2024-10-29T12:03:29.191Z",
+  "generated": "2024-10-29T12:04:40.371Z",
   "metadata": [
     {
       "__outstatic": {
@@ -425,7 +425,7 @@
     {
       "__outstatic": {
         "commit": "1a2243222808cf3a67b6b432eede23e23d2b371b",
-        "hash": "2867792912",
+        "hash": "3830717303",
         "path": "outstatic/content/projects/anima.md"
       },
       "author": {
@@ -457,7 +457,7 @@
       "publishedAt": "2024-10-23T13:20:46.019Z",
       "slug": "anima",
       "status": "published",
-      "title": "Animaaaa"
+      "title": "Anima"
     }
   ]
 }
