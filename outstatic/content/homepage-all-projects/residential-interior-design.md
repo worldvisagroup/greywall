@@ -6,7 +6,7 @@ author:
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
 slug: 'residential-interior-design'
 description: ''
-coverImage: ''
+coverImage: '/images/residential-interior-c0MT.png'
 publishedAt: '2024-10-29T05:42:53.939Z'
 ---
 
