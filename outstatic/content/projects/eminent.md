@@ -1,5 +1,5 @@
 ---
-title: 'Eminent'
+title: 'Eminent - Executive Suite'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -7,7 +7,7 @@ author:
 slug: 'eminent'
 description: ''
 coverImage: ''
-projectName: 'Eminent'
+projectName: 'Eminent - Executive Suite'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703136/greywall/projects/Eminent/5-671927f691f31_p6ifw8.webp'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703137/greywall/projects/Eminent/06-copy-671927faaecda_wzqrzu.webp'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/b6-6719280131f69_vgb1nv.webp'
