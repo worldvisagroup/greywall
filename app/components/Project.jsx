@@ -4,7 +4,6 @@ import { getDocuments } from "outstatic/server";
 
 const Project = async () => {
   const data = await getAllProjects();
-  console.log("data from project section", data);
   return (
     <div
       id="project"
