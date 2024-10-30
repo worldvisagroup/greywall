@@ -24,19 +24,19 @@ const TestimonialCard = ({ review }) => {
 
   return (
     <div className="bg-transparent text-[#FFEDE6] max-w-xs lg:max-w-sm mx-auto mb-6">
-      <div className="flex items-center text-left">
-        <div className="w-16 h-16 rounded-full overflow-hidden mr-4">
-          <Image src={review.image} alt={review.name} className="w-full h-full object-cover" />
+      <div className="flex items-center text-left gap-[12px]">
+        <div className="w-[50px] h-[50px] rounded-full overflow-hidden">
+          <Image src={review.coverImage} alt={review.title} className="w-full h-full object-cover bg-white" width={200} height={200} />
         </div>
         <div>
-          <h4 className="font-bold text-base mb-1">{review.name}</h4>
+          <h4 className="font-bold text-base mb-1">{review.title}</h4>
           <div className="flex mb-2">
-            {renderStars(review.rating)}
+            {renderStars(review.ratings)}
           </div>
         </div>
       </div>
       <p className="text-[#FFEDE6] leading-relaxed mt-3 text-sm">
-        &ldquo;{review.text}&rdquo;
+        &ldquo;{review.content}&rdquo;
       </p>
     </div>
   );
