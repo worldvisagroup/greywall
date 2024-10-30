@@ -3,11 +3,11 @@ export const dynamic = "force-static";
 import Contact from "@/app/components/Contact";
 import ProjectSlider from "@/app/components/ProjectSlider";
 import { ArrowBack } from "@mui/icons-material";
+import { promises as fs } from "fs";
+import matter from "gray-matter";
 import Link from "next/link";
 import { getDocumentSlugs, load } from "outstatic/server";
 import path from "path";
-import matter from "gray-matter";
-import { promises as fs } from "fs";
 
 export default async function Index({
   params,
@@ -91,7 +91,7 @@ export default async function Index({
                     )
                   )
                 ) : (
-                  <p>No Projects Found</p>
+                  <p>Coming Soon</p>
                 )}
               </div>
             </div>

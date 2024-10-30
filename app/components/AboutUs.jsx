@@ -32,6 +32,7 @@ export default function AboutUs() {
               Our zero-carbon methodology ensures each project is tailored to
               reflect the distinct personality of our clients.
             </p>
+            <br />
             Whether shaping architectural landmarks, executing intricate civil
             projects, or designing exquisite interiors, we blend innovation with
             deep client insight.
