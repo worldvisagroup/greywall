@@ -1,6 +1,6 @@
 {
-  "commit": "65bce15be191657086e64631d6be659f0b8b49ff",
-  "generated": "2024-10-30T11:29:59.910Z",
+  "commit": "cd611fb7f56644f09ae828df3906af5e5f4153a4",
+  "generated": "2024-10-30T11:30:21.701Z",
   "metadata": [
     {
       "__outstatic": {
@@ -184,41 +184,6 @@
       "slug": "eminent",
       "status": "published",
       "title": "Eminent - Executive Suite"
-    },
-    {
-      "__outstatic": {
-        "commit": "3de212bebddc9e75171da3e3fc81bc05ad5801b2",
-        "hash": "591705832",
-        "path": "outstatic/content/projects/august-skin.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        },
-        {
-          "label": "construction",
-          "value": "construction"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
-      "imageThree": "",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
-      "location": "Residency Road Bangalore",
-      "projectName": "August Skin - Facial Studio",
-      "publishedAt": "2024-10-23T13:42:02.591Z",
-      "slug": "august-skin",
-      "status": "published",
-      "title": "August Skin - Facial Studio"
     },
     {
       "__outstatic": {
@@ -511,6 +476,37 @@
       "slug": "wlld",
       "status": "published",
       "title": "WLLD"
+    },
+    {
+      "__outstatic": {
+        "commit": "cd611fb7f56644f09ae828df3906af5e5f4153a4",
+        "hash": "3220700094",
+        "path": "outstatic/content/projects/august-skin.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
+      "imageThree": "",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
+      "location": "Residency Road Bangalore",
+      "projectName": "August Skin - Facial Studio",
+      "publishedAt": "2024-10-23T13:42:02.591Z",
+      "slug": "august-skin",
+      "status": "published",
+      "title": "August Skin - Facial Studio"
     }
   ]
 }
