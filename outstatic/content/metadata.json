@@ -1,6 +1,6 @@
 {
-  "commit": "10dd4ea6bf3c3c73e64d6c640fa8ce6062d71c79",
-  "generated": "2024-10-30T05:41:29.127Z",
+  "commit": "d0fc923ee8ce5f48368cbcea1b8aab97e7d5d52d",
+  "generated": "2024-10-30T05:44:23.635Z",
   "metadata": [
     {
       "__outstatic": {
@@ -496,6 +496,25 @@
       "slug": "lionel-roshan",
       "status": "draft",
       "title": "Lionel Roshan"
+    },
+    {
+      "__outstatic": {
+        "commit": "d0fc923ee8ce5f48368cbcea1b8aab97e7d5d52d",
+        "hash": "1020694445",
+        "path": "outstatic/content/reviews/rida-aftab.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reviews",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730266666/greywall/reviews/uHIJCfKW06_RG24lqrbo5-transformed_lwjts9.webp",
+      "description": "",
+      "publishedAt": "2024-10-30T06:15:25.202Z",
+      "ratings": "4.5",
+      "slug": "rida-aftab",
+      "status": "draft",
+      "title": "Rida aftab"
     }
   ]
 }
