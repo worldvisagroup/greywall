@@ -1,0 +1,13 @@
+{
+  "title": "reviews",
+  "type": "object",
+  "properties": {
+    "ratings": {
+      "required": true,
+      "description": "Review ratings 1 - 5",
+      "fieldType": "Number",
+      "dataType": "number",
+      "title": "ratings"
+    }
+  }
+}
