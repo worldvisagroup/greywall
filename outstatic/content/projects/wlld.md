@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp'
 imageFour: ''
 imageFive: ''
-category: [{"value":"construction","label":"construction"},{"value":"civil","label":"civil"}]
+category: [{"value":"civil","label":"civil"}]
 location: 'Bangalore'
 publishedAt: '2024-10-23T16:15:22.229Z'
 ---

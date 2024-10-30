@@ -1,6 +1,6 @@
 {
-  "commit": "5dd5265ad693070eb62b07e8c3a680115374e19f",
-  "generated": "2024-10-30T06:19:54.467Z",
+  "commit": "65bce15be191657086e64631d6be659f0b8b49ff",
+  "generated": "2024-10-30T11:29:59.910Z",
   "metadata": [
     {
       "__outstatic": {
@@ -415,41 +415,6 @@
     },
     {
       "__outstatic": {
-        "commit": "b160341bb205955fc30eb79456c8bacc22b326f6",
-        "hash": "1553759960",
-        "path": "outstatic/content/projects/wlld.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "construction",
-          "value": "construction"
-        },
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
-      "location": "Bangalore",
-      "projectName": "WLLD",
-      "publishedAt": "2024-10-23T16:15:22.229Z",
-      "slug": "wlld",
-      "status": "published",
-      "title": "WLLD"
-    },
-    {
-      "__outstatic": {
         "commit": "329db9584d29206c5943f5860521d9ed9622963d",
         "hash": "3857410807",
         "path": "outstatic/content/reviews/lionel-roshan.md"
@@ -515,6 +480,37 @@
       "slug": "constructions",
       "status": "published",
       "title": "Architecture"
+    },
+    {
+      "__outstatic": {
+        "commit": "65bce15be191657086e64631d6be659f0b8b49ff",
+        "hash": "3284351028",
+        "path": "outstatic/content/projects/wlld.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
+      "location": "Bangalore",
+      "projectName": "WLLD",
+      "publishedAt": "2024-10-23T16:15:22.229Z",
+      "slug": "wlld",
+      "status": "published",
+      "title": "WLLD"
     }
   ]
 }
