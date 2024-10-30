@@ -1,6 +1,6 @@
 {
-  "commit": "1a2243222808cf3a67b6b432eede23e23d2b371b",
-  "generated": "2024-10-29T12:04:40.371Z",
+  "commit": "c8ab4a58429e599e3ffcbcd1ec33294d4cdc1f40",
+  "generated": "2024-10-30T05:39:49.693Z",
   "metadata": [
     {
       "__outstatic": {
@@ -458,6 +458,25 @@
       "slug": "anima",
       "status": "published",
       "title": "Anima"
+    },
+    {
+      "__outstatic": {
+        "commit": "c8ab4a58429e599e3ffcbcd1ec33294d4cdc1f40",
+        "hash": "3857410807",
+        "path": "outstatic/content/reviews/lionel-roshan.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reviews",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730266664/greywall/reviews/1730266623084_r0fx5y.png",
+      "description": "",
+      "publishedAt": "2024-10-30T06:11:55.741Z",
+      "ratings": "5",
+      "slug": "lionel-roshan",
+      "status": "draft",
+      "title": "Lionel Roshan"
     }
   ]
 }
