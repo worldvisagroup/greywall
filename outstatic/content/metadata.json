@@ -1,6 +1,6 @@
 {
-  "commit": "c8ab4a58429e599e3ffcbcd1ec33294d4cdc1f40",
-  "generated": "2024-10-30T05:39:49.693Z",
+  "commit": "82c1dc3da32e4073e63f57be9c695a78074c9888",
+  "generated": "2024-10-30T05:41:16.338Z",
   "metadata": [
     {
       "__outstatic": {
@@ -477,6 +477,25 @@
       "slug": "lionel-roshan",
       "status": "draft",
       "title": "Lionel Roshan"
+    },
+    {
+      "__outstatic": {
+        "commit": "82c1dc3da32e4073e63f57be9c695a78074c9888",
+        "hash": "3346492752",
+        "path": "outstatic/content/reviews/syed-mahak-bukhari.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reviews",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730266665/greywall/reviews/1730266616698_ohcgm3.png",
+      "description": "",
+      "publishedAt": "2024-10-30T06:13:28.893Z",
+      "ratings": "4.5",
+      "slug": "syed-mahak-bukhari",
+      "status": "draft",
+      "title": "Syed Mahak Bukhari"
     }
   ]
 }
