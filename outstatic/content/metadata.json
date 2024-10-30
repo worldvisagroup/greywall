@@ -1,6 +1,6 @@
 {
-  "commit": "79f301467a9fb51305b49f3b4bb71654ec92ca3d",
-  "generated": "Wed, 30 Oct 2024 05:51:54 GMT",
+  "commit": "5dd5265ad693070eb62b07e8c3a680115374e19f",
+  "generated": "2024-10-30T06:19:54.467Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "residential-interior",
       "status": "published",
       "title": "Residential Interior "
-    },
-    {
-      "__outstatic": {
-        "commit": "f06e9358af3fbbd70484e560a522341ab428f726",
-        "hash": "4098460366",
-        "path": "outstatic/content/homepage-all-projects/construction.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "homepage-all-projects",
-      "coverImage": "/images/architecture-Q3MD.png",
-      "description": "",
-      "publishedAt": "2024-10-25T05:44:32.252Z",
-      "slug": "construction",
-      "status": "published",
-      "title": "Architecture"
     },
     {
       "__outstatic": {
@@ -515,6 +497,24 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "5dd5265ad693070eb62b07e8c3a680115374e19f",
+        "hash": "3027041681",
+        "path": "outstatic/content/homepage-all-projects/constructions.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/architecture-Q3MD.png",
+      "description": "",
+      "publishedAt": "2024-10-25T05:44:32.252Z",
+      "slug": "constructions",
+      "status": "published",
+      "title": "Architecture"
     }
   ]
 }
