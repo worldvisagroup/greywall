@@ -1,6 +1,6 @@
 {
-  "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
-  "generated": "2024-10-31T13:36:32.806Z",
+  "commit": "b38188842496ec9d9b631e21453e6aa4ca724893",
+  "generated": "2024-10-31T13:39:37.730Z",
   "metadata": [
     {
       "__outstatic": {
@@ -648,6 +648,38 @@
       "slug": "durani-enclave",
       "status": "published",
       "title": "Durani Enclave"
+    },
+    {
+      "__outstatic": {
+        "commit": "b38188842496ec9d9b631e21453e6aa4ca724893",
+        "hash": "1988722240",
+        "path": "outstatic/content/projects/highgates-restaurant-indiranagar.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381940/greywall/projects/highgates/E_cpcpvz.heic",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381938/greywall/projects/highgates/D_fpkvb0.heic",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381932/greywall/projects/highgates/A_xb8jmr.heic",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381936/greywall/projects/highgates/C_dd5cxn.heic",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381933/greywall/projects/highgates/B_oy6ypp.heic",
+      "location": "",
+      "projectName": "Highgates - Restaurant, Indiranagar",
+      "publishedAt": "2024-10-31T14:10:51.467Z",
+      "slug": "highgates-restaurant-indiranagar",
+      "status": "published",
+      "title": "Highgates - Restaurant, Indiranagar"
     }
   ]
 }
