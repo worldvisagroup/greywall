@@ -16,6 +16,7 @@ imageFive: ''
 category: [{"value":"civil","label":"civil"}]
 location: 'Basavangudi, Bangalore'
 imageSix: ''
+inProgress: 'true'
 publishedAt: '2024-10-23T16:15:22.229Z'
 ---
 

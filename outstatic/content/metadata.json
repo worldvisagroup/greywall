@@ -1,6 +1,6 @@
 {
-  "commit": "90f4d2dd6ed36fa4b5bc5e66551edde31376d339",
-  "generated": "2024-10-31T15:26:08.298Z",
+  "commit": "85ad5b224ce427757047cb8ebc6f89a08f29be0c",
+  "generated": "2024-10-31T15:26:25.393Z",
   "metadata": [
     {
       "__outstatic": {
@@ -510,38 +510,6 @@
     },
     {
       "__outstatic": {
-        "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
-        "hash": "3713043086",
-        "path": "outstatic/content/projects/wlld.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
-      "location": "Basavangudi, Bangalore",
-      "projectName": "WLDD - Corporate Office, Basavangudi",
-      "publishedAt": "2024-10-23T16:15:22.229Z",
-      "slug": "wlld",
-      "status": "published",
-      "title": "WLDD - Corporate Office"
-    },
-    {
-      "__outstatic": {
         "commit": "90bbba4830f745101aa9489ab9223608b9fb2ea9",
         "hash": "2827429293",
         "path": "outstatic/content/projects/august-skin.md"
@@ -702,6 +670,39 @@
       "slug": "chilli-garlic",
       "status": "published",
       "title": "Chilli Garlic - Restaurant"
+    },
+    {
+      "__outstatic": {
+        "commit": "85ad5b224ce427757047cb8ebc6f89a08f29be0c",
+        "hash": "3530296518",
+        "path": "outstatic/content/projects/wlld.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
+      "inProgress": "true",
+      "location": "Basavangudi, Bangalore",
+      "projectName": "WLDD - Corporate Office, Basavangudi",
+      "publishedAt": "2024-10-23T16:15:22.229Z",
+      "slug": "wlld",
+      "status": "published",
+      "title": "WLDD - Corporate Office"
     }
   ]
 }
