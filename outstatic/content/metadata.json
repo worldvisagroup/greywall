@@ -1,6 +1,6 @@
 {
-  "commit": "e63182283c20836dc461f6b74dfccf5cc5030d62",
-  "generated": "2024-10-31T15:00:51.470Z",
+  "commit": "1d63c7c955709714de5a4ebb562d23c7e03e93e5",
+  "generated": "2024-10-31T15:01:13.876Z",
   "metadata": [
     {
       "__outstatic": {
@@ -69,38 +69,6 @@
       "slug": "the-white-room",
       "status": "published",
       "title": "The White Room - Cafe, Church street"
-    },
-    {
-      "__outstatic": {
-        "commit": "7f2f216077a050a12230c581edc117d01968a6ee",
-        "hash": "1037066229",
-        "path": "outstatic/content/projects/pramata-corporate-office-brigade-road.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/DECK_02_tgave3.jpg",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375576/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/LOUNG_02_g6y4nc.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/BRANDING_WALL_g4yqb9.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/MEETING_ROOM_pz61nv.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375574/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/LOUNG_03_wwpbc0.jpg",
-      "location": "",
-      "projectName": "Pramata - Corporate Office, Brigade road",
-      "publishedAt": "2024-10-31T12:26:17.495Z",
-      "slug": "pramata-corporate-office-brigade-road",
-      "status": "published",
-      "title": "Pramata - Corporate Office, Brigade road"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "mm-javeed",
       "status": "published",
       "title": "MM Javeed - Retail store"
+    },
+    {
+      "__outstatic": {
+        "commit": "1d63c7c955709714de5a4ebb562d23c7e03e93e5",
+        "hash": "2365202399",
+        "path": "outstatic/content/projects/pramata-corporate-office-brigade-road.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/DECK_02_tgave3.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375576/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/LOUNG_02_g6y4nc.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/BRANDING_WALL_g4yqb9.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/MEETING_ROOM_pz61nv.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375574/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/LOUNG_03_wwpbc0.jpg",
+      "location": "Brigade road, Bangalore",
+      "projectName": "Pramata - Corporate Office, Brigade road",
+      "publishedAt": "2024-10-31T12:26:17.495Z",
+      "slug": "pramata-corporate-office-brigade-road",
+      "status": "published",
+      "title": "Pramata - Corporate Office"
     }
   ]
 }

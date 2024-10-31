@@ -1,5 +1,5 @@
 ---
-title: 'Pramata - Corporate Office, Brigade road'
+title: 'Pramata - Corporate Office'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375576/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/LOUNG_02_g6y4nc.jpg'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375575/greywall/projects/Pramata%20-%20Corporate%20Office%2C%20Brigade%20road/DECK_02_tgave3.jpg'
 category: [{"value":"commercialInterior","label":"commercial-interior"}]
-location: ''
+location: 'Brigade road, Bangalore'
 imageSix: ''
 publishedAt: '2024-10-31T12:26:17.495Z'
 ---
