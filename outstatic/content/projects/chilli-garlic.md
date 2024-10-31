@@ -1,5 +1,5 @@
 ---
-title: 'Chilli Garlic'
+title: 'Chilli Garlic - Restaurant, Indiranagar'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -8,15 +8,15 @@ slug: 'chilli-garlic'
 description: ''
 coverImage: ''
 projectName: 'Chilli Garlic'
-imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp'
-imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image5_xwanse.webp'
-imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image4_bt3yhu.webp'
-imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img2_dxlvzf.webp'
+imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381558/greywall/projects/Chilli%20garlic/A_hndkaa.jpg'
+imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381556/greywall/projects/Chilli%20garlic/B_ssbw8s.jpg'
+imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp'
+imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381559/greywall/projects/Chilli%20garlic/D_w1l8jg.jpg'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp'
-category: [{"value":"construction","label":"construction"}]
+category: [{"value":"civil","label":"civil"}]
 location: 'Indira Nagar, Bangalore'
 imageSix: ''
 publishedAt: '2024-10-23T13:46:51.133Z'
 ---
 
-Chilli Garlic
+Chilli Garlic - Restaurant, Indiranagar
