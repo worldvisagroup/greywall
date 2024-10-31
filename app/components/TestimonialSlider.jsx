@@ -32,6 +32,7 @@ const TestimonialSlider = (props) => {
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
+
   useEffect(() => {
     if (emblaApi) {
       emblaApi.on("select", onSelect);

@@ -12,7 +12,7 @@ const Project = async () => {
       className="bg-[#313131] text-[#FFEDE6] min-h-screen p-4 lg:p-8"
     >
       <div className="container mx-auto">
-        <h1 className="font-playfair text-[45px] lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
+        <h1 className="font-tenPearl text-[45px] lg:text-[60px] lg:top-[58px] mb-8 text-center relative">
           <span className="relative">
             <span className="absolute bottom-0 w-[calc(100%+1px)] h-[2px] bg-white"></span>
             Pro
@@ -60,7 +60,7 @@ const Project = async () => {
                 {/* Desktop content */}
                 <div className="relative overflow-hidden h-full w-full sm:block hidden">
                   <div className="absolute inset-0 flex flex-col justify-center items-center transition-all duration-1000 transform group-hover:justify-start group-hover:items-start group-hover:p-8">
-                    <h2 className="card-title text-[#ffff] text-3xl mb-5 font-playfair transition-all duration-500 relative z-15 w-full text-center group-hover:text-left group-hover:mb-1 transform group-hover:translate-x-0 group-hover:translate-y-0">
+                    <h2 className="card-title text-[#ffff] text-3xl mb-5 transition-all duration-500 relative z-15 w-full text-center group-hover:text-left group-hover:mb-1 transform group-hover:translate-x-0 group-hover:translate-y-0">
                       {collection.title}
                     </h2>
                   </div>
@@ -71,14 +71,14 @@ const Project = async () => {
                     {collection.title}
                   </h2>
                   <div className="self-end">
-                    <span className="text-white font-medium font-playfair text-lg">
+                    <span className="text-white font-medium text-lg">
                       View Portfolio <span className="ml-2">&rarr;</span>
                     </span>
                   </div>
                 </div>
                 {/* Desktop hover content */}
                 <div className="absolute bottom-8 right-8 opacity-0 group-hover:opacity-100 text-white transition-all duration-700 sm:block hidden">
-                  <span className="text-white font-semibold font-playfair text-xl">
+                  <span className="text-white font-semibold text-xl">
                     View Portfolio <span className="ml-2">&rarr;</span>
                   </span>
                 </div>

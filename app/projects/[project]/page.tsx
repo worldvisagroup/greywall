@@ -31,9 +31,10 @@ export default async function Index({
     allProjects.push(data);
   }
 
-  const projects = allProjects.filter(
-    (project: any) =>
-      project.category[0].label.replace(/_/g, "-") === params.project
+  const projects = allProjects.filter((project: any) =>
+    project.category.some(
+      (cat: any) => cat.label.replace(/_/g, "-") === params.project
+    )
   );
 
   if (projects) {
@@ -55,9 +56,9 @@ export default async function Index({
                 >
                   <ArrowBack className="h-8 w-8" />
                 </Link>
-                <h1 className="text-2xl lg:text-5xl font-playfair text-center flex-grow mt-[15%] mr-5 sm:mt-0">
+                <h1 className="text-lg lg:text-5xl font-tenPearl text-center flex-grow">
                   <span className="relative inline-block">
-                    <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#FFEDE6]"></span>
+                    <span className="absolute -bottom-[15px] left-0 w-full h-[2px] bg-[#FFEDE6]"></span>
                     {heading.slice(0, 3)}
                   </span>
                   <span className="inline-block mt-2 sm:mt-0">
@@ -120,9 +121,10 @@ export async function getProjects(projectSlug: string) {
     .toArray();
 
   // projects[0].category.label
-  const filteredProjects = projects.filter(
-    (project: any) =>
-      project.category[0].label.replace(/_/g, "-") === projectSlug
+  const filteredProjects = projects.filter((project: any) =>
+    project.category.some(
+      (cat: any) => cat.label.replace(/_/g, "-") === projectSlug
+    )
   );
 
   return filteredProjects;

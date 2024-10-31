@@ -5,7 +5,7 @@ export default function MenuOverlay({ isOpen, onClose }) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-y-0 right-0 w-1/2 bg-[#FFEDE6] bg-opacity-95 z-50">
+    <div className="fixed inset-y-0 right-0 w-1/2 sm:w-1/3 lg:1/4 bg-[#FFEDE6] bg-opacity-95 z-50">
       <button
         className="absolute"
         style={{
