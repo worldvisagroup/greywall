@@ -1,6 +1,6 @@
 {
-  "commit": "c0b58a8d1aef5056f6a8c3895e2e90f0e8a5c191",
-  "generated": "2024-10-31T15:00:12.879Z",
+  "commit": "6c2a328902cce91a4d93b712e554d426d3a33bb1",
+  "generated": "2024-10-31T15:00:34.166Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,38 +37,6 @@
       "slug": "constructions",
       "status": "published",
       "title": "Architecture"
-    },
-    {
-      "__outstatic": {
-        "commit": "7d7958f00f8fcb1d026907b95b57b47858acc261",
-        "hash": "1320011138",
-        "path": "outstatic/content/projects/kulsum.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/E_ek5xi6.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/D_ijwfid.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730362471/greywall/projects/Kulsum/A_1_mingjh.webp",
-      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/F_wyfscu.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/C_tyqbqr.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/B_hnvpno.webp",
-      "location": "Bangalore",
-      "projectName": "Kulsum Makeup Studio",
-      "publishedAt": "2024-10-23T17:09:05.700Z",
-      "slug": "kulsum",
-      "status": "published",
-      "title": "Kulsum Parvez - Makeup Studio, Mekhri Circle"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "eminent",
       "status": "published",
       "title": "Eminent - Executive Suite"
+    },
+    {
+      "__outstatic": {
+        "commit": "6c2a328902cce91a4d93b712e554d426d3a33bb1",
+        "hash": "490119984",
+        "path": "outstatic/content/projects/kulsum.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/E_ek5xi6.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/D_ijwfid.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730362471/greywall/projects/Kulsum/A_1_mingjh.webp",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/F_wyfscu.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/C_tyqbqr.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/B_hnvpno.webp",
+      "location": "Mekhri Circle, Bangalore",
+      "projectName": "Kulsum Makeup Studio",
+      "publishedAt": "2024-10-23T17:09:05.700Z",
+      "slug": "kulsum",
+      "status": "published",
+      "title": "Kulsum Parvez - Makeup Studio"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-title: 'Kulsum Parvez - Makeup Studio, Mekhri Circle'
+title: 'Kulsum Parvez - Makeup Studio'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/D_ijwfid.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/E_ek5xi6.webp'
 category: [{"value":"commercialInterior","label":"commercial-interior"}]
-location: 'Bangalore'
+location: 'Mekhri Circle, Bangalore'
 imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/F_wyfscu.webp'
 publishedAt: '2024-10-23T17:09:05.700Z'
 ---
