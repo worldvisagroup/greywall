@@ -15,6 +15,7 @@ imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywa
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/E_ek5xi6.webp'
 category: [{"value":"commercialInterior","label":"commercial-interior"}]
 location: 'Bangalore'
+imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/F_wyfscu.webp'
 publishedAt: '2024-10-23T17:09:05.700Z'
 ---
 
