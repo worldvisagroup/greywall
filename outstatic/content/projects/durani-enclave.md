@@ -1,5 +1,5 @@
 ---
-title: 'Durani Enclave'
+title: 'Durani Enclave- Commercial Complex'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp'
 imageFive: ''
 category: [{"value":"civil","label":"civil"}]
-location: ''
+location: 'Srinagar, J&K'
 imageSix: ''
 publishedAt: '2024-10-23T13:51:29.417Z'
 ---

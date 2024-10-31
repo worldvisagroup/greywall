@@ -1,6 +1,6 @@
 {
-  "commit": "496da9ef3dce02fd74ca2a1dced403aac9134adf",
-  "generated": "2024-10-31T15:04:49.631Z",
+  "commit": "5c026af0a4b999074898ff6e6ec2516a310f3dfe",
+  "generated": "2024-10-31T15:06:40.325Z",
   "metadata": [
     {
       "__outstatic": {
@@ -69,38 +69,6 @@
       "slug": "august-skin",
       "status": "published",
       "title": "Auguste Skin - Facial Studio, Residency road"
-    },
-    {
-      "__outstatic": {
-        "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
-        "hash": "343534296",
-        "path": "outstatic/content/projects/durani-enclave.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381747/greywall/projects/Durani%20Enclave/1_gspebp.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381746/greywall/projects/Durani%20Enclave/2_yv6xcl.jpg",
-      "location": "",
-      "projectName": "Durani Enclave",
-      "publishedAt": "2024-10-23T13:51:29.417Z",
-      "slug": "durani-enclave",
-      "status": "published",
-      "title": "Durani Enclave"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "the-woodland-estate-villa-chikmagalur",
       "status": "published",
       "title": "The Woodland Estate - Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "5c026af0a4b999074898ff6e6ec2516a310f3dfe",
+        "hash": "2811532667",
+        "path": "outstatic/content/projects/durani-enclave.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381747/greywall/projects/Durani%20Enclave/1_gspebp.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381746/greywall/projects/Durani%20Enclave/2_yv6xcl.jpg",
+      "location": "Srinagar, J&K",
+      "projectName": "Durani Enclave",
+      "publishedAt": "2024-10-23T13:51:29.417Z",
+      "slug": "durani-enclave",
+      "status": "published",
+      "title": "Durani Enclave- Commercial Complex"
     }
   ]
 }
