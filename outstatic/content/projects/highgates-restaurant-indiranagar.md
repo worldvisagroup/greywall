@@ -1,5 +1,5 @@
 ---
-title: 'Highgates - Restaurant, Indiranagar'
+title: 'Highgates - Restaurant'
 status: 'published'
 author:
   name: 'World Visa Consultants'
