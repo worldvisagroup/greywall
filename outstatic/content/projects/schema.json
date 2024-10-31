@@ -82,13 +82,6 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Image six"
-    },
-    "completed": {
-      "required": false,
-      "description": "",
-      "fieldType": "Boolean",
-      "dataType": "boolean",
-      "title": "completed"
     }
   }
 }
