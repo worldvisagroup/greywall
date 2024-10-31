@@ -82,6 +82,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Image six"
+    },
+    "inProgress": {
+      "required": false,
+      "description": "Project In progress",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "in progress"
     }
   }
 }
