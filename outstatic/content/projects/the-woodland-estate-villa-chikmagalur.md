@@ -16,6 +16,7 @@ imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382276/greywa
 category: [{"value":"civil","label":"civil"}]
 location: 'Chikmagalur, Karnataka'
 imageSix: ''
+inProgress: 'true'
 publishedAt: '2024-10-31T14:13:56.039Z'
 ---
 
