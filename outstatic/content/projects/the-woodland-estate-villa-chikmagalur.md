@@ -1,5 +1,5 @@
 ---
-title: 'The Woodland Estate - Villa, Chikmagalur'
+title: 'The Woodland Estate - Villa'
 status: 'published'
 author:
   name: 'World Visa Consultants'
