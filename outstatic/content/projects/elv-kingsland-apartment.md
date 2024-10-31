@@ -1,13 +1,13 @@
 ---
-title: 'ELV Kingsland - Apartment, Whitefield'
+title: 'ELV Kingsland - Apartment'
 status: 'published'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
-slug: 'elv-kingsland-apartment-whitefield'
+slug: 'elv-kingsland-apartment'
 description: ''
 coverImage: ''
-projectName: 'ELV Kingsland - Apartment, Whitefield'
+projectName: 'ELV Kingsland - Apartment'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/A_ttzlvs.jpg'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/B_nqwciz.jpg'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greywall/projects/elv/C_vac4go.jpg'

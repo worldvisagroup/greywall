@@ -1,6 +1,6 @@
 {
-  "commit": "381bd5df0b2cd4b54e5682b9d2bed2fa5e5685b1",
-  "generated": "2024-10-31T14:56:51.043Z",
+  "commit": "ceb08bd03d29224a2b7f59f0c2a91e90c96e0117",
+  "generated": "2024-10-31T14:57:36.226Z",
   "metadata": [
     {
       "__outstatic": {
@@ -261,38 +261,6 @@
       "slug": "model-flat",
       "status": "published",
       "title": "DS Max Sovereign - Model flat, Horamavu"
-    },
-    {
-      "__outstatic": {
-        "commit": "8809756f57025d39c82fcf1be64c917676fb6e39",
-        "hash": "3207446319",
-        "path": "outstatic/content/projects/elv-kingsland-apartment-whitefield.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/C_1_iwbbdp.jpg",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378843/greywall/projects/elv/D_mj68zp.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/A_ttzlvs.jpg",
-      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/E_bcofck.jpg",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greywall/projects/elv/C_vac4go.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/B_nqwciz.jpg",
-      "location": "Whitefield, Bangalore",
-      "projectName": "ELV Kingsland - Apartment, Whitefield",
-      "publishedAt": "2024-10-31T13:18:26.281Z",
-      "slug": "elv-kingsland-apartment-whitefield",
-      "status": "published",
-      "title": "ELV Kingsland - Apartment, Whitefield"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "anima",
       "status": "published",
       "title": "Salarpuria East Crest - Apartment"
+    },
+    {
+      "__outstatic": {
+        "commit": "ceb08bd03d29224a2b7f59f0c2a91e90c96e0117",
+        "hash": "63206452",
+        "path": "outstatic/content/projects/elv-kingsland-apartment.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/C_1_iwbbdp.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378843/greywall/projects/elv/D_mj68zp.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/A_ttzlvs.jpg",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/E_bcofck.jpg",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greywall/projects/elv/C_vac4go.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/B_nqwciz.jpg",
+      "location": "Whitefield, Bangalore",
+      "projectName": "ELV Kingsland - Apartment",
+      "publishedAt": "2024-10-31T13:18:26.281Z",
+      "slug": "elv-kingsland-apartment",
+      "status": "published",
+      "title": "ELV Kingsland - Apartment"
     }
   ]
 }
