@@ -1,5 +1,5 @@
 ---
-title: 'Eminent - Executive Suite, Vasanth nagar'
+title: 'Eminent - Executive Suite'
 status: 'published'
 author:
   name: 'World Visa Consultants'
