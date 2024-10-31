@@ -1,6 +1,6 @@
 {
-  "commit": "beba7024b85c825a18f48b492f572cfc79917623",
-  "generated": "2024-10-31T12:52:06.412Z",
+  "commit": "8a06e17c797b4f3a8529af2a95a13e2c18d0e6f5",
+  "generated": "2024-10-31T12:56:17.350Z",
   "metadata": [
     {
       "__outstatic": {
@@ -581,6 +581,38 @@
       "slug": "nti-villa",
       "status": "published",
       "title": "Splendid Serenity - Villa, Hebbal"
+    },
+    {
+      "__outstatic": {
+        "commit": "8a06e17c797b4f3a8529af2a95a13e2c18d0e6f5",
+        "hash": "193173778",
+        "path": "outstatic/content/projects/the-woodland-estate-villa-chikmagalur.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-09-12_at_9.34.47_PM_fht288.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-09-12_at_9.35.16_PM_zy2pnp.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.04_AM_2_hmdsvl.jpg",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.07_AM_1_gdfjfc.jpg",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.05_AM_2_mh1z9g.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.04_AM_1_mdvrxd.jpg",
+      "location": "Chikmagalur",
+      "projectName": "The Woodland Estate - Villa, Chikmagalur",
+      "publishedAt": "2024-10-31T13:26:00.602Z",
+      "slug": "the-woodland-estate-villa-chikmagalur",
+      "status": "published",
+      "title": "The Woodland Estate - Villa, Chikmagalur"
     }
   ]
 }
