@@ -1,6 +1,6 @@
 {
-  "commit": "544c858547539e2b476f64b632c0b8f880ae25b5",
-  "generated": "2024-10-31T13:49:22.550Z",
+  "commit": "73f08a4f83c69e356cb462964c47317fbb3492c5",
+  "generated": "2024-10-31T14:08:40.638Z",
   "metadata": [
     {
       "__outstatic": {
@@ -680,6 +680,25 @@
       "slug": "highgates-restaurant-indiranagar",
       "status": "published",
       "title": "Highgates - Restaurant, Indiranagar"
+    },
+    {
+      "__outstatic": {
+        "commit": "73f08a4f83c69e356cb462964c47317fbb3492c5",
+        "hash": "437671719",
+        "path": "outstatic/content/reviews/syed-moeenuddin.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reviews",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730383705/greywall/reviews/syed_z7v2tr.png",
+      "description": "",
+      "publishedAt": "2024-10-31T14:40:06.972Z",
+      "ratings": "5",
+      "slug": "syed-moeenuddin",
+      "status": "published",
+      "title": "Syed Moeenuddin"
     }
   ]
 }
