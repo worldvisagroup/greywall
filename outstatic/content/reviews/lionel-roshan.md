@@ -6,7 +6,7 @@ slug: 'lionel-roshan'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
-status: 'draft'
+status: 'published'
 title: 'Lionel Roshan'
 publishedAt: '2024-10-30T06:11:55.741Z'
 ---

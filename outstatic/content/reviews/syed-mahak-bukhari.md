@@ -6,7 +6,7 @@ slug: 'syed-mahak-bukhari'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
-status: 'draft'
+status: 'published'
 title: 'Syed Mahak Bukhari'
 publishedAt: '2024-10-30T06:13:28.893Z'
 ---
