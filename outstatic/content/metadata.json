@@ -1,6 +1,6 @@
 {
-  "commit": "ceb08bd03d29224a2b7f59f0c2a91e90c96e0117",
-  "generated": "2024-10-31T14:57:36.226Z",
+  "commit": "8f6b50d9165d4d5b55e1f7c405f7adf917433254",
+  "generated": "2024-10-31T14:58:04.808Z",
   "metadata": [
     {
       "__outstatic": {
@@ -229,38 +229,6 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Meadows - Villa, Mathura UP"
-    },
-    {
-      "__outstatic": {
-        "commit": "79d3eafbae5cdc11e68ff85443ef90074e1992bb",
-        "hash": "3851585286",
-        "path": "outstatic/content/projects/model-flat.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753823/greywall/projects/Model%20Flat/model-8_yqfarg.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Model%20Flat/model-1_mkioeo.webp",
-      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-10_zfd9qu.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-2_gwtvhw.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-3_vpwgn2.webp",
-      "location": "Bangalore",
-      "projectName": "DS Max Sovereign Model Flat",
-      "publishedAt": "2024-10-24T07:44:51.602Z",
-      "slug": "model-flat",
-      "status": "published",
-      "title": "DS Max Sovereign - Model flat, Horamavu"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "elv-kingsland-apartment",
       "status": "published",
       "title": "ELV Kingsland - Apartment"
+    },
+    {
+      "__outstatic": {
+        "commit": "8f6b50d9165d4d5b55e1f7c405f7adf917433254",
+        "hash": "2236616916",
+        "path": "outstatic/content/projects/model-flat.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753823/greywall/projects/Model%20Flat/model-8_yqfarg.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Model%20Flat/model-1_mkioeo.webp",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-10_zfd9qu.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-2_gwtvhw.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-3_vpwgn2.webp",
+      "location": "Horamavu, Bangalore",
+      "projectName": "DS Max Sovereign Model Flat",
+      "publishedAt": "2024-10-24T07:44:51.602Z",
+      "slug": "model-flat",
+      "status": "published",
+      "title": "DS Max Sovereign - Model flat"
     }
   ]
 }

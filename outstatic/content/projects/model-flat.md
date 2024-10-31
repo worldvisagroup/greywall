@@ -1,5 +1,5 @@
 ---
-title: 'DS Max Sovereign - Model flat, Horamavu'
+title: 'DS Max Sovereign - Model flat'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753822/greywall/projects/Model%20Flat/model-5_unwq2d.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753823/greywall/projects/Model%20Flat/model-8_yqfarg.webp'
 category: [{"label":"residential-interior","value":"residentialInterior"}]
-location: 'Bangalore'
+location: 'Horamavu, Bangalore'
 imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729753821/greywall/projects/Model%20Flat/model-10_zfd9qu.webp'
 publishedAt: '2024-10-24T07:44:51.602Z'
 ---
