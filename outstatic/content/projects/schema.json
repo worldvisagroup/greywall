@@ -75,6 +75,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Location"
+    },
+    "imageSix": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "Image six"
     }
   }
 }
