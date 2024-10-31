@@ -1,6 +1,6 @@
 {
-  "commit": "6321b01eec27cdb6cd130ace9213aa309ad9f9d6",
-  "generated": "2024-10-31T12:37:12.823Z",
+  "commit": "f19f6d7f5ea2e6262672a2788768299ea2a58c45",
+  "generated": "2024-10-31T12:40:58.335Z",
   "metadata": [
     {
       "__outstatic": {
@@ -49,43 +49,6 @@
       "slug": "durani-enclave",
       "status": "published",
       "title": "Durani Enclave"
-    },
-    {
-      "__outstatic": {
-        "commit": "153c56404c41967ed1bd19b94c0520cf5779192f",
-        "hash": "3830717303",
-        "path": "outstatic/content/projects/anima.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-12_miv75o.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-2_puvsxn.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687623/greywall/projects/anima/anima-13_fnnxul.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp",
-      "interiorDesign": [
-        {
-          "label": "ok",
-          "value": "ok"
-        }
-      ],
-      "location": "Old Madras Road, Bangalore",
-      "projectName": "Salarpenria East Crest Anima",
-      "publishedAt": "2024-10-23T13:20:46.019Z",
-      "slug": "anima",
-      "status": "published",
-      "title": "Anima"
     },
     {
       "__outstatic": {
@@ -546,6 +509,44 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Meadows - Villa, Mathura UP"
+    },
+    {
+      "__outstatic": {
+        "commit": "f19f6d7f5ea2e6262672a2788768299ea2a58c45",
+        "hash": "578984345",
+        "path": "outstatic/content/projects/anima.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-9_jqp06c.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-7_bokeh4.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687621/greywall/projects/anima/anima-3_djltvq.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687622/greywall/projects/anima/anima-4_tzmgxp.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729687624/greywall/projects/anima/anima-14_tbdjgo.webp",
+      "interiorDesign": [
+        {
+          "label": "ok",
+          "value": "ok"
+        }
+      ],
+      "location": "Old Madras Road, Bangalore",
+      "projectName": "Salarpenria East Crest Anima",
+      "publishedAt": "2024-10-23T13:20:46.019Z",
+      "slug": "anima",
+      "status": "published",
+      "title": "Salarpuria East Crest - Apartment, Old Madras road"
     }
   ]
 }
