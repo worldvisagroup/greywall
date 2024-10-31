@@ -1,6 +1,6 @@
 {
-  "commit": "69403dc23a97ec3fd9b646c2a37e5a7f04cba63b",
-  "generated": "2024-10-31T14:59:11.886Z",
+  "commit": "953eeb26c70f78e5a9486c288dc668947caf1aa3",
+  "generated": "2024-10-31T14:59:51.506Z",
   "metadata": [
     {
       "__outstatic": {
@@ -227,38 +227,6 @@
       "projectName": "August Skin - Facial Studio",
       "publishedAt": "2024-10-23T13:42:02.591Z",
       "slug": "august-skin",
-      "status": "published",
-      "title": "Auguste Skin - Facial Studio, Residency road"
-    },
-    {
-      "__outstatic": {
-        "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
-        "hash": "1872015868",
-        "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381284/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hn806f.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381282/greywall/projects/Auguste%20Skin%20Images/IMG_0130_jej7pg.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
-      "location": "",
-      "projectName": "Auguste Skin - Facial Studio, Residency road",
-      "publishedAt": "2024-10-31T13:42:11.999Z",
-      "slug": "auguste-skin-facial-studio-residency-road",
       "status": "published",
       "title": "Auguste Skin - Facial Studio, Residency road"
     },
@@ -699,6 +667,38 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Meadows - Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "953eeb26c70f78e5a9486c288dc668947caf1aa3",
+        "hash": "2755401929",
+        "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381284/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hn806f.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381282/greywall/projects/Auguste%20Skin%20Images/IMG_0130_jej7pg.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
+      "location": "Residency Road, Bangalore",
+      "projectName": "Auguste Skin - Facial Studio",
+      "publishedAt": "2024-10-31T13:42:11.999Z",
+      "slug": "auguste-skin-facial-studio-residency-road",
+      "status": "published",
+      "title": "Auguste Skin - Facial Studio"
     }
   ]
 }
