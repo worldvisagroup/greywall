@@ -1,6 +1,6 @@
 {
-  "commit": "79d3eafbae5cdc11e68ff85443ef90074e1992bb",
-  "generated": "2024-10-31T12:43:51.579Z",
+  "commit": "dca54be19af092fd4350e1c9932b8318f9984a34",
+  "generated": "2024-10-31T12:48:29.809Z",
   "metadata": [
     {
       "__outstatic": {
@@ -548,6 +548,38 @@
       "slug": "model-flat",
       "status": "published",
       "title": "DS Max Sovereign - Model flat, Horamavu"
+    },
+    {
+      "__outstatic": {
+        "commit": "dca54be19af092fd4350e1c9932b8318f9984a34",
+        "hash": "3594919335",
+        "path": "outstatic/content/projects/elv-kingsland-apartment-whitefield.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/C_1_iwbbdp.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378843/greywall/projects/elv/D_mj68zp.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/A_ttzlvs.jpg",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/E_bcofck.jpg",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greywall/projects/elv/C_vac4go.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/B_nqwciz.jpg",
+      "location": "",
+      "projectName": "ELV Kingsland - Apartment, Whitefield",
+      "publishedAt": "2024-10-31T13:18:26.281Z",
+      "slug": "elv-kingsland-apartment-whitefield",
+      "status": "published",
+      "title": "ELV Kingsland - Apartment, Whitefield"
     }
   ]
 }
