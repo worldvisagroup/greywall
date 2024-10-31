@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378843/greywall/projects/elv/D_mj68zp.jpg'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378841/greywall/projects/elv/C_1_iwbbdp.jpg'
 category: [{"value":"residentialInterior","label":"residential-interior"}]
-location: ''
+location: 'Whitefield, Bangalore'
 imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/E_bcofck.jpg'
 publishedAt: '2024-10-31T13:18:26.281Z'
 ---

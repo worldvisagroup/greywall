@@ -1,6 +1,6 @@
 {
-  "commit": "dca54be19af092fd4350e1c9932b8318f9984a34",
-  "generated": "2024-10-31T12:48:29.809Z",
+  "commit": "8809756f57025d39c82fcf1be64c917676fb6e39",
+  "generated": "2024-10-31T12:49:07.555Z",
   "metadata": [
     {
       "__outstatic": {
@@ -551,8 +551,8 @@
     },
     {
       "__outstatic": {
-        "commit": "dca54be19af092fd4350e1c9932b8318f9984a34",
-        "hash": "3594919335",
+        "commit": "8809756f57025d39c82fcf1be64c917676fb6e39",
+        "hash": "3207446319",
         "path": "outstatic/content/projects/elv-kingsland-apartment-whitefield.md"
       },
       "author": {
@@ -574,7 +574,7 @@
       "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/E_bcofck.jpg",
       "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378846/greywall/projects/elv/C_vac4go.jpg",
       "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730378842/greywall/projects/elv/B_nqwciz.jpg",
-      "location": "",
+      "location": "Whitefield, Bangalore",
       "projectName": "ELV Kingsland - Apartment, Whitefield",
       "publishedAt": "2024-10-31T13:18:26.281Z",
       "slug": "elv-kingsland-apartment-whitefield",
