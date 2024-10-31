@@ -1,6 +1,6 @@
 {
-  "commit": "cd611fb7f56644f09ae828df3906af5e5f4153a4",
-  "generated": "2024-10-30T11:30:21.701Z",
+  "commit": "c04d26846ae1736ace799f6691b021b509cfda07",
+  "generated": "2024-10-31T08:09:17.257Z",
   "metadata": [
     {
       "__outstatic": {
@@ -249,37 +249,6 @@
     },
     {
       "__outstatic": {
-        "commit": "59546dc3ab9d3f108b451f9c2f81b9c5007d100c",
-        "hash": "1851743783",
-        "path": "outstatic/content/projects/kulsum.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/6-6719258262aea_f58hdf.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/5-67192581c6b4b_jzkjd4.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701344/greywall/projects/Kulsum/2-6719257ae187f_vbirhi.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701343/greywall/projects/Kulsum/3-6719257ea73da_mpsn4w.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729701344/greywall/projects/Kulsum/1-6719257ab200b_ykpduz.webp",
-      "location": "Bangalore",
-      "projectName": "Kulsum Makeup Studio",
-      "publishedAt": "2024-10-23T17:09:05.700Z",
-      "slug": "kulsum",
-      "status": "published",
-      "title": "Kulsum Makeup Studio"
-    },
-    {
-      "__outstatic": {
         "commit": "da1012ceec3558db7fec170605eba9e275a5b1a6",
         "hash": "793391182",
         "path": "outstatic/content/projects/mm-javeed.md"
@@ -507,6 +476,37 @@
       "slug": "august-skin",
       "status": "published",
       "title": "August Skin - Facial Studio"
+    },
+    {
+      "__outstatic": {
+        "commit": "c04d26846ae1736ace799f6691b021b509cfda07",
+        "hash": "4246605738",
+        "path": "outstatic/content/projects/kulsum.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/E_ek5xi6.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/D_ijwfid.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/A_hgeyka.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/C_tyqbqr.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730361974/greywall/projects/Kulsum/B_hnvpno.webp",
+      "location": "Bangalore",
+      "projectName": "Kulsum Makeup Studio",
+      "publishedAt": "2024-10-23T17:09:05.700Z",
+      "slug": "kulsum",
+      "status": "published",
+      "title": "Kulsum Parvez - Makeup Studio, Mekhri Circle"
     }
   ]
 }
