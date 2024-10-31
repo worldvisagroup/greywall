@@ -1,6 +1,6 @@
 {
-  "commit": "7d7958f00f8fcb1d026907b95b57b47858acc261",
-  "generated": "2024-10-31T08:14:41.170Z",
+  "commit": "3623c638725443555f1d028b0e78e0363c0926ea",
+  "generated": "2024-10-31T11:07:04.099Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,24 +19,6 @@
       "slug": "residential-interior",
       "status": "published",
       "title": "Residential Interior "
-    },
-    {
-      "__outstatic": {
-        "commit": "ff72e8803803f295c6cc39a03b8f80664c19686d",
-        "hash": "1157183983",
-        "path": "outstatic/content/homepage-all-projects/commercial-interior.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "homepage-all-projects",
-      "coverImage": "/images/commercial-inte-UwMD.png",
-      "description": "",
-      "publishedAt": "2024-10-29T05:41:05.501Z",
-      "slug": "commercial-interior",
-      "status": "published",
-      "title": "Commercial Interior "
     },
     {
       "__outstatic": {
@@ -508,6 +490,24 @@
       "slug": "kulsum",
       "status": "published",
       "title": "Kulsum Parvez - Makeup Studio, Mekhri Circle"
+    },
+    {
+      "__outstatic": {
+        "commit": "3623c638725443555f1d028b0e78e0363c0926ea",
+        "hash": "2208381555",
+        "path": "outstatic/content/homepage-all-projects/commercial-interior.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/commercial-inte-UwMD.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:41:05.501Z",
+      "slug": "commercial-interior",
+      "status": "published",
+      "title": "Commercial Interiors"
     }
   ]
 }

@@ -1,5 +1,5 @@
 ---
-title: 'Commercial Interior '
+title: 'Commercial Interiors'
 status: 'published'
 author:
   name: 'World Visa Consultants'
