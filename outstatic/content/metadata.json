@@ -1,6 +1,6 @@
 {
-  "commit": "5acbee4d7aadf3fd45feacf4c54050b1a15e8e82",
-  "generated": "2024-10-31T12:04:19.777Z",
+  "commit": "e8bed5b3745436cc6ab677b5f44ad3c30b3add8d",
+  "generated": "2024-10-31T12:07:03.178Z",
   "metadata": [
     {
       "__outstatic": {
@@ -49,37 +49,6 @@
       "slug": "durani-enclave",
       "status": "published",
       "title": "Durani Enclave"
-    },
-    {
-      "__outstatic": {
-        "commit": "c63cc03270eb1c16f1e4f3fa45b6cf8ff8490d2b",
-        "hash": "1260236673",
-        "path": "outstatic/content/projects/chilli-garlic.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img2_dxlvzf.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image4_bt3yhu.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image5_xwanse.webp",
-      "location": "Indira Nagar, Bangalore",
-      "projectName": "Chilli Garlic",
-      "publishedAt": "2024-10-23T13:46:51.133Z",
-      "slug": "chilli-garlic",
-      "status": "published",
-      "title": "Chilli Garlic"
     },
     {
       "__outstatic": {
@@ -544,6 +513,38 @@
       "slug": "august-skin",
       "status": "published",
       "title": "Auguste Skin - Facial Studio, Residency road"
+    },
+    {
+      "__outstatic": {
+        "commit": "e8bed5b3745436cc6ab677b5f44ad3c30b3add8d",
+        "hash": "3701682331",
+        "path": "outstatic/content/projects/chilli-garlic.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "construction",
+          "value": "construction"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img2_dxlvzf.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image4_bt3yhu.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689218/greywall/projects/Chilli%20garlic/image5_xwanse.webp",
+      "location": "Indira Nagar, Bangalore",
+      "projectName": "Chilli Garlic",
+      "publishedAt": "2024-10-23T13:46:51.133Z",
+      "slug": "chilli-garlic",
+      "status": "published",
+      "title": "Chilli Garlic"
     }
   ]
 }
