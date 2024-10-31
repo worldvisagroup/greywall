@@ -1,6 +1,6 @@
 {
-  "commit": "dad5d7e15088fca36fc797dccb56535de92a47aa",
-  "generated": "2024-10-31T14:38:53.645Z",
+  "commit": "59a746a230ea2439d276834bcde22ab4a10c4622",
+  "generated": "2024-10-31T14:46:19.990Z",
   "metadata": [
     {
       "__outstatic": {
@@ -69,24 +69,6 @@
       "slug": "kulsum",
       "status": "published",
       "title": "Kulsum Parvez - Makeup Studio, Mekhri Circle"
-    },
-    {
-      "__outstatic": {
-        "commit": "3623c638725443555f1d028b0e78e0363c0926ea",
-        "hash": "2208381555",
-        "path": "outstatic/content/homepage-all-projects/commercial-interior.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "homepage-all-projects",
-      "coverImage": "/images/commercial-inte-UwMD.png",
-      "description": "",
-      "publishedAt": "2024-10-29T05:41:05.501Z",
-      "slug": "commercial-interior",
-      "status": "published",
-      "title": "Commercial Interiors"
     },
     {
       "__outstatic": {
@@ -699,6 +681,24 @@
       "slug": "anima",
       "status": "published",
       "title": "Salarpuria East Crest - Apartment, Old Madras road"
+    },
+    {
+      "__outstatic": {
+        "commit": "59a746a230ea2439d276834bcde22ab4a10c4622",
+        "hash": "4084499582",
+        "path": "outstatic/content/homepage-all-projects/commercial-interiors.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/commercial-inte-UwMD.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:41:05.501Z",
+      "slug": "commercial-interiors",
+      "status": "published",
+      "title": "Commercial Interiors"
     }
   ]
 }
