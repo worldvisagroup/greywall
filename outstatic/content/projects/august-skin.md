@@ -1,5 +1,5 @@
 ---
-title: 'Auguste Skin - Facial Studio, Residency road'
+title: 'Auguste Skin - Facial Studio'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375942/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375951/greywall/projects/Auguste%20Skin%20Images/D_pnawdf.png'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730376137/greywall/projects/Auguste%20Skin%20Images/E-min_1_erxmn8.png'
 category: [{"value":"commercialInterior","label":"commercial-interior"}]
-location: 'Residency Road Bangalore'
+location: 'Residency Road, Bangalore'
 imageSix: ''
 publishedAt: '2024-10-23T13:42:02.591Z'
 ---

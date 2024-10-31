@@ -1,6 +1,6 @@
 {
-  "commit": "5c026af0a4b999074898ff6e6ec2516a310f3dfe",
-  "generated": "2024-10-31T15:06:40.325Z",
+  "commit": "90bbba4830f745101aa9489ab9223608b9fb2ea9",
+  "generated": "2024-10-31T15:08:22.444Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,38 +37,6 @@
       "slug": "constructions",
       "status": "published",
       "title": "Architecture"
-    },
-    {
-      "__outstatic": {
-        "commit": "8c081503f894bd7df0295e188a9cff7aa6523360",
-        "hash": "217705046",
-        "path": "outstatic/content/projects/august-skin.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376137/greywall/projects/Auguste%20Skin%20Images/E-min_1_erxmn8.png",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375951/greywall/projects/Auguste%20Skin%20Images/D_pnawdf.png",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375939/greywall/projects/Auguste%20Skin%20Images/A_mkvv7q.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375942/greywall/projects/Auguste%20Skin%20Images/C_deeuqk.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376214/greywall/projects/Auguste%20Skin%20Images/B-min_b3c8ih.png",
-      "location": "Residency Road Bangalore",
-      "projectName": "August Skin - Facial Studio",
-      "publishedAt": "2024-10-23T13:42:02.591Z",
-      "slug": "august-skin",
-      "status": "published",
-      "title": "Auguste Skin - Facial Studio, Residency road"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "durani-enclave",
       "status": "published",
       "title": "Durani Enclave- Commercial Complex"
+    },
+    {
+      "__outstatic": {
+        "commit": "90bbba4830f745101aa9489ab9223608b9fb2ea9",
+        "hash": "2827429293",
+        "path": "outstatic/content/projects/august-skin.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376137/greywall/projects/Auguste%20Skin%20Images/E-min_1_erxmn8.png",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375951/greywall/projects/Auguste%20Skin%20Images/D_pnawdf.png",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375939/greywall/projects/Auguste%20Skin%20Images/A_mkvv7q.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375942/greywall/projects/Auguste%20Skin%20Images/C_deeuqk.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376214/greywall/projects/Auguste%20Skin%20Images/B-min_b3c8ih.png",
+      "location": "Residency Road, Bangalore",
+      "projectName": "August Skin - Facial Studio",
+      "publishedAt": "2024-10-23T13:42:02.591Z",
+      "slug": "august-skin",
+      "status": "published",
+      "title": "Auguste Skin - Facial Studio"
     }
   ]
 }
