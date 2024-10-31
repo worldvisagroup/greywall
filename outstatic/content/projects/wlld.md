@@ -1,5 +1,5 @@
 ---
-title: 'WLDD - Corporate Office, Basavangudi'
+title: 'WLDD '
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greyw
 imageFour: ''
 imageFive: ''
 category: [{"value":"civil","label":"civil"}]
-location: 'Basavangudi, Bangalore'
+location: 'Corporate Office, Basavangudi'
 imageSix: ''
 publishedAt: '2024-10-23T16:15:22.229Z'
 ---
