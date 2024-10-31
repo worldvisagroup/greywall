@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730376214/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375942/greywall/projects/Auguste%20Skin%20Images/C_deeuqk.jpg'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730375951/greywall/projects/Auguste%20Skin%20Images/D_pnawdf.png'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730376137/greywall/projects/Auguste%20Skin%20Images/E-min_1_erxmn8.png'
-category: [{"value":"commercialInterior","label":"commercial-interior"}]
+category: [{"value":"commercialInterior","label":"commercial-interior"},{"value":"civil","label":"civil"}]
 location: 'Residency Road Bangalore'
 imageSix: ''
 publishedAt: '2024-10-23T13:42:02.591Z'
