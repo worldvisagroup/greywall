@@ -1,6 +1,6 @@
 {
-  "commit": "07ad1924f2636bad63ed0d2762cc28ad356b8570",
-  "generated": "2024-10-31T13:33:26.684Z",
+  "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
+  "generated": "2024-10-31T13:34:08.468Z",
   "metadata": [
     {
       "__outstatic": {
@@ -19,36 +19,6 @@
       "slug": "civil",
       "status": "published",
       "title": "Civil"
-    },
-    {
-      "__outstatic": {
-        "commit": "b688dd06af556b3590d011b3644df9745a36bd0f",
-        "hash": "3809130945",
-        "path": "outstatic/content/projects/durani-enclave.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "construction",
-          "value": "construction"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
-      "projectName": "Durani Enclave",
-      "publishedAt": "2024-10-23T13:51:29.417Z",
-      "slug": "durani-enclave",
-      "status": "published",
-      "title": "Durani Enclave"
     },
     {
       "__outstatic": {
@@ -646,6 +616,38 @@
       "slug": "chilli-garlic",
       "status": "published",
       "title": "Chilli Garlic - Restaurant, Indiranagar"
+    },
+    {
+      "__outstatic": {
+        "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
+        "hash": "1762528953",
+        "path": "outstatic/content/projects/durani-enclave.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
+      "location": "",
+      "projectName": "Durani Enclave",
+      "publishedAt": "2024-10-23T13:51:29.417Z",
+      "slug": "durani-enclave",
+      "status": "published",
+      "title": "Durani Enclave"
     }
   ]
 }

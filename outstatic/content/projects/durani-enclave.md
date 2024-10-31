@@ -13,7 +13,9 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp'
 imageFive: ''
-category: [{"value":"construction","label":"construction"}]
+category: [{"value":"civil","label":"civil"}]
+location: ''
+imageSix: ''
 publishedAt: '2024-10-23T13:51:29.417Z'
 ---
 
