@@ -1,5 +1,5 @@
 ---
-title: 'Chilli Garlic - Restaurant, Indiranagar'
+title: 'Chilli Garlic - Restaurant'
 status: 'published'
 author:
   name: 'World Visa Consultants'

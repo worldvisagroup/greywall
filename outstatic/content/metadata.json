@@ -1,6 +1,6 @@
 {
-  "commit": "d99935fe547c511298b5cc1a5a467ed840359b82",
-  "generated": "2024-10-31T15:01:30.131Z",
+  "commit": "d01c73c7d02108fad0a237e68671a7ab6896b161",
+  "generated": "2024-10-31T15:02:22.040Z",
   "metadata": [
     {
       "__outstatic": {
@@ -101,38 +101,6 @@
       "slug": "wlld",
       "status": "published",
       "title": "WLDD - Corporate Office, Basavangudi"
-    },
-    {
-      "__outstatic": {
-        "commit": "07ad1924f2636bad63ed0d2762cc28ad356b8570",
-        "hash": "1934606460",
-        "path": "outstatic/content/projects/chilli-garlic.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381559/greywall/projects/Chilli%20garlic/D_w1l8jg.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381558/greywall/projects/Chilli%20garlic/A_hndkaa.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381556/greywall/projects/Chilli%20garlic/B_ssbw8s.jpg",
-      "location": "Indira Nagar, Bangalore",
-      "projectName": "Chilli Garlic",
-      "publishedAt": "2024-10-23T13:46:51.133Z",
-      "slug": "chilli-garlic",
-      "status": "published",
-      "title": "Chilli Garlic - Restaurant, Indiranagar"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "the-white-room",
       "status": "published",
       "title": "The White Room - Cafe"
+    },
+    {
+      "__outstatic": {
+        "commit": "d01c73c7d02108fad0a237e68671a7ab6896b161",
+        "hash": "2600671134",
+        "path": "outstatic/content/projects/chilli-garlic.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381559/greywall/projects/Chilli%20garlic/D_w1l8jg.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381558/greywall/projects/Chilli%20garlic/A_hndkaa.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381556/greywall/projects/Chilli%20garlic/B_ssbw8s.jpg",
+      "location": "Indira Nagar, Bangalore",
+      "projectName": "Chilli Garlic",
+      "publishedAt": "2024-10-23T13:46:51.133Z",
+      "slug": "chilli-garlic",
+      "status": "published",
+      "title": "Chilli Garlic - Restaurant"
     }
   ]
 }
