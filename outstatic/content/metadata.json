@@ -1,6 +1,6 @@
 {
   "commit": "8c081503f894bd7df0295e188a9cff7aa6523360",
-  "generated": "2024-10-31T13:00:21.383Z",
+  "generated": "2024-10-31T13:06:49.709Z",
   "metadata": [
     {
       "__outstatic": {
@@ -585,7 +585,7 @@
     {
       "__outstatic": {
         "commit": "8c081503f894bd7df0295e188a9cff7aa6523360",
-        "hash": "2724955644",
+        "hash": "217705046",
         "path": "outstatic/content/projects/august-skin.md"
       },
       "author": {
@@ -596,10 +596,6 @@
         {
           "label": "commercial-interior",
           "value": "commercialInterior"
-        },
-        {
-          "label": "civil",
-          "value": "civil"
         }
       ],
       "collection": "projects",
