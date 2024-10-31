@@ -1,6 +1,6 @@
 {
   "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
-  "generated": "2024-10-31T15:03:20.037Z",
+  "generated": "2024-10-31T15:04:08.599Z",
   "metadata": [
     {
       "__outstatic": {
@@ -671,7 +671,7 @@
     {
       "__outstatic": {
         "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
-        "hash": "423004170",
+        "hash": "3713043086",
         "path": "outstatic/content/projects/wlld.md"
       },
       "author": {
@@ -693,12 +693,12 @@
       "imageSix": "",
       "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
       "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
-      "location": "Corporate Office, Basavangudi",
+      "location": "Basavangudi, Bangalore",
       "projectName": "WLDD - Corporate Office, Basavangudi",
       "publishedAt": "2024-10-23T16:15:22.229Z",
       "slug": "wlld",
       "status": "published",
-      "title": "WLDD "
+      "title": "WLDD - Corporate Office"
     }
   ]
 }
