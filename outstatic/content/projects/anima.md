@@ -1,5 +1,5 @@
 ---
-title: 'Salarpuria East Crest - Apartment, Old Madras road'
+title: 'Salarpuria East Crest - Apartment'
 status: 'published'
 author:
   name: 'World Visa Consultants'
