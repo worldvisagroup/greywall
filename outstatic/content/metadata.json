@@ -1,6 +1,6 @@
 {
-  "commit": "8809756f57025d39c82fcf1be64c917676fb6e39",
-  "generated": "2024-10-31T12:49:07.555Z",
+  "commit": "beba7024b85c825a18f48b492f572cfc79917623",
+  "generated": "2024-10-31T12:52:06.412Z",
   "metadata": [
     {
       "__outstatic": {
@@ -49,37 +49,6 @@
       "slug": "durani-enclave",
       "status": "published",
       "title": "Durani Enclave"
-    },
-    {
-      "__outstatic": {
-        "commit": "a80ce4bd3d5d69882dad2fa820c8a8f3a436755c",
-        "hash": "2633326987",
-        "path": "outstatic/content/projects/nti-villa.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/NTI%20Villa/villa-2_udvxtb.png",
-      "imageThree": "",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywall/projects/NTI%20Villa/villa-1_jse7yo.png",
-      "location": "Hebbal, Bangalore",
-      "projectName": "NTI Villa",
-      "publishedAt": "2024-10-24T07:46:10.780Z",
-      "slug": "nti-villa",
-      "status": "published",
-      "title": "NTI Villa"
     },
     {
       "__outstatic": {
@@ -580,6 +549,38 @@
       "slug": "elv-kingsland-apartment-whitefield",
       "status": "published",
       "title": "ELV Kingsland - Apartment, Whitefield"
+    },
+    {
+      "__outstatic": {
+        "commit": "beba7024b85c825a18f48b492f572cfc79917623",
+        "hash": "2630550612",
+        "path": "outstatic/content/projects/nti-villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379064/greywall/projects/NTI%20Villa/E_ooywyr.png",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/D_wgipv7.png",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/A_asqksq.png",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/F_pxrukl.png",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/C_ytpmsl.png",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/B_bvnhfq.png",
+      "location": "Hebbal, Bangalore",
+      "projectName": "NTI Villa",
+      "publishedAt": "2024-10-24T07:46:10.780Z",
+      "slug": "nti-villa",
+      "status": "published",
+      "title": "Splendid Serenity - Villa, Hebbal"
     }
   ]
 }
