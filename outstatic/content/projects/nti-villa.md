@@ -1,5 +1,5 @@
 ---
-title: 'Splendid Serenity - Villa, Hebbal'
+title: 'Splendid Serenity - Villa'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -7,7 +7,7 @@ author:
 slug: 'nti-villa'
 description: ''
 coverImage: ''
-projectName: 'NTI Villa'
+projectName: 'Splendid Serenity - Villa'
 imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/A_asqksq.png'
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/B_bvnhfq.png'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/C_ytpmsl.png'
@@ -19,4 +19,4 @@ imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywal
 publishedAt: '2024-10-24T07:46:10.780Z'
 ---
 
-Splendid Serenity - Villa, Hebbal
+Splendid Serenity - Villa

@@ -1,6 +1,6 @@
 {
-  "commit": "8f6b50d9165d4d5b55e1f7c405f7adf917433254",
-  "generated": "2024-10-31T14:58:04.808Z",
+  "commit": "f4a8452b77e3e7a90f0f032f0a1073eec04e7197",
+  "generated": "2024-10-31T14:58:50.110Z",
   "metadata": [
     {
       "__outstatic": {
@@ -229,38 +229,6 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Meadows - Villa, Mathura UP"
-    },
-    {
-      "__outstatic": {
-        "commit": "beba7024b85c825a18f48b492f572cfc79917623",
-        "hash": "2630550612",
-        "path": "outstatic/content/projects/nti-villa.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379064/greywall/projects/NTI%20Villa/E_ooywyr.png",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/D_wgipv7.png",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/A_asqksq.png",
-      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/F_pxrukl.png",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/C_ytpmsl.png",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/B_bvnhfq.png",
-      "location": "Hebbal, Bangalore",
-      "projectName": "NTI Villa",
-      "publishedAt": "2024-10-24T07:46:10.780Z",
-      "slug": "nti-villa",
-      "status": "published",
-      "title": "Splendid Serenity - Villa, Hebbal"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "model-flat",
       "status": "published",
       "title": "DS Max Sovereign - Model flat"
+    },
+    {
+      "__outstatic": {
+        "commit": "f4a8452b77e3e7a90f0f032f0a1073eec04e7197",
+        "hash": "1276111668",
+        "path": "outstatic/content/projects/nti-villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379064/greywall/projects/NTI%20Villa/E_ooywyr.png",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/D_wgipv7.png",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/A_asqksq.png",
+      "imageSix": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/F_pxrukl.png",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379063/greywall/projects/NTI%20Villa/C_ytpmsl.png",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730379062/greywall/projects/NTI%20Villa/B_bvnhfq.png",
+      "location": "Hebbal, Bangalore",
+      "projectName": "Splendid Serenity - Villa",
+      "publishedAt": "2024-10-24T07:46:10.780Z",
+      "slug": "nti-villa",
+      "status": "published",
+      "title": "Splendid Serenity - Villa"
     }
   ]
 }
