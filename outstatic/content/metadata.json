@@ -1,6 +1,6 @@
 {
-  "commit": "b38188842496ec9d9b631e21453e6aa4ca724893",
-  "generated": "2024-10-31T13:39:37.730Z",
+  "commit": "ec1ac76b6d7c517e6358aa85e5fd01c37c1aa7ff",
+  "generated": "2024-10-31T13:39:49.104Z",
   "metadata": [
     {
       "__outstatic": {
@@ -651,8 +651,8 @@
     },
     {
       "__outstatic": {
-        "commit": "b38188842496ec9d9b631e21453e6aa4ca724893",
-        "hash": "1988722240",
+        "commit": "ec1ac76b6d7c517e6358aa85e5fd01c37c1aa7ff",
+        "hash": "2598021691",
         "path": "outstatic/content/projects/highgates-restaurant-indiranagar.md"
       },
       "author": {
@@ -674,7 +674,7 @@
       "imageSix": "",
       "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381936/greywall/projects/highgates/C_dd5cxn.heic",
       "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381933/greywall/projects/highgates/B_oy6ypp.heic",
-      "location": "",
+      "location": "Indiranagar, Bangalore",
       "projectName": "Highgates - Restaurant, Indiranagar",
       "publishedAt": "2024-10-31T14:10:51.467Z",
       "slug": "highgates-restaurant-indiranagar",

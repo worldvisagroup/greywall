@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381936/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381938/greywall/projects/highgates/D_fpkvb0.heic'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381940/greywall/projects/highgates/E_cpcpvz.heic'
 category: [{"value":"civil","label":"civil"}]
-location: ''
+location: 'Indiranagar, Bangalore'
 imageSix: ''
 publishedAt: '2024-10-31T14:10:51.467Z'
 ---
