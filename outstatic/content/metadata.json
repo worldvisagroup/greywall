@@ -1,6 +1,6 @@
 {
-  "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
-  "generated": "2024-10-31T13:28:23.999Z",
+  "commit": "f5f04b9ec92254ca5d9175e91ce7470dcfb65c30",
+  "generated": "2024-10-31T13:29:36.186Z",
   "metadata": [
     {
       "__outstatic": {
@@ -124,37 +124,6 @@
       "slug": "constructions",
       "status": "published",
       "title": "Architecture"
-    },
-    {
-      "__outstatic": {
-        "commit": "65bce15be191657086e64631d6be659f0b8b49ff",
-        "hash": "3284351028",
-        "path": "outstatic/content/projects/wlld.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
-      "location": "Bangalore",
-      "projectName": "WLLD",
-      "publishedAt": "2024-10-23T16:15:22.229Z",
-      "slug": "wlld",
-      "status": "published",
-      "title": "WLLD"
     },
     {
       "__outstatic": {
@@ -645,6 +614,38 @@
       "slug": "auguste-skin-facial-studio-residency-road",
       "status": "published",
       "title": "Auguste Skin - Facial Studio, Residency road"
+    },
+    {
+      "__outstatic": {
+        "commit": "f5f04b9ec92254ca5d9175e91ce7470dcfb65c30",
+        "hash": "3997919863",
+        "path": "outstatic/content/projects/wlld.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7078-671918cc1198c_bcjcd0.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698125/greywall/projects/WLDD/img-7080-671918e3df9f9_qxixiv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729698126/greywall/projects/WLDD/img-7079-671918cc19bbc_aibp5p.webp",
+      "location": "Basavangudi, Bangalore",
+      "projectName": "WLDD - Corporate Office, Basavangudi",
+      "publishedAt": "2024-10-23T16:15:22.229Z",
+      "slug": "wlld",
+      "status": "published",
+      "title": "WLDD - Corporate Office, Basavangudi"
     }
   ]
 }
