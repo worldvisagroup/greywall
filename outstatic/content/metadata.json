@@ -1,6 +1,6 @@
 {
-  "commit": "73f08a4f83c69e356cb462964c47317fbb3492c5",
-  "generated": "2024-10-31T14:08:40.638Z",
+  "commit": "55e5e462cc38f22f8a913901c507d01f88e7668c",
+  "generated": "2024-10-31T14:09:23.603Z",
   "metadata": [
     {
       "__outstatic": {
@@ -57,25 +57,6 @@
       "slug": "syed-mahak-bukhari",
       "status": "draft",
       "title": "Syed Mahak Bukhari"
-    },
-    {
-      "__outstatic": {
-        "commit": "329db9584d29206c5943f5860521d9ed9622963d",
-        "hash": "3857410807",
-        "path": "outstatic/content/reviews/lionel-roshan.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reviews",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730266664/greywall/reviews/1730266623084_r0fx5y.png",
-      "description": "",
-      "publishedAt": "2024-10-30T06:11:55.741Z",
-      "ratings": "5",
-      "slug": "lionel-roshan",
-      "status": "draft",
-      "title": "Lionel Roshan"
     },
     {
       "__outstatic": {
@@ -699,6 +680,25 @@
       "slug": "syed-moeenuddin",
       "status": "published",
       "title": "Syed Moeenuddin"
+    },
+    {
+      "__outstatic": {
+        "commit": "55e5e462cc38f22f8a913901c507d01f88e7668c",
+        "hash": "4125522376",
+        "path": "outstatic/content/reviews/lionel-roshan.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reviews",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730266664/greywall/reviews/1730266623084_r0fx5y.png",
+      "description": "",
+      "publishedAt": "2024-10-30T06:11:55.741Z",
+      "ratings": "5",
+      "slug": "lionel-roshan",
+      "status": "published",
+      "title": "Lionel Roshan"
     }
   ]
 }
