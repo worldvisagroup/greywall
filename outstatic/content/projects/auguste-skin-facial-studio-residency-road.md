@@ -13,7 +13,7 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0130_l3eoip.heic'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hvjizv.heic'
 imageFive: ''
-category: [{"value":"construction","label":"construction"}]
+category: [{"value":"civil","label":"civil"}]
 location: ''
 imageSix: ''
 publishedAt: '2024-10-31T13:42:11.999Z'

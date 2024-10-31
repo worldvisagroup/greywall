@@ -1,6 +1,6 @@
 {
-  "commit": "7c92157d78ebc93ff2795b274a23742650f4257a",
-  "generated": "2024-10-31T13:25:42.995Z",
+  "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
+  "generated": "2024-10-31T13:26:02.624Z",
   "metadata": [
     {
       "__outstatic": {
@@ -616,8 +616,8 @@
     },
     {
       "__outstatic": {
-        "commit": "7c92157d78ebc93ff2795b274a23742650f4257a",
-        "hash": "3573246010",
+        "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
+        "hash": "2325575858",
         "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
       },
       "author": {
@@ -626,8 +626,8 @@
       },
       "category": [
         {
-          "label": "construction",
-          "value": "construction"
+          "label": "civil",
+          "value": "civil"
         }
       ],
       "collection": "projects",
