@@ -1,6 +1,6 @@
 {
-  "commit": "6c2a328902cce91a4d93b712e554d426d3a33bb1",
-  "generated": "2024-10-31T15:00:34.166Z",
+  "commit": "e63182283c20836dc461f6b74dfccf5cc5030d62",
+  "generated": "2024-10-31T15:00:51.470Z",
   "metadata": [
     {
       "__outstatic": {
@@ -37,38 +37,6 @@
       "slug": "constructions",
       "status": "published",
       "title": "Architecture"
-    },
-    {
-      "__outstatic": {
-        "commit": "dcd7500700fbdc852021f8c9b0c67c7f398b3740",
-        "hash": "4105771820",
-        "path": "outstatic/content/projects/mm-javeed.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700840/greywall/projects/MM%20Javeed/3d-671923987dfbb_alkvzb.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700836/greywall/projects/MM%20Javeed/3c-67192394acf23_e7offg.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700839/greywall/projects/MM%20Javeed/1-6719238d4b9a0_ywrvgs.webp",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700837/greywall/projects/MM%20Javeed/3b-67192394ac702_no1glu.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700838/greywall/projects/MM%20Javeed/1a-6719238d79b1a_cgdd04.webp",
-      "location": "Bangalore",
-      "projectName": "MM Javeed - Retail Studio",
-      "publishedAt": "2024-10-23T17:00:56.188Z",
-      "slug": "mm-javeed",
-      "status": "published",
-      "title": "MM Javeed - Retail store, Brigade road"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "kulsum",
       "status": "published",
       "title": "Kulsum Parvez - Makeup Studio"
+    },
+    {
+      "__outstatic": {
+        "commit": "e63182283c20836dc461f6b74dfccf5cc5030d62",
+        "hash": "3269363698",
+        "path": "outstatic/content/projects/mm-javeed.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700840/greywall/projects/MM%20Javeed/3d-671923987dfbb_alkvzb.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700836/greywall/projects/MM%20Javeed/3c-67192394acf23_e7offg.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700839/greywall/projects/MM%20Javeed/1-6719238d4b9a0_ywrvgs.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700837/greywall/projects/MM%20Javeed/3b-67192394ac702_no1glu.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729700838/greywall/projects/MM%20Javeed/1a-6719238d79b1a_cgdd04.webp",
+      "location": "Brigade road, Bangalore",
+      "projectName": "MM Javeed - Retail Studio",
+      "publishedAt": "2024-10-23T17:00:56.188Z",
+      "slug": "mm-javeed",
+      "status": "published",
+      "title": "MM Javeed - Retail store"
     }
   ]
 }
