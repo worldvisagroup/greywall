@@ -26,7 +26,9 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   imageThree,
   imageFour,
   imageFive,
+  imageSix,
   location,
+  inProgress,
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
@@ -51,9 +53,14 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
     tweenFactor.current = TWEEN_FACTOR_BASE * emblaApi.scrollSnapList().length;
   }, []);
 
-  const images = [imageOne, imageTwo, imageThree, imageFour, imageFive].filter(
-    Boolean
-  );
+  const images = [
+    imageOne,
+    imageTwo,
+    imageThree,
+    imageFour,
+    imageFive,
+    imageSix,
+  ].filter(Boolean);
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -117,8 +124,9 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
 
   return (
     <div className="relative mb-40">
-      <h2 className="text-[50px] lg:text-[80px] tracking-wider leading-[60px] sm:leading-[82px] mt-8 mb-4 font-northwell">
+      <h2 className="text-[50px] lg:text-[55px] tracking-wider leading-[60px] sm:leading-[82px] mt-8 mb-4 font-northwell">
         {title}
+        {inProgress ? <span> (Under Development)</span> : <></>}
       </h2>
       <p className="text-lg mb-8">{location}</p>
       {/* Embla carousel container */}

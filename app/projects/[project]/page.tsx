@@ -38,10 +38,12 @@ export default async function Index({
   );
 
   if (projects) {
-    const heading = params.project
+    let heading = params.project
       .split("-")
       .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
       .join(" ");
+
+    heading = heading.includes("Interior") ? heading + "s" : heading;
 
     return (
       <>
@@ -76,7 +78,9 @@ export default async function Index({
                       imageThree,
                       imageFour,
                       imageFive,
+                      imageSix,
                       location,
+                      inProgress
                     }: any) => (
                       <div key={title}>
                         <ProjectSlider
@@ -86,7 +90,9 @@ export default async function Index({
                           imageThree={imageThree}
                           imageFour={imageFour}
                           imageFive={imageFive}
+                          imageSix={imageSix}
                           location={location}
+                          inProgress={inProgress}
                         />
                       </div>
                     )
