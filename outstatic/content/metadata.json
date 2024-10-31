@@ -1,6 +1,6 @@
 {
   "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
-  "generated": "2024-10-31T13:26:02.624Z",
+  "generated": "2024-10-31T13:28:23.999Z",
   "metadata": [
     {
       "__outstatic": {
@@ -617,7 +617,7 @@
     {
       "__outstatic": {
         "commit": "5ec97705c47f1c948de4fa008d508bfc275b7c53",
-        "hash": "2325575858",
+        "hash": "1872015868",
         "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
       },
       "author": {
@@ -634,10 +634,10 @@
       "coverImage": "",
       "description": "",
       "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hvjizv.heic",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381284/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hn806f.jpg",
       "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
       "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0130_l3eoip.heic",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381282/greywall/projects/Auguste%20Skin%20Images/IMG_0130_jej7pg.jpg",
       "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
       "location": "",
       "projectName": "Auguste Skin - Facial Studio, Residency road",
