@@ -1,6 +1,6 @@
 {
   "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
-  "generated": "2024-10-31T13:34:08.468Z",
+  "generated": "2024-10-31T13:36:32.806Z",
   "metadata": [
     {
       "__outstatic": {
@@ -620,7 +620,7 @@
     {
       "__outstatic": {
         "commit": "c159d436976c61a8bf1f76bc917c5b88e0cbfbd0",
-        "hash": "1762528953",
+        "hash": "343534296",
         "path": "outstatic/content/projects/durani-enclave.md"
       },
       "author": {
@@ -637,11 +637,11 @@
       "coverImage": "",
       "description": "",
       "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381747/greywall/projects/Durani%20Enclave/1_gspebp.jpg",
       "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381746/greywall/projects/Durani%20Enclave/2_yv6xcl.jpg",
       "location": "",
       "projectName": "Durani Enclave",
       "publishedAt": "2024-10-23T13:51:29.417Z",
