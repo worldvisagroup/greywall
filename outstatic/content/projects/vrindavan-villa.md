@@ -1,5 +1,5 @@
 ---
-title: 'Vrindavan Meadows - Villa, Mathura UP'
+title: 'Vrindavan Meadows - Villa'
 status: 'published'
 author:
   name: 'World Visa Consultants'

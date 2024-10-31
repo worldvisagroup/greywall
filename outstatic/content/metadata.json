@@ -1,6 +1,6 @@
 {
-  "commit": "f4a8452b77e3e7a90f0f032f0a1073eec04e7197",
-  "generated": "2024-10-31T14:58:50.110Z",
+  "commit": "69403dc23a97ec3fd9b646c2a37e5a7f04cba63b",
+  "generated": "2024-10-31T14:59:11.886Z",
   "metadata": [
     {
       "__outstatic": {
@@ -197,38 +197,6 @@
       "slug": "pramata-corporate-office-brigade-road",
       "status": "published",
       "title": "Pramata - Corporate Office, Brigade road"
-    },
-    {
-      "__outstatic": {
-        "commit": "6321b01eec27cdb6cd130ace9213aa309ad9f9d6",
-        "hash": "247074205",
-        "path": "outstatic/content/projects/vrindavan-villa.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "residential-interior",
-          "value": "residentialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753818/greywall/projects/Vrindavan%20Villa/vrindavan-7_ekkx25.jpg",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Vrindavan%20Villa/vrindavan-9_oqrtei.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywall/projects/Vrindavan%20Villa/vrindavan-1_qd7t9c.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753818/greywall/projects/Vrindavan%20Villa/vrindavan-4_qcm083.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-3_taiw3v.jpg",
-      "location": "Mathura, Uttar Pradesh",
-      "projectName": "Vrindavan Villa",
-      "publishedAt": "2024-10-24T07:43:24.740Z",
-      "slug": "vrindavan-villa",
-      "status": "published",
-      "title": "Vrindavan Meadows - Villa, Mathura UP"
     },
     {
       "__outstatic": {
@@ -699,6 +667,38 @@
       "slug": "nti-villa",
       "status": "published",
       "title": "Splendid Serenity - Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "69403dc23a97ec3fd9b646c2a37e5a7f04cba63b",
+        "hash": "3610942561",
+        "path": "outstatic/content/projects/vrindavan-villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "residential-interior",
+          "value": "residentialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753818/greywall/projects/Vrindavan%20Villa/vrindavan-7_ekkx25.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753820/greywall/projects/Vrindavan%20Villa/vrindavan-9_oqrtei.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753815/greywall/projects/Vrindavan%20Villa/vrindavan-1_qd7t9c.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753818/greywall/projects/Vrindavan%20Villa/vrindavan-4_qcm083.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729753816/greywall/projects/Vrindavan%20Villa/vrindavan-3_taiw3v.jpg",
+      "location": "Mathura, Uttar Pradesh",
+      "projectName": "Vrindavan Villa",
+      "publishedAt": "2024-10-24T07:43:24.740Z",
+      "slug": "vrindavan-villa",
+      "status": "published",
+      "title": "Vrindavan Meadows - Villa"
     }
   ]
 }
