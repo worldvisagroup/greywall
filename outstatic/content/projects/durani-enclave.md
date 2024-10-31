@@ -12,10 +12,10 @@ imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381747/greywal
 imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730381746/greywall/projects/Durani%20Enclave/2_yv6xcl.jpg'
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689503/greywall/projects/Durani%20Enclave/image2_frz5et.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689501/greywall/projects/Durani%20Enclave/image1_iayzkm.webp'
-imageFive: ''
+imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689504/greywall/projects/Durani%20Enclave/image4_qfvgly.webp'
 category: [{"value":"civil","label":"civil"}]
 location: 'Srinagar, J&K'
-imageSix: ''
+imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729689502/greywall/projects/Durani%20Enclave/image3_apd0vt.webp'
 publishedAt: '2024-10-23T13:51:29.417Z'
 ---
 
