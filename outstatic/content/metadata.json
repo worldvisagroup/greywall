@@ -1,6 +1,6 @@
 {
-  "commit": "7f2f216077a050a12230c581edc117d01968a6ee",
-  "generated": "2024-10-31T11:54:46.466Z",
+  "commit": "5acbee4d7aadf3fd45feacf4c54050b1a15e8e82",
+  "generated": "2024-10-31T12:04:19.777Z",
   "metadata": [
     {
       "__outstatic": {
@@ -319,37 +319,6 @@
     },
     {
       "__outstatic": {
-        "commit": "cd611fb7f56644f09ae828df3906af5e5f4153a4",
-        "hash": "3220700094",
-        "path": "outstatic/content/projects/august-skin.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
-      "imageThree": "",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
-      "location": "Residency Road Bangalore",
-      "projectName": "August Skin - Facial Studio",
-      "publishedAt": "2024-10-23T13:42:02.591Z",
-      "slug": "august-skin",
-      "status": "published",
-      "title": "August Skin - Facial Studio"
-    },
-    {
-      "__outstatic": {
         "commit": "7d7958f00f8fcb1d026907b95b57b47858acc261",
         "hash": "1320011138",
         "path": "outstatic/content/projects/kulsum.md"
@@ -543,6 +512,38 @@
       "slug": "pramata-corporate-office-brigade-road",
       "status": "published",
       "title": "Pramata - Corporate Office, Brigade road"
+    },
+    {
+      "__outstatic": {
+        "commit": "5acbee4d7aadf3fd45feacf4c54050b1a15e8e82",
+        "hash": "217705046",
+        "path": "outstatic/content/projects/august-skin.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376137/greywall/projects/Auguste%20Skin%20Images/E-min_1_erxmn8.png",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375951/greywall/projects/Auguste%20Skin%20Images/D_pnawdf.png",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375939/greywall/projects/Auguste%20Skin%20Images/A_mkvv7q.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730375942/greywall/projects/Auguste%20Skin%20Images/C_deeuqk.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730376214/greywall/projects/Auguste%20Skin%20Images/B-min_b3c8ih.png",
+      "location": "Residency Road Bangalore",
+      "projectName": "August Skin - Facial Studio",
+      "publishedAt": "2024-10-23T13:42:02.591Z",
+      "slug": "august-skin",
+      "status": "published",
+      "title": "Auguste Skin - Facial Studio, Residency road"
     }
   ]
 }
