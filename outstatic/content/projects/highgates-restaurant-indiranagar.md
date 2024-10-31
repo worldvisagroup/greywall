@@ -16,6 +16,7 @@ imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382506/greywa
 category: [{"value":"civil","label":"civil"}]
 location: 'Indiranagar, Bangalore'
 imageSix: ''
+inProgress: 'true'
 publishedAt: '2024-10-31T14:10:51.467Z'
 ---
 
