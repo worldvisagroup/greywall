@@ -1,6 +1,6 @@
 {
-  "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
-  "generated": "2024-10-31T15:04:08.599Z",
+  "commit": "496da9ef3dce02fd74ca2a1dced403aac9134adf",
+  "generated": "2024-10-31T15:04:49.631Z",
   "metadata": [
     {
       "__outstatic": {
@@ -638,38 +638,6 @@
     },
     {
       "__outstatic": {
-        "commit": "ceadae4c12b2c93fd97b11fa28772e6bc93e5d88",
-        "hash": "3500358441",
-        "path": "outstatic/content/projects/the-woodland-estate-villa-chikmagalur.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382276/greywall/projects/woodland-construction/E_hkaoay.jpg",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greywall/projects/woodland-construction/D_jefnqu.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382279/greywall/projects/woodland-construction/A_axaw8c.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greywall/projects/woodland-construction/C_etn89y.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382282/greywall/projects/woodland-construction/B_pqkr73.jpg",
-      "location": "Chikmagalur, Bangalore",
-      "projectName": "The Woodland Estate - Villa, Chikmagalur",
-      "publishedAt": "2024-10-31T14:13:56.039Z",
-      "slug": "the-woodland-estate-villa-chikmagalur",
-      "status": "published",
-      "title": "The Woodland Estate - Villa"
-    },
-    {
-      "__outstatic": {
         "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
         "hash": "3713043086",
         "path": "outstatic/content/projects/wlld.md"
@@ -699,6 +667,38 @@
       "slug": "wlld",
       "status": "published",
       "title": "WLDD - Corporate Office"
+    },
+    {
+      "__outstatic": {
+        "commit": "496da9ef3dce02fd74ca2a1dced403aac9134adf",
+        "hash": "4252525129",
+        "path": "outstatic/content/projects/the-woodland-estate-villa-chikmagalur.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382276/greywall/projects/woodland-construction/E_hkaoay.jpg",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greywall/projects/woodland-construction/D_jefnqu.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382279/greywall/projects/woodland-construction/A_axaw8c.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greywall/projects/woodland-construction/C_etn89y.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730382282/greywall/projects/woodland-construction/B_pqkr73.jpg",
+      "location": "Chikmagalur, Karnataka",
+      "projectName": "The Woodland Estate - Villa, Chikmagalur",
+      "publishedAt": "2024-10-31T14:13:56.039Z",
+      "slug": "the-woodland-estate-villa-chikmagalur",
+      "status": "published",
+      "title": "The Woodland Estate - Villa"
     }
   ]
 }

@@ -14,7 +14,7 @@ imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greyw
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382278/greywall/projects/woodland-construction/D_jefnqu.jpg'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382276/greywall/projects/woodland-construction/E_hkaoay.jpg'
 category: [{"value":"civil","label":"civil"}]
-location: 'Chikmagalur, Bangalore'
+location: 'Chikmagalur, Karnataka'
 imageSix: ''
 publishedAt: '2024-10-31T14:13:56.039Z'
 ---
