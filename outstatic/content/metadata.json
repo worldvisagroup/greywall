@@ -1,6 +1,6 @@
 {
-  "commit": "c0ae6900cb07da48d10507e9fd8e8c5d0631344c",
-  "generated": "2024-10-31T15:25:48.253Z",
+  "commit": "90f4d2dd6ed36fa4b5bc5e66551edde31376d339",
+  "generated": "2024-10-31T15:26:08.298Z",
   "metadata": [
     {
       "__outstatic": {
@@ -510,38 +510,6 @@
     },
     {
       "__outstatic": {
-        "commit": "d01c73c7d02108fad0a237e68671a7ab6896b161",
-        "hash": "2600671134",
-        "path": "outstatic/content/projects/chilli-garlic.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381559/greywall/projects/Chilli%20garlic/D_w1l8jg.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381558/greywall/projects/Chilli%20garlic/A_hndkaa.jpg",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381556/greywall/projects/Chilli%20garlic/B_ssbw8s.jpg",
-      "location": "Indira Nagar, Bangalore",
-      "projectName": "Chilli Garlic",
-      "publishedAt": "2024-10-23T13:46:51.133Z",
-      "slug": "chilli-garlic",
-      "status": "published",
-      "title": "Chilli Garlic - Restaurant"
-    },
-    {
-      "__outstatic": {
         "commit": "5c1ad8da9f4669499ec07d3579a307023c3ca21a",
         "hash": "3713043086",
         "path": "outstatic/content/projects/wlld.md"
@@ -701,6 +669,39 @@
       "slug": "the-woodland-estate-villa-chikmagalur",
       "status": "published",
       "title": "The Woodland Estate - Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "90f4d2dd6ed36fa4b5bc5e66551edde31376d339",
+        "hash": "1807192773",
+        "path": "outstatic/content/projects/chilli-garlic.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img1_ykhzsu.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381559/greywall/projects/Chilli%20garlic/D_w1l8jg.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381558/greywall/projects/Chilli%20garlic/A_hndkaa.jpg",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729689216/greywall/projects/Chilli%20garlic/img3_wstx1g.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381556/greywall/projects/Chilli%20garlic/B_ssbw8s.jpg",
+      "inProgress": "true",
+      "location": "Indira Nagar, Bangalore",
+      "projectName": "Chilli Garlic",
+      "publishedAt": "2024-10-23T13:46:51.133Z",
+      "slug": "chilli-garlic",
+      "status": "published",
+      "title": "Chilli Garlic - Restaurant"
     }
   ]
 }
