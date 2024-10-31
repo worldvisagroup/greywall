@@ -1,5 +1,5 @@
 ---
-title: 'The White Room - Cafe, Church street'
+title: 'The White Room - Cafe'
 status: 'published'
 author:
   name: 'World Visa Consultants'
