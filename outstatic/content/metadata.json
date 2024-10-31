@@ -1,6 +1,6 @@
 {
-  "commit": "8c081503f894bd7df0295e188a9cff7aa6523360",
-  "generated": "2024-10-31T13:06:49.709Z",
+  "commit": "7c92157d78ebc93ff2795b274a23742650f4257a",
+  "generated": "2024-10-31T13:25:42.995Z",
   "metadata": [
     {
       "__outstatic": {
@@ -611,6 +611,38 @@
       "projectName": "August Skin - Facial Studio",
       "publishedAt": "2024-10-23T13:42:02.591Z",
       "slug": "august-skin",
+      "status": "published",
+      "title": "Auguste Skin - Facial Studio, Residency road"
+    },
+    {
+      "__outstatic": {
+        "commit": "7c92157d78ebc93ff2795b274a23742650f4257a",
+        "hash": "3573246010",
+        "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "construction",
+          "value": "construction"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hvjizv.heic",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381100/greywall/projects/Auguste%20Skin%20Images/IMG_0130_l3eoip.heic",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
+      "location": "",
+      "projectName": "Auguste Skin - Facial Studio, Residency road",
+      "publishedAt": "2024-10-31T13:42:11.999Z",
+      "slug": "auguste-skin-facial-studio-residency-road",
       "status": "published",
       "title": "Auguste Skin - Facial Studio, Residency road"
     }
