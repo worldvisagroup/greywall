@@ -1,6 +1,6 @@
 {
-  "commit": "661d5a3d4950210fef4f7d57303a92c5cb1ea553",
-  "generated": "2024-10-31T14:46:29.450Z",
+  "commit": "ca359060726f01f4b9e15c909b43764348868c52",
+  "generated": "2024-10-31T14:48:01.638Z",
   "metadata": [
     {
       "__outstatic": {
@@ -684,9 +684,9 @@
     },
     {
       "__outstatic": {
-        "commit": "661d5a3d4950210fef4f7d57303a92c5cb1ea553",
-        "hash": "2863733197",
-        "path": "outstatic/content/homepage-all-projects/residential-interiors.md"
+        "commit": "ca359060726f01f4b9e15c909b43764348868c52",
+        "hash": "3248712814",
+        "path": "outstatic/content/homepage-all-projects/residential-interior.md"
       },
       "author": {
         "name": "World Visa Consultants",
@@ -696,7 +696,7 @@
       "coverImage": "/images/residential-interior-c0MT.png",
       "description": "",
       "publishedAt": "2024-10-29T05:42:53.939Z",
-      "slug": "residential-interiors",
+      "slug": "residential-interior",
       "status": "published",
       "title": "Residential Interiors"
     }
