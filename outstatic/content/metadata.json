@@ -1,25 +1,7 @@
 {
-  "commit": "3623c638725443555f1d028b0e78e0363c0926ea",
-  "generated": "2024-10-31T11:07:04.099Z",
+  "commit": "0cc17005bb2da4cb10d6871dd034d8112c7fef1f",
+  "generated": "2024-10-31T11:07:23.758Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "4b13dd7a9c3618d35288cb653af830fc89b6d0d9",
-        "hash": "3505512664",
-        "path": "outstatic/content/homepage-all-projects/residential-interior.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "homepage-all-projects",
-      "coverImage": "/images/residential-interior-c0MT.png",
-      "description": "",
-      "publishedAt": "2024-10-29T05:42:53.939Z",
-      "slug": "residential-interior",
-      "status": "published",
-      "title": "Residential Interior "
-    },
     {
       "__outstatic": {
         "commit": "00d18413c063fce95cc9ea813d691bc2372bc260",
@@ -508,6 +490,24 @@
       "slug": "commercial-interior",
       "status": "published",
       "title": "Commercial Interiors"
+    },
+    {
+      "__outstatic": {
+        "commit": "0cc17005bb2da4cb10d6871dd034d8112c7fef1f",
+        "hash": "3248712814",
+        "path": "outstatic/content/homepage-all-projects/residential-interior.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "homepage-all-projects",
+      "coverImage": "/images/residential-interior-c0MT.png",
+      "description": "",
+      "publishedAt": "2024-10-29T05:42:53.939Z",
+      "slug": "residential-interior",
+      "status": "published",
+      "title": "Residential Interiors"
     }
   ]
 }
