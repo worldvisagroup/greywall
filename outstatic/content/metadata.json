@@ -1,6 +1,6 @@
 {
   "commit": "55bdf7a226ad6e23ee4c25b27e62f5b54c1d9a81",
-  "generated": "2024-10-31T14:09:37.237Z",
+  "generated": "2024-10-31T14:09:41.687Z",
   "metadata": [
     {
       "__outstatic": {
@@ -684,7 +684,7 @@
     {
       "__outstatic": {
         "commit": "55bdf7a226ad6e23ee4c25b27e62f5b54c1d9a81",
-        "hash": "1020694445",
+        "hash": "1714748380",
         "path": "outstatic/content/reviews/rida-aftab.md"
       },
       "author": {
@@ -697,7 +697,7 @@
       "publishedAt": "2024-10-30T06:15:25.202Z",
       "ratings": "4.5",
       "slug": "rida-aftab",
-      "status": "draft",
+      "status": "published",
       "title": "Rida aftab"
     }
   ]

@@ -6,7 +6,7 @@ slug: 'rida-aftab'
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
-status: 'draft'
+status: 'published'
 title: 'Rida aftab'
 publishedAt: '2024-10-30T06:15:25.202Z'
 ---
