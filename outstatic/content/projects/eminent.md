@@ -1,5 +1,5 @@
 ---
-title: 'Eminent - Executive Suite'
+title: 'Eminent - Executive Suite, Vasanth nagar'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -15,6 +15,7 @@ imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywa
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1729703141/greywall/projects/Eminent/a6-671928003047d_zkx6k8.webp'
 category: [{"label":"commercial-interior","value":"commercialInterior"}]
 location: 'Vasanth Nagar, Bangalore'
+imageSix: ''
 publishedAt: '2024-10-23T17:39:48.631Z'
 ---
 

@@ -1,6 +1,6 @@
 {
-  "commit": "dcd7500700fbdc852021f8c9b0c67c7f398b3740",
-  "generated": "2024-10-31T11:16:03.074Z",
+  "commit": "d6c0db1355802c1bf55c4a117b02eb9b06ef57b4",
+  "generated": "2024-10-31T11:45:23.988Z",
   "metadata": [
     {
       "__outstatic": {
@@ -117,37 +117,6 @@
       "slug": "anima",
       "status": "published",
       "title": "Anima"
-    },
-    {
-      "__outstatic": {
-        "commit": "b469bbd2f4a927cb00d1af73058f3268fcda3ee1",
-        "hash": "2789768822",
-        "path": "outstatic/content/projects/eminent.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "commercial-interior",
-          "value": "commercialInterior"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703141/greywall/projects/Eminent/a6-671928003047d_zkx6k8.webp",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/2-671927f6a1ceb_jksaad.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703136/greywall/projects/Eminent/5-671927f691f31_p6ifw8.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/b6-6719280131f69_vgb1nv.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703137/greywall/projects/Eminent/06-copy-671927faaecda_wzqrzu.webp",
-      "location": "Vasanth Nagar, Bangalore",
-      "projectName": "Eminent - Executive Suite",
-      "publishedAt": "2024-10-23T17:39:48.631Z",
-      "slug": "eminent",
-      "status": "published",
-      "title": "Eminent - Executive Suite"
     },
     {
       "__outstatic": {
@@ -509,6 +478,38 @@
       "slug": "mm-javeed",
       "status": "published",
       "title": "MM Javeed - Retail store, Brigade road"
+    },
+    {
+      "__outstatic": {
+        "commit": "d6c0db1355802c1bf55c4a117b02eb9b06ef57b4",
+        "hash": "1098059576",
+        "path": "outstatic/content/projects/eminent.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "commercial-interior",
+          "value": "commercialInterior"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703141/greywall/projects/Eminent/a6-671928003047d_zkx6k8.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/2-671927f6a1ceb_jksaad.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703136/greywall/projects/Eminent/5-671927f691f31_p6ifw8.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703140/greywall/projects/Eminent/b6-6719280131f69_vgb1nv.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729703137/greywall/projects/Eminent/06-copy-671927faaecda_wzqrzu.webp",
+      "location": "Vasanth Nagar, Bangalore",
+      "projectName": "Eminent - Executive Suite",
+      "publishedAt": "2024-10-23T17:39:48.631Z",
+      "slug": "eminent",
+      "status": "published",
+      "title": "Eminent - Executive Suite, Vasanth nagar"
     }
   ]
 }
