@@ -8,15 +8,15 @@ slug: 'the-woodland-estate-villa-chikmagalur'
 description: ''
 coverImage: ''
 projectName: 'The Woodland Estate - Villa, Chikmagalur'
-imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.04_AM_2_hmdsvl.jpg'
-imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.04_AM_1_mdvrxd.jpg'
-imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.05_AM_2_mh1z9g.jpg'
-imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-09-12_at_9.35.16_PM_zy2pnp.jpg'
-imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379284/greywall/projects/woodland/WhatsApp_Image_2024-09-12_at_9.34.47_PM_fht288.jpg'
-category: [{"value":"residentialInterior","label":"residential-interior"}]
-location: 'Chikmagalur'
-imageSix: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730379285/greywall/projects/woodland/WhatsApp_Image_2024-08-24_at_12.37.07_AM_1_gdfjfc.jpg'
-publishedAt: '2024-10-31T13:26:00.602Z'
+imageOne: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382064/greywall/projects/woodland-construction/A_rc0tnh.heic'
+imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382069/greywall/projects/woodland-construction/B_mn524i.heic'
+imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382061/greywall/projects/woodland-construction/C_kkflqx.heic'
+imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382067/greywall/projects/woodland-construction/D_sbigc7.heic'
+imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1730382062/greywall/projects/woodland-construction/E_nlglq1.heic'
+category: [{"value":"civil","label":"civil"}]
+location: 'Chikmagalur, Bangalore'
+imageSix: ''
+publishedAt: '2024-10-31T14:13:56.039Z'
 ---
 
 The Woodland Estate - Villa, Chikmagalur
