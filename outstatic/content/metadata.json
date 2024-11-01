@@ -1,6 +1,6 @@
 {
-  "commit": "29686f7c111f8119034b4befa03d7b00d0ff980a",
-  "generated": "2024-11-01T17:30:03.482Z",
+  "commit": "1a208c44cc4cb128d5479dbca9d73cabad0d9476",
+  "generated": "2024-11-01T17:35:33.985Z",
   "metadata": [
     {
       "__outstatic": {
@@ -315,38 +315,6 @@
       "slug": "vrindavan-villa",
       "status": "published",
       "title": "Vrindavan Meadows - Villa"
-    },
-    {
-      "__outstatic": {
-        "commit": "953eeb26c70f78e5a9486c288dc668947caf1aa3",
-        "hash": "2755401929",
-        "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "category": [
-        {
-          "label": "civil",
-          "value": "civil"
-        }
-      ],
-      "collection": "projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381284/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hn806f.jpg",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
-      "imageSix": "",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381282/greywall/projects/Auguste%20Skin%20Images/IMG_0130_jej7pg.jpg",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
-      "location": "Residency Road, Bangalore",
-      "projectName": "Auguste Skin - Facial Studio",
-      "publishedAt": "2024-10-31T13:42:11.999Z",
-      "slug": "auguste-skin-facial-studio-residency-road",
-      "status": "published",
-      "title": "Auguste Skin - Facial Studio"
     },
     {
       "__outstatic": {
@@ -711,6 +679,43 @@
       "videoOne": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482150/greywall/projects/highgates/IMG_0572_nzfneu.mov",
       "videoThree": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482176/greywall/projects/highgates/IMG_0578_xvcg7e.mov",
       "videoTwo": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482163/greywall/projects/highgates/IMG_0567_zzn77b.mov"
+    },
+    {
+      "__outstatic": {
+        "commit": "1a208c44cc4cb128d5479dbca9d73cabad0d9476",
+        "hash": "1758392873",
+        "path": "outstatic/content/projects/auguste-skin-facial-studio-residency-road.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "category": [
+        {
+          "label": "civil",
+          "value": "civil"
+        }
+      ],
+      "collection": "projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381284/greywall/projects/Auguste%20Skin%20Images/IMG_0598_hn806f.jpg",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage1_hys4p9.webp",
+      "imageSix": "",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1730381282/greywall/projects/Auguste%20Skin%20Images/IMG_0130_jej7pg.jpg",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1729688572/greywall/projects/Auguste%20Skin%20Images/AugusteSkinImage2_buiado.webp",
+      "inProgress": "",
+      "location": "Residency Road, Bangalore",
+      "projectName": "Auguste Skin - Facial Studio",
+      "publishedAt": "2024-10-31T13:42:11.999Z",
+      "slug": "auguste-skin-facial-studio-residency-road",
+      "status": "published",
+      "title": "Auguste Skin - Facial Studio",
+      "videoFour": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482496/greywall/projects/Auguste%20Skin%20Images/IMG_1088_w1jqix.mov",
+      "videoOne": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482489/greywall/projects/Auguste%20Skin%20Images/IMG_9840_jrtmda.mov",
+      "videoThree": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482496/greywall/projects/Auguste%20Skin%20Images/IMG_1092_evwmd4.mov",
+      "videoTwo": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482506/greywall/projects/Auguste%20Skin%20Images/IMG_1091_kdqef0.mov"
     }
   ]
 }
