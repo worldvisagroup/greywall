@@ -89,6 +89,13 @@
       "fieldType": "Boolean",
       "dataType": "boolean",
       "title": "in progress"
+    },
+    "isVideo": {
+      "required": true,
+      "description": "",
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "isVideo"
     }
   }
 }
