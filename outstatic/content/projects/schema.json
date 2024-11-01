@@ -96,6 +96,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "Video one"
+    },
+    "videoTwo": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "video two"
     }
   }
 }
