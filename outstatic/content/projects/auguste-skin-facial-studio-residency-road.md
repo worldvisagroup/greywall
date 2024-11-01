@@ -20,7 +20,7 @@ inProgress: ''
 videoOne: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730482489/greywall/projects/Auguste%20Skin%20Images/IMG_9840_jrtmda.mov'
 videoTwo: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730482506/greywall/projects/Auguste%20Skin%20Images/IMG_1091_kdqef0.mov'
 videoThree: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730482496/greywall/projects/Auguste%20Skin%20Images/IMG_1092_evwmd4.mov'
-videoFour: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730482496/greywall/projects/Auguste%20Skin%20Images/IMG_1088_w1jqix.mov'
+videoFour: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730482551/greywall/projects/Auguste%20Skin%20Images/IMG_9837_gdw8ve.mov'
 publishedAt: '2024-10-31T13:42:11.999Z'
 ---
 
