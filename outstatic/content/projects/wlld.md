@@ -17,6 +17,10 @@ category: [{"value":"civil","label":"civil"}]
 location: 'Basavangudi, Bangalore'
 imageSix: ''
 inProgress: ''
+videoOne: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730443656/greywall/projects/WLDD/IMG_7951_bk3gye.mov'
+videoTwo: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730443648/greywall/projects/WLDD/IMG_7950_jdhtt6.mov'
+videoThree: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730443638/greywall/projects/WLDD/VIDEO-2024-09-27-17-23-06_ykthhq.mp4'
+videoFour: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1730443634/greywall/projects/WLDD/VIDEO-2024-09-22-17-35-33_uaba7v.mp4'
 publishedAt: '2024-10-23T16:15:22.229Z'
 ---
 

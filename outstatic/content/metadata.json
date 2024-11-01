@@ -1,6 +1,6 @@
 {
-  "commit": "85ad5b224ce427757047cb8ebc6f89a08f29be0c",
-  "generated": "2024-10-31T15:26:39.727Z",
+  "commit": "642ea0924f7b7a638e6c705ac9f45e1897b58d86",
+  "generated": "2024-11-01T06:53:27.729Z",
   "metadata": [
     {
       "__outstatic": {
@@ -673,8 +673,8 @@
     },
     {
       "__outstatic": {
-        "commit": "85ad5b224ce427757047cb8ebc6f89a08f29be0c",
-        "hash": "211281289",
+        "commit": "642ea0924f7b7a638e6c705ac9f45e1897b58d86",
+        "hash": "1426793824",
         "path": "outstatic/content/projects/wlld.md"
       },
       "author": {
@@ -702,7 +702,11 @@
       "publishedAt": "2024-10-23T16:15:22.229Z",
       "slug": "wlld",
       "status": "published",
-      "title": "WLDD - Corporate Office"
+      "title": "WLDD - Corporate Office",
+      "videoFour": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730443634/greywall/projects/WLDD/VIDEO-2024-09-22-17-35-33_uaba7v.mp4",
+      "videoOne": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730443656/greywall/projects/WLDD/IMG_7951_bk3gye.mov",
+      "videoThree": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730443638/greywall/projects/WLDD/VIDEO-2024-09-27-17-23-06_ykthhq.mp4",
+      "videoTwo": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730443648/greywall/projects/WLDD/IMG_7950_jdhtt6.mov"
     }
   ]
 }
