@@ -2,7 +2,11 @@
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import { ArrowBackIos, ArrowForwardIos } from "@mui/icons-material";
+import {
+  ArrowBackIos,
+  ArrowForwardIos,
+  PlayCircleFilled,
+} from "@mui/icons-material";
 
 interface ProjectSliderProps {
   title: string;
@@ -12,6 +16,13 @@ interface ProjectSliderProps {
   imageFour?: string;
   imageFive?: string;
   location?: string;
+  // Start Generation Here
+  imageSix?: string;
+  inProgress?: boolean;
+  videoOne?: string;
+  videoTwo?: string;
+  videoThree?: string;
+  videoFour?: string;
 }
 
 const TWEEN_FACTOR_BASE = 0.84;
@@ -29,6 +40,10 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   imageSix,
   location,
   inProgress,
+  videoOne,
+  videoTwo,
+  videoThree,
+  videoFour,
 }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
@@ -38,6 +53,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
   const [zoomedImage, setZoomedImage] = useState(null);
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
   // Function to open zoomed image
   const openZoomedImage = (imageUrl) => {
     setZoomedImage(imageUrl);
@@ -62,6 +78,25 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
     imageSix,
   ].filter(Boolean);
 
+  const isVideo = videoOne || videoTwo || videoThree || videoFour;
+  const videos = [];
+
+  if (videoOne) {
+    videos.push(videoOne);
+  }
+
+  if (videoTwo) {
+    videos.push(videoTwo);
+  }
+  if (videoThree) {
+    videos.push(videoThree);
+  }
+  if (videoFour) {
+    videos.push(videoFour);
+  }
+
+  const allDots = isVideo ? [...images, ...videos] : images;
+
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
     setSelectedIndex(emblaApi.selectedScrollSnap());
@@ -70,10 +105,12 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
   }, [emblaApi]);
 
   const scrollPrev = useCallback(() => {
+    setIsVideoPlaying(false);
     if (emblaApi) emblaApi.scrollPrev();
   }, [emblaApi]);
 
   const scrollNext = useCallback(() => {
+    setIsVideoPlaying(false);
     if (emblaApi) emblaApi.scrollNext();
   }, [emblaApi]);
 
@@ -154,6 +191,42 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
                 </div>
               </div>
             ))}
+            {isVideo ? (
+              videos.map((videoSrc, index) => (
+                <div
+                  className="embla__slide flex-[0_0_calc(100%-2rem)] md:flex-[0_0_calc(90%-2rem)] lg:flex-[0_0_calc(80%-2rem)] relative p-2 mr-8"
+                  key={index}
+                >
+                  <div className="relative w-full h-96 overflow-hidden rounded-lg">
+                    <video
+                      className="w-full h-full object-cover"
+                      src={videoSrc}
+                      controls={false}
+                      muted
+                      onClick={(e) => {
+                        const videoElement = e.currentTarget;
+                        if (videoElement.paused) {
+                          videoElement.play();
+                          setIsVideoPlaying(true);
+                        } else {
+                          videoElement.pause();
+                          setIsVideoPlaying(false);
+                        }
+                      }}
+                    />
+                    {!isVideoPlaying ? (
+                      <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                        <PlayCircleFilled className="text-white text-6xl opacity-70" />
+                      </div>
+                    ) : (
+                      <></>
+                    )}
+                  </div>
+                </div>
+              ))
+            ) : (
+              <></>
+            )}
           </div>
           {zoomedImage && (
             <div className="zoomed-image-container" onClick={closeZoomedImage}>
@@ -192,7 +265,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
 
       {/* Dot indicators */}
       <div className="absolute -bottom-12 left-1/2 transform -translate-x-1/2 flex gap-3">
-        {images.map((_, index) => (
+        {allDots.map((_, index) => (
           <button
             key={index}
             className={`w-4 h-4 rounded-full border-2 transition-all duration-300 ${

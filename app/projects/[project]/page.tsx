@@ -80,7 +80,11 @@ export default async function Index({
                       imageFive,
                       imageSix,
                       location,
-                      inProgress
+                      inProgress,
+                      videoOne,
+                      videoTwo,
+                      videoThree,
+                      videoFour,
                     }: any) => (
                       <div key={title}>
                         <ProjectSlider
@@ -93,6 +97,10 @@ export default async function Index({
                           imageSix={imageSix}
                           location={location}
                           inProgress={inProgress}
+                          videoOne={videoOne}
+                          videoTwo={videoTwo}
+                          videoThree={videoThree}
+                          videoFour={videoFour}
                         />
                       </div>
                     )
