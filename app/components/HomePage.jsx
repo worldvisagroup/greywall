@@ -49,7 +49,7 @@ export default function Homepage() {
         `}</style>
 
         <main className="flex-grow flex flex-col items-start justify-center text-left px-6 md:px-24">
-          <h1 className="text-[50px] md:text-[65px] lg:text-[120px] font-bold md:mt-[9%] mb-4 md:mb-8 w-full font-goldenPlainsDemo text-[#FFEDE6]">
+          <h1 className="text-[50px] md:text-[65px] lg:text-[120px] font-bold md:mt-[9%] mb-4 md:mb-8 w-full font-northwell text-[#FFEDE6]">
             The Grey Wall
           </h1>
           <p className="text-lg my-7 md:text-xl mb-[2%] md:mb-[4%] text-[#FFEDE6]">

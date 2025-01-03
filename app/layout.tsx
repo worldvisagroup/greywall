@@ -20,12 +20,6 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
-const goldenPlainsDemo = localFont({
-  src: "./fonts/GoldenPlainsDemo.ttf",
-  variable: "--font-golden-plains-demo",
-  weight: "400 900",
-});
-
 const tenPearl = localFont({
   src: "./fonts/tanPearl.otf",
   variable: "--font-ten-pearl",
@@ -50,7 +44,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${goldenPlainsDemo.variable} ${tenPearl.variable}  antialiased ${montserrat.className} ${northWell.variable}`}
+        className={`${geistSans.variable} ${geistMono.variable} ${tenPearl.variable}  antialiased ${montserrat.className} ${northWell.variable}`}
       >
         {children}
       </body>

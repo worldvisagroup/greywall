@@ -51,7 +51,7 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-[#FFEDE6] text-[#fff] p-8 md:p-16">
       <div className="container mx-auto">
-        <h1 className="text-4xl py-8 lg:text-7xl text-[#313131] text-center md:text-5xl font-light lg:mb-6 font-goldenPlainsDemo">
+        <h1 className="text-4xl py-8 lg:text-7xl text-[#313131] text-center md:text-5xl font-light lg:mb-6 font-northwell">
           <span className="relative">
             <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#313131]"></span>
             Con

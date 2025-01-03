@@ -59,7 +59,6 @@ const config: Config = {
       fontFamily: {
         cursive: ["Cedarville Cursive", "cursive"],
         playfair: ["Playfair Display", "serif"],
-        goldenPlainsDemo: ["var(--font-golden-plains-demo)"],
         tenPearl: ["var(--font-ten-pearl)"],
         northwell: ["var(--font-northwell)"],
       },

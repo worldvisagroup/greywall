@@ -12,7 +12,7 @@ const Project = async () => {
       className="bg-[#313131] text-[#FFEDE6] min-h-screen p-4 lg:p-8"
     >
       <div className="container mx-auto">
-        <h1 className="font-goldenPlainsDemo text-5xl lg:text-[76px] lg:top-[58px] my-8 lg:my-10 text-center relative">
+        <h1 className="font-northwell text-5xl lg:text-[76px] lg:top-[58px] my-8 lg:my-10 text-center relative">
           <span className="relative">
             <span className="absolute bottom-0 w-[calc(100%+1px)] h-[2px] bg-white"></span>
             Pro
