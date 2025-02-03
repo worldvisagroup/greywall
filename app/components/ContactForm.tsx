@@ -57,9 +57,9 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[400px] md:w-[400px] w-full p-5 rounded-2xl">
+    <Card className="lg:w-[400px] md:w-[400px] min-w-full p-5 rounded-2xl">
       <CardHeader>
-        <h1 className="text-2xl font-semibold flex justify-center">
+        <h1 className="text-3xl font-semibold flex justify-center">
           Contact us
         </h1>
       </CardHeader>

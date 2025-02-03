@@ -82,7 +82,7 @@ const Contact = ({ isLandingPage }: Props) => {
             We will get back to you as soon as we can.
           </p>
         )}
-        <div className={cn(`${isLandingPage ? "flex justify-between items-center" : "flex flex-col md:flex-row items-center" }`)}>
+        <div className={cn(`${isLandingPage ? "flex lg:flex-row flex-col justify-between items-center" : "flex flex-col md:flex-row items-center" }`)}>
           {isLandingPage ? (
             <>
               <h1 className="text-6xl text-black">GreyWall</h1>
