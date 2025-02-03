@@ -7,7 +7,7 @@ import Testimonials from "./components/Testimonials";
 export default function Home() {
   return (
     <div>
-      <HomePage />
+      <HomePage isLandingPage={false} />
       <div>
         <AboutUs />
       </div>

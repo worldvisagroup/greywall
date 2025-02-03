@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Toaster } from "@/components/ui/toaster";
 
 const northWell = localFont({
   src: "./fonts/Northwell.ttf",
@@ -47,6 +48,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} ${tenPearl.variable}  antialiased ${montserrat.className} ${northWell.variable}`}
       >
         {children}
+        <Toaster />
       </body>
     </html>
   );
