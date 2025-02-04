@@ -9,5 +9,5 @@ export const FIELD_TYPES = {
     name: "Name",
     phoneNumber: "Phone Number",
     projectType: "Project Type",
-    budget: "Budjet",
+    budget: "Budget",
   };

@@ -51,6 +51,9 @@ const config: Config = {
           "5": "hsl(var(--chart-5))",
         },
       },
+      primary: {
+        DEFAULT: "#2C2C2C",
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
@@ -61,6 +64,8 @@ const config: Config = {
         playfair: ["Playfair Display", "serif"],
         tenPearl: ["var(--font-ten-pearl)"],
         northwell: ["var(--font-northwell)"],
+        literata: ["Literata", "serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },

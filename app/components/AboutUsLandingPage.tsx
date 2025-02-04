@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export function AboutUslandingPage() {
   return (
-    <section className="w-full bg-white py-24">
+    <section className="w-full bg-[#FFFBFA] py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-zinc-800">
+          <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata  text-zinc-800">
             About The Grey Wall
           </h2>
-          <p className="text-zinc-600 max-w-3xl mx-auto text-lg">
+          <p className="text-zinc-600 max-w-3xl mx-auto lg:text-lg text-sm md:text-lg font-montserrat">
             From Elegant Homes To Modern Offices, We Create Stylish, Functional,
             And Personalized Interiors.
           </p>
@@ -25,15 +25,15 @@ export function AboutUslandingPage() {
           </div>
 
           <div className="space-y-8">
-            <p className="text-zinc-800 text-lg leading-relaxed">
-              At <span className="text-zinc-950 font-semibold">The Grey Wall</span>, We Redefine Architecture, Civil
+            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
+              At <span className="text-zinc-950 font-semibold  ">The Grey Wall</span>, We Redefine Architecture, Civil
               Construction, And Luxury Interior Design By Seamlessly Blending
               Sustainability With Exceptional Craftsmanship. Our Zero-Carbon
               Methodology Ensures That Every Project Is A True Reflection Of Our
               Clients&apos; Unique Vision And Personality.
             </p>
 
-            <p className="text-zinc-800 text-lg leading-relaxed">
+            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg leading-relaxed">
               From Iconic Architectural Landmarks To Intricate Civil Projects
               And Exquisite Interiors, We Merge Innovation With Deep Client
               Insight To Craft Spaces That Inspire. Whether Designing
@@ -42,7 +42,7 @@ export function AboutUslandingPage() {
               Designs That Stand The Test Of Time.
             </p>
 
-            <p className="text-zinc-800 text-lg font-medium leading-relaxed">
+            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg font-medium leading-relaxed">
               We Don&apos;t Just Build Spaces—We Create Legacies That Embody
               Elegance, Sustainability, And Innovation.
             </p>

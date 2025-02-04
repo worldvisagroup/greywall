@@ -58,7 +58,9 @@ const Contact = ({ isLandingPage }: Props) => {
     <div
       id="contact"
       className={cn(
-        `${isLandingPage ? "bg-white" : "bg-[#FFEDE6]"} text-[#fff] p-8 md:p-16`
+        `${
+          isLandingPage ? "bg-[#FFFBFA]" : "bg-[#FFEDE6]"
+        } text-[#fff] p-8 md:p-16`
       )}
     >
       <div className="container mx-auto">
@@ -82,11 +84,29 @@ const Contact = ({ isLandingPage }: Props) => {
             We will get back to you as soon as we can.
           </p>
         )}
-        <div className={cn(`${isLandingPage ? "flex lg:flex-row flex-col justify-between items-center" : "flex flex-col md:flex-row items-center" }`)}>
+        <div
+          className={cn(
+            `${
+              isLandingPage
+                ? "flex lg:flex-row flex-col justify-between items-center"
+                : "flex flex-col md:flex-row items-center"
+            }`
+          )}
+        >
           {isLandingPage ? (
-            <>
-              <h1 className="text-6xl text-black">GreyWall</h1>
-            </>
+            <div className="flex flex-col">
+              <div className=" md:w-[257px] md:h-[111px] w-[150px] h-[90px]">
+                <Image
+                  src="/logo/footer-logo.svg"
+                  alt="Logo"
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <p className="lg:text-5xl md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
+                Let&apos;s Talk!
+              </p>
+            </div>
           ) : (
             <>
               <div className="w-full md:w-1/2 md:pr-8">

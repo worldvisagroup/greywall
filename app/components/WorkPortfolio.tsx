@@ -1,18 +1,20 @@
 import React from "react";
+import { ProjectCarousel } from "./ProjectCarousel";
 
 const WorkPortfolio = () => {
   return (
-    <div className="bg-white max-h-screen container mx-auto my-7">
+    <div className="bg-[#FFFBFA] max-h-screen container mx-auto my-20">
       <div className="text-center mb-16 space-y-4">
-        <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-black">
+        <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata text-primary">
           Our Work Portfolio
         </h2>
-        <p className="text-black/85 max-w-3xl mx-auto text-lg">
-          From Elegant Homes To Modern Offices, We Create Stylish, Functional,
-          And Personalized Interiors.
+        <p className="text-black/85 max-w-3xl mx-auto md:text-lg text-sm lg:text-lg">
+          Explore our diverse portfolio that showcases our creativity and
+          attention to detail through transformative designs that inspire and
+          elevate your lifestyle.
         </p>
       </div>
-      
+      <ProjectCarousel />
     </div>
   );
 };

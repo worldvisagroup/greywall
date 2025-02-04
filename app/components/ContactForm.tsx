@@ -28,9 +28,10 @@ import {
 } from "@/components/ui/select";
 
 import { Input } from "@/components/ui/input";
-import React from "react";
+import React, { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { FIELD_NAMES, FIELD_TYPES } from "@/constants";
+import { toast } from "@/hooks/use-toast";
 
 interface Props<T extends FieldValues> {
   schema: ZodType<T>;
@@ -47,17 +48,48 @@ const ContactForm = <T extends FieldValues>({
   //   onSubmit,
   options,
 }: Props<T>) => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const form: UseFormReturn<T> = useForm({
     resolver: zodResolver(schema),
     defaultValues: defaultValues as DefaultValues<T>,
   });
 
   const handleSubmit: SubmitHandler<T> = async (data) => {
-    console.log("form value", data);
+    setIsSubmitting(true);
+    try {
+      const response = await fetch("/api/contact-form-mail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        toast({
+          title: "Success",
+          description: "Thank you for form submission we will contact you soon",
+        });
+      } else {
+        toast({
+          title: "Error",
+          description: `${result.error}`,
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: `${error}`,
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
-    <Card className="lg:w-[400px] md:w-[400px] min-w-full p-5 rounded-2xl">
+    <Card className="lg:w-[400px] md:w-[400px] min-w-full p-5 rounded-[8px]">
       <CardHeader>
         <h1 className="text-3xl font-semibold flex justify-center">
           Contact us
@@ -120,7 +152,7 @@ const ContactForm = <T extends FieldValues>({
             ))}
 
             <Button type="submit" className=" mt-3 min-h-8 w-full  text-base ">
-              Submit
+              {isSubmitting ? "Submitting..." : "Submit"}
             </Button>
           </form>
         </Form>
