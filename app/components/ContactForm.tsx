@@ -66,12 +66,12 @@ const ContactForm = <T extends FieldValues>({
       });
 
       const result = await response.json();
-      console.log(result);
 
       if (response.ok) {
         toast({
           title: "Success",
-          description: "Thank you for form submission we will contact you soon",
+          description:
+            "Thank you for your submission. We will contact you shortly.",
         });
       } else {
         toast({
@@ -80,7 +80,6 @@ const ContactForm = <T extends FieldValues>({
         });
       }
     } catch (error) {
-      console.log(error);
       toast({
         title: "Error",
         description: `${error}`,
