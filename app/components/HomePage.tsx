@@ -38,8 +38,8 @@ export default function Homepage({ isLandingPage }: Props) {
           <Image
             src="/logo/The-greywall-logo.svg"
             alt="Logo"
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
           />
         </div>
       )}
