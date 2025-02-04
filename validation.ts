@@ -12,5 +12,5 @@ export const ContactSchema = z.object({
   }),
   projectType: z.string().nonempty("Select your project type!"),
   budget: z.string().nonempty("Select your budget"),
-  location: z.string().nonempty("Please,Enter the property location"),
+  // location: z.string().nonempty("Please,Enter the property location"),
 });

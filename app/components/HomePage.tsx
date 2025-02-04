@@ -71,7 +71,7 @@ export default function Homepage({ isLandingPage }: Props) {
         >
           <div>
             {isLandingPage ? (
-              <div className="lg:space-y-6 md:space-y-5 space-y-4 flex flex-col lg:items-start md:items-center lg:text-start md:text-center text-center items-center px-4 mt-[50%] md:mt-[30%] lg:mt-[20%]">
+              <div className="lg:space-y-6 md:space-y-5 space-y-4 flex flex-col lg:items-start md:items-center lg:text-start md:text-center text-center items-center px-4 mt-[40%] md:mt-[30%] lg:mt-[20%]">
                 {/* Heading Section */}
                 <div className="lg:space-y-4 md:space-y-3 space-y-3">
                   <h2 className="text-[#CECECE] text-2xl md:text-3xl font-literata">
@@ -121,7 +121,7 @@ export default function Homepage({ isLandingPage }: Props) {
                 defaultValues={{
                   name: "",
                   phoneNumber: "",
-                  location: "",
+                  // location: "",
                   projectType: "",
                   budget: "",
                 }}

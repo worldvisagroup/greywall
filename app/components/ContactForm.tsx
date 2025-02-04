@@ -88,9 +88,9 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[380px] md:w-[380px] w-[320px] rounded-[8px] shadow-md">
+    <Card className="lg:w-[340px] md:w-[380px] w-[330px]">
       <CardHeader>
-        <h1 className="text-3xl font-semibold flex justify-center">
+        <h1 className="text-2xl font-semibold flex justify-center font-montserrat">
           Contact us
         </h1>
       </CardHeader>
@@ -98,7 +98,7 @@ const ContactForm = <T extends FieldValues>({
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(handleSubmit)}
-            className="w-full space-y-6"
+            className="w-full space-y-3"
           >
             {Object.keys(defaultValues).map((field) => (
               <FormField
@@ -150,7 +150,7 @@ const ContactForm = <T extends FieldValues>({
               />
             ))}
 
-            <Button type="submit" className=" mt-3 min-h-8 w-full  text-base ">
+            <Button type="submit" className=" mt-6 min-h-8 w-full bg-[#2C2C2C] text-[14px] font-montserrat ">
               {isSubmitting ? "Submitting..." : "Submit"}
             </Button>
           </form>
