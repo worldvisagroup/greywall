@@ -103,7 +103,7 @@ const Contact = ({ isLandingPage }: Props) => {
                   height={500}
                 />
               </div>
-              <p className="lg:text-5xl md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
+              <p className="lg:text-7xl font-literata md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
                 Let&apos;s Talk!
               </p>
             </div>
