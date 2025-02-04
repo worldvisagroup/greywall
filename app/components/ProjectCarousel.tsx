@@ -43,7 +43,7 @@ export function ProjectCarousel() {
     },
   ];
   return (
-    <div className="w-full lg:h-[560px] md:h-[540px] h-[380px] overflow-hidden ">
+    <div className="relative overflow-hidden w-full h-full pb-20">
       <Carousel slides={slideData} />
     </div>
   );
