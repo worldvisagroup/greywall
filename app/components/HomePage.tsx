@@ -140,9 +140,6 @@ export default function Homepage({ isLandingPage }: Props) {
                     { value: "30+", label: "30 Lac +" },
                   ],
                 }}
-                onSubmit={() => {
-                  return null;
-                }}
               />
             </div>
           )}

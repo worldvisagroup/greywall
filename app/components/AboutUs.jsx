@@ -6,7 +6,7 @@ export default function AboutUs() {
   return (
     <div
       id="aboutus"
-      className="bg-[#FFF1EC] flex flex-col lg:flex-row items-center overflow-hidden justify-center"
+      className="bg-[#FFF1EC] flex flex-col mb-2 lg:mb-0 md:mb-0 lg:flex-row items-center overflow-hidden justify-center"
     >
       <div className="min-h-[70%] h-[800px] w-full lg:min-w-[70%] px-[20px] flex flex-col lg:mt-[22px] lg:mx-[40px]">
         <h1 className="text-4xl text-[#363636] mt-5 lg:my-[28px] lg:text-7xl font-northwell mb-7 text-center lg:pt-[60px] lg:ml-[10%] lg:pb-[20px] lg:text-center">
@@ -16,7 +16,7 @@ export default function AboutUs() {
           <h2 className="text-[32px] sm:text-[40px] lg:text-[60px] font-northwell mb-8">
             We are a Creative Studio
           </h2>
-          <div className="space-y-7 font-montserrat text-[#363636] font-medium text-[17px] lg:text-[20px] leading-[1.5]">
+          <div className="space-y-7 font-montserrat text-[#363636] font-medium text-[17px] lg:text-[20px] leading-[1.4]">
             <p>
               At{" "}
               <span className="font-semibold text-[#363636]">
@@ -45,7 +45,7 @@ export default function AboutUs() {
           <Image
             src="/images/interior_design.png"
             alt="Luxurious interior design"
-            className="object-cover rounded-lg shadow-lg absolute top-[40px] sm:top-[-230px] lg:top-[100px] lg:left-[-200px] h-[360px] sm:h-[420px] lg:h-[580px] w-full lg:min-w-[500px]"
+            className="object-cover rounded-lg shadow-lg absolute top-[40px] sm:top-[0px] lg:top-[100px] lg:left-[-200px] h-[360px] sm:h-[420px] lg:h-[580px] w-full lg:min-w-[500px]"
             width={500}
             height={500}
           />

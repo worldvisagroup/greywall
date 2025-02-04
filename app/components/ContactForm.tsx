@@ -37,7 +37,6 @@ import { useRouter } from "next/navigation";
 interface Props<T extends FieldValues> {
   schema: ZodType<T>;
   defaultValues: T;
-  onSubmit: (data: T) => Promise<{ success: boolean; error?: string }>;
   options: {
     [key: string]: { value: string; label: string }[];
   };
@@ -46,7 +45,6 @@ interface Props<T extends FieldValues> {
 const ContactForm = <T extends FieldValues>({
   schema,
   defaultValues,
-  //   onSubmit,
   options,
 }: Props<T>) => {
   const [isSubmitting, setIsSubmitting] = useState(false);

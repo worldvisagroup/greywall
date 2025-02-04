@@ -7,48 +7,68 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import { cn } from "@/lib/utils";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import {
+  DefaultValues,
+  FieldValues,
+  Path,
+  SubmitHandler,
+  useForm,
+  UseFormReturn,
+} from "react-hook-form";
+import { ZodType } from "zod";
+import { ENQUIRY_FIELD_NAME, ENQUIRY_FIELD_TYPE } from "@/constants";
+import { toast } from "@/hooks/use-toast";
 
-interface Props {
+interface Props<T extends FieldValues> {
+  schema?: ZodType<T>;
+  defaultValues?: T;
   isLandingPage?: boolean;
 }
 
-const Contact = ({ isLandingPage }: Props) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
+const Contact = <T extends FieldValues>({
+  isLandingPage,
+  schema,
+  defaultValues = {} as T,
+}: Props<T>) => {
+  const form: UseFormReturn<T> = useForm({
+    resolver: zodResolver(schema),
+    defaultValues: defaultValues as DefaultValues<T>,
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null);
 
-  const handleInputChange = (e) => {
-    const { id, value } = e.target;
-    setFormData((prev) => ({ ...prev, [id]: value }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit: SubmitHandler<T> = async (data) => {
     setIsSubmitting(true);
-    setSubmitStatus(null);
-
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       });
 
-      if (response.ok) {
-        setSubmitStatus("success");
-        setFormData({ name: "", email: "", phone: "" });
-      } else {
-        setSubmitStatus("error");
+      if (data) {
+        toast({
+          title: "Success",
+          description: `Message sent successfully!`,
+        });
       }
     } catch (error) {
       console.error("Error sending email:", error);
-      setSubmitStatus("error");
+      toast({
+        title: "Error",
+        description: `${error}`,
+      });
     } finally {
       setIsSubmitting(false);
     }
@@ -110,77 +130,53 @@ const Contact = ({ isLandingPage }: Props) => {
           ) : (
             <>
               <div className="w-full md:w-1/2 md:pr-8">
-                <form className="space-y-4" onSubmit={handleSubmit}>
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Name
-                    </label>
-                    <Input
-                      id="name"
-                      value={formData.name}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Full name"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Email Id
-                    </label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Email Address"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Phone number
-                    </label>
-                    <Input
-                      id="phone"
-                      type="tel"
-                      value={formData.phone}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Phone Number"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
+                <Form {...form}>
+                  <form
+                    onSubmit={form.handleSubmit(handleSubmit)}
+                    className="w-full space-y-3"
+                  >
+                    {Object.keys(defaultValues).map((field) => (
+                      <FormField
+                        key={field}
+                        control={form.control}
+                        name={field as Path<T>}
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel className="capitalize text-[#2C2C2C]">
+                              {
+                                ENQUIRY_FIELD_NAME[
+                                  field.name as keyof typeof ENQUIRY_FIELD_NAME
+                                ]
+                              }
+                            </FormLabel>
+                            <FormControl>
+                              <Input
+                                required
+                                type={
+                                  ENQUIRY_FIELD_TYPE[
+                                    field.name as keyof typeof ENQUIRY_FIELD_TYPE
+                                  ]
+                                }
+                                {...field}
+                                className="lg:w-[60%] w-full min-h-10 border 
+                                text-[#2C2C2C] border-slate-300 text-base font-semibold font-montserrat placeholder:font-normal placeholder:text-slate-300
+                          focus-visible:ring-0 focus-visible:shadow-none "
+                              />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                    ))}
 
-                  <div className="py-4 lg:py-[22px]">
                     <Button
                       type="submit"
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] py-4 bg-[#313131] text-[#ffff] hover:bg-[#BFBFBF] transition-colors duration-300 font-semibold shadow-md hover:shadow-lg"
-                      disabled={isSubmitting}
+                      className="mt-6 min-h-8 lg:w-[60%] w-full bg-[#2C2C2C] hover:bg-[#3C3C3C] text-[14px] font-montserrat"
                     >
                       {isSubmitting ? "Submitting..." : "Submit"}
                     </Button>
-                  </div>
-
-                  {submitStatus === "success" && (
-                    <p className="text-green-500">Message sent successfully!</p>
-                  )}
-                  {submitStatus === "error" && (
-                    <p className="text-red-500">
-                      Error sending message. Please try again.
-                    </p>
-                  )}
-                </form>
+                  </form>
+                </Form>
               </div>
             </>
           )}

@@ -13,3 +13,16 @@ export const FIELD_TYPES = {
     budget: "Budget",
     // location: "Location"
   };
+
+
+  export const ENQUIRY_FIELD_TYPE ={
+    name: "text",
+    phoneNumber: "number",
+    email: "email"
+  }
+
+  export const ENQUIRY_FIELD_NAME ={
+    name: "Name",
+    phoneNumber: "Phone Number",
+    email: "Email"
+  }

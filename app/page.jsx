@@ -1,9 +1,12 @@
+
 import HomePage from "./components/HomePage";
 import AboutUs from "./components/AboutUs";
 import Project from "./components/Project";
 import Service from "./components/Service";
 import Contact from "./components/Contact";
 import Testimonials from "./components/Testimonials";
+import { EnquiryContactFromSchema } from "@/validation";
+import EnquiryContactForm from "./components/EnquiryContactForm";
 export default function Home() {
   return (
     <div>
@@ -21,7 +24,7 @@ export default function Home() {
         <Testimonials />
       </div>
       <div>
-        <Contact />
+       <EnquiryContactForm />
       </div>
     </div>
   );
