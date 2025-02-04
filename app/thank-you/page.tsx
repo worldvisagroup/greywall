@@ -37,9 +37,9 @@ const Page = () => {
         <div className="absolute text-center font-literata text-[#FFEDE6] md:text-5xl text-4xl lg:text-8xl">
           Thank you for your submission
         </div>
-        <div className="absolute text-center font-literata text-[#FFEDE6] md:text-3xl text-xl lg:text-5xl lg:mt-[16%] md:mt-[20%] mt-[36%]">
+        <div className="absolute text-center font-literata text-[#FFEDE6] md:text-3xl text-xl lg:text-5xl lg:mt-[16%] md:mt-[20%] mt-[46%]">
           We will contact you shortly!
-          <div className="mt-4 md:text-2xl text-lg lg:text-3xl flex items-center justify-center gap-4">
+          <div className="lg:mt-4 md:text-2xl text-lg lg:text-3xl flex items-center justify-center gap-4">
             Follow us on with
             <div className="flex gap-[28px] py-[12px]">
               <a
