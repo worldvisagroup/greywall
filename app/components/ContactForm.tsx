@@ -32,6 +32,7 @@ import React, { useState } from "react";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { FIELD_NAMES, FIELD_TYPES } from "@/constants";
 import { toast } from "@/hooks/use-toast";
+import { useRouter } from "next/navigation";
 
 interface Props<T extends FieldValues> {
   schema: ZodType<T>;
@@ -49,6 +50,7 @@ const ContactForm = <T extends FieldValues>({
   options,
 }: Props<T>) => {
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const router = useRouter();
   const form: UseFormReturn<T> = useForm({
     resolver: zodResolver(schema),
     defaultValues: defaultValues as DefaultValues<T>,
@@ -68,11 +70,7 @@ const ContactForm = <T extends FieldValues>({
       const result = await response.json();
 
       if (response.ok) {
-        toast({
-          title: "Success",
-          description:
-            "Thank you for your submission. We will contact you shortly.",
-        });
+        router.push("/thank-you");
       } else {
         toast({
           title: "Error",
@@ -90,7 +88,7 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[380px] md:w-[380px] min-w-full rounded-[8px] shadow-md">
+    <Card className="lg:w-[380px] md:w-[380px] w-[320px] rounded-[8px] shadow-md">
       <CardHeader>
         <h1 className="text-3xl font-semibold flex justify-center">
           Contact us
@@ -141,7 +139,7 @@ const ContactForm = <T extends FieldValues>({
                             FIELD_TYPES[field.name as keyof typeof FIELD_TYPES]
                           }
                           {...field}
-                          className="w-full min-h-10 border border-slate-300 text-base font-bold placeholder:font-normal placeholder:text-slate-300
+                          className="w-full min-h-10 border border-slate-300 text-base font-semibold font-montserrat placeholder:font-normal placeholder:text-slate-300
                           focus-visible:ring-0 focus-visible:shadow-none "
                         />
                       )}

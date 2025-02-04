@@ -8,7 +8,7 @@ const WorkPortfolio = () => {
         <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata text-primary">
           Our Work Portfolio
         </h2>
-        <p className="text-black/85 max-w-3xl mx-auto md:text-lg text-sm lg:text-lg">
+        <p className="text-black/85 max-w-3xl px-6 lg:p-0 md:p-0 font-montserrat mx-auto md:text-lg text-sm lg:text-lg">
           Explore our diverse portfolio that showcases our creativity and
           attention to detail through transformative designs that inspire and
           elevate your lifestyle.
