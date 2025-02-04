@@ -39,6 +39,37 @@ const Page = () => {
         </div>
         <div className="absolute text-center font-literata text-[#FFEDE6] md:text-3xl text-xl lg:text-5xl lg:mt-[16%] md:mt-[20%] mt-[36%]">
           We will contact you shortly!
+          <div className="mt-4 md:text-2xl text-lg lg:text-3xl flex items-center justify-center gap-4">
+            Follow us on with
+            <div className="flex gap-[28px] py-[12px]">
+              <a
+                href="https://www.instagram.com/the_greywall_interiors/"
+                className="transition-transform hover:scale-110 hover:text-[#1877F2]"
+                target="_blank"
+              >
+                <Image
+                  src="/icons/fb.svg"
+                  alt="Facebook"
+                  width={24}
+                  height={24}
+                  className="h-[30px] w-[30px]"
+                />
+              </a>
+              <a
+                className="transition-transform hover:scale-110 hover:text-[#E1306C]"
+                href="https://www.facebook.com/thegreywallinteriors/"
+                target="_blank"
+              >
+                <Image
+                  src="/icons/insta.svg"
+                  alt="Instagram"
+                  width={24}
+                  height={24}
+                  className="h-[30px] w-[30px]"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -46,8 +77,3 @@ const Page = () => {
 };
 
 export default Page;
-// toast({
-//     title: "Success",
-//     description:
-//       "Thank you for your submission. We will contact you shortly.",
-//   });
