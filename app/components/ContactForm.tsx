@@ -66,6 +66,7 @@ const ContactForm = <T extends FieldValues>({
       });
 
       const result = await response.json();
+      console.log(result);
 
       if (response.ok) {
         toast({
@@ -79,6 +80,7 @@ const ContactForm = <T extends FieldValues>({
         });
       }
     } catch (error) {
+      console.log(error);
       toast({
         title: "Error",
         description: `${error}`,
