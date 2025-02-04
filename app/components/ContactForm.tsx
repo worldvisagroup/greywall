@@ -88,10 +88,10 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[340px] md:w-[380px] w-[330px]">
+    <Card className="lg:w-[340px] md:w-[380px] w-[330px] shadow-lg">
       <CardHeader>
-        <h1 className="text-2xl font-semibold flex justify-center font-montserrat">
-          Contact us
+        <h1 className="lg:text-xl md:text-xl text-xl font-semibold flex justify-center font-montserrat">
+          Get Free Consultation!
         </h1>
       </CardHeader>
       <CardContent>
@@ -150,7 +150,10 @@ const ContactForm = <T extends FieldValues>({
               />
             ))}
 
-            <Button type="submit" className=" mt-6 min-h-8 w-full bg-[#2C2C2C] text-[14px] font-montserrat ">
+            <Button
+              type="submit"
+              className="mt-6 min-h-8 w-full bg-[#2C2C2C] hover:bg-[#3C3C3C] text-[14px] font-montserrat"
+            >
               {isSubmitting ? "Submitting..." : "Submit"}
             </Button>
           </form>
