@@ -55,7 +55,6 @@ const ContactForm = <T extends FieldValues>({
   });
 
   const handleSubmit: SubmitHandler<T> = async (data) => {
-    console.log(data)
     setIsSubmitting(true);
     try {
       const response = await fetch("/api/contact-form-mail", {
