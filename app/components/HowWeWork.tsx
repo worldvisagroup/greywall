@@ -25,7 +25,7 @@ export function HowWeWork() {
   ];
 
   return (
-    <section className="w-full bg-zinc-900 py-24 text-[#FFEDE6]">
+    <section className="w-full bg-[#2C2C2C] py-24 text-[#FFEDE6]">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata">
