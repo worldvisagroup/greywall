@@ -121,6 +121,7 @@ export default function Homepage({ isLandingPage }: Props) {
                 defaultValues={{
                   name: "",
                   phoneNumber: "",
+                  location: "",
                   projectType: "",
                   budget: "",
                 }}

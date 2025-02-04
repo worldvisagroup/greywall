@@ -25,7 +25,7 @@ export function AboutUslandingPage() {
           </div>
 
           <div className="space-y-8">
-            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
+            <p className="text-[#2C2C2CF] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               At <span className="text-zinc-950 font-semibold  ">The Grey Wall</span>, We Redefine Architecture, Civil
               Construction, And Luxury Interior Design By Seamlessly Blending
               Sustainability With Exceptional Craftsmanship. Our Zero-Carbon
@@ -33,7 +33,7 @@ export function AboutUslandingPage() {
               Clients&apos; Unique Vision And Personality.
             </p>
 
-            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg leading-relaxed">
+            <p className="text-[#2C2C2C] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               From Iconic Architectural Landmarks To Intricate Civil Projects
               And Exquisite Interiors, We Merge Innovation With Deep Client
               Insight To Craft Spaces That Inspire. Whether Designing
@@ -42,7 +42,7 @@ export function AboutUslandingPage() {
               Designs That Stand The Test Of Time.
             </p>
 
-            <p className="text-zinc-800 text-sm lg:text-lg md:text-lg font-medium leading-relaxed">
+            <p className="text-[#2C2C2C] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               We Don&apos;t Just Build Spaces—We Create Legacies That Embody
               Elegance, Sustainability, And Innovation.
             </p>

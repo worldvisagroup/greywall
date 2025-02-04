@@ -55,6 +55,7 @@ const ContactForm = <T extends FieldValues>({
   });
 
   const handleSubmit: SubmitHandler<T> = async (data) => {
+    console.log(data)
     setIsSubmitting(true);
     try {
       const response = await fetch("/api/contact-form-mail", {
@@ -90,7 +91,7 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[400px] md:w-[400px] min-w-full p-5 rounded-[8px]">
+    <Card className="lg:w-[380px] md:w-[380px] min-w-full rounded-[8px] shadow-md">
       <CardHeader>
         <h1 className="text-3xl font-semibold flex justify-center">
           Contact us
