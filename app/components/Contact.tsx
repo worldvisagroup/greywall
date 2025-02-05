@@ -57,7 +57,7 @@ const Contact = <T extends FieldValues>({
         body: JSON.stringify(data),
       });
 
-      if (data) {
+      if (response.ok) {
         toast({
           title: "Success",
           description: `Message sent successfully!`,
