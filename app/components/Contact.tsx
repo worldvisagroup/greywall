@@ -142,7 +142,7 @@ const Contact = <T extends FieldValues>({
                         name={field as Path<T>}
                         render={({ field }) => (
                           <FormItem>
-                            <FormLabel className="capitalize text-[#2C2C2C]">
+                            <FormLabel className="capitalize font-montserrat text-[#2C2C2C]">
                               {
                                 ENQUIRY_FIELD_NAME[
                                   field.name as keyof typeof ENQUIRY_FIELD_NAME
@@ -184,7 +184,10 @@ const Contact = <T extends FieldValues>({
             <div className="bg-[#383838] p-4 lg:p-12 space-y-6 w-full md:w-auto shadow-lg shadow-gray-700/50 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-gray-600/50">
               <div className="flex items-center gap-4">
                 <CallIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="tel:+919900104114" className="hover:underline">
+                <a
+                  href="tel:+919900104114"
+                  className="hover:underline font-montserrat"
+                >
                   +91 9900104114
                 </a>
               </div>
@@ -193,7 +196,7 @@ const Contact = <T extends FieldValues>({
                 <a
                   href="mailto:info@thegreywalinteriors.com"
                   target="_blank"
-                  className="break-all hover:underline"
+                  className="break-all hover:underline font-montserrat"
                 >
                   info@thegreywalinteriors.com
                 </a>
@@ -204,14 +207,16 @@ const Contact = <T extends FieldValues>({
                   href="https://www.google.com/maps/search/?api=1&query=464+Shri+Krishna+Temple+Rd+Indira+Nagar+1st+Stage+Bengaluru+560038"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:underline"
+                  className="hover:underline font-montserrat"
                 >
                   464, Shri Krishna Temple Rd, Indira Nagar 1st Stage, Bengaluru
                   -560038
                 </a>
               </div>
               <div>
-                <h2 className="text-lg font-medium mb-2">Follow Us </h2>
+                <h2 className="text-lg font-medium mb-2 font-montserrat">
+                  Follow Us{" "}
+                </h2>
                 <div className="flex gap-[28px] py-[12px]">
                   <a
                     href="https://www.instagram.com/the_greywall_interiors/"
@@ -246,7 +251,7 @@ const Contact = <T extends FieldValues>({
         </div>
       </div>
       <div className="text-center mt-8">
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-gray-400 font-montserrat">
           &copy; {new Date().getFullYear()} The Grey Wall. All rights reserved.
         </p>
       </div>

@@ -56,6 +56,13 @@ button {
 
 @layer base {
   :root {
+    --font-ten-pearl: "Tan Pearl", serif;
+    --font-northwell: "Northwell", cursive;
+    --font-literata: "Literata", serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-hurricane: "Hurricane", cursive;
+    --font-geist-sans: "Geist Sans", sans-serif;
+    --font-geist-mono: "Geist Mono", monospace;
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
     --card: 0 0% 100%;

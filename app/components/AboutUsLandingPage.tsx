@@ -5,7 +5,7 @@ export function AboutUslandingPage() {
     <section className="w-full bg-[#FFFBFA] py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata  text-zinc-800">
+          <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane  text-[#2C2C2C]">
             About us
           </h2>
           {/* <p className="text-zinc-600 max-w-3xl mx-auto lg:text-lg text-sm md:text-lg font-montserrat">
@@ -26,11 +26,15 @@ export function AboutUslandingPage() {
 
           <div className="space-y-8 capitalize">
             <p className="text-[#2C2C2CF] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
-              At <span className="text-zinc-950 font-semibold  ">The Grey Wall</span>, We Redefine Architecture, Civil
-              Construction, And Luxury Interior Design By Seamlessly Blending
-              Sustainability With Exceptional Craftsmanship. Our Zero-Carbon
-              Methodology Ensures That Every Project Is A True Reflection Of Our
-              Clients&apos; Unique Vision And Personality.
+              At{" "}
+              <span className="text-zinc-950 font-semibold  ">
+                The Grey Wall
+              </span>
+              , We Redefine Architecture, Civil Construction, And Luxury
+              Interior Design By Seamlessly Blending Sustainability With
+              Exceptional Craftsmanship. Our Zero-Carbon Methodology Ensures
+              That Every Project Is A True Reflection Of Our Clients&apos;
+              Unique Vision And Personality.
             </p>
 
             <p className="text-[#2C2C2C] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">

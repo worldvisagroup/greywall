@@ -18,7 +18,7 @@ const Testimonials = async ({ isLandingPage }: Props) => {
         {isLandingPage ? (
           <>
             <div className="text-center mb-16 space-y-4">
-              <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata text-white">
+              <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane text-white">
                 Testimonials
               </h2>
               {/* <p className="text-white/85 max-w-3xl mx-auto text-sm lg:text-lg md:text-lg font-montserrat">
