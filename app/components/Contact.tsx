@@ -116,12 +116,12 @@ const Contact = <T extends FieldValues>({
           {isLandingPage ? (
             <div className="flex flex-col">
               <div className=" md:w-[257px] md:h-[111px] w-[150px] h-[90px]">
-                <Image
+                {/* <Image
                   src="/logo/footer-logo.svg"
                   alt="Logo"
                   width={500}
                   height={500}
-                />
+                /> */}
               </div>
               <p className="lg:text-7xl font-literata md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
                 Let&apos;s Talk!
