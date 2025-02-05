@@ -82,8 +82,7 @@ export default function Homepage({ isLandingPage }: Props) {
                   </h3>
                 </div>
                 <p className="text-[#FFEDE6] lg:text-lg md:text-lg text-sm max-w-xl font-montserrat">
-                  From Elegant Homes To Modern Offices, We Create Stylish,
-                  Functional, And Personalized Interiors.
+                From luxurious homes to modern workspaces, we specialize in creating sophisticated, functional, and bespoke interiors tailored to your unique vision
                 </p>
               </div>
             ) : (
@@ -134,10 +133,11 @@ export default function Homepage({ isLandingPage }: Props) {
                     { value: "house", label: "House" },
                   ],
                   budget: [
-                    { value: "10-15", label: "10-15 Lac" },
-                    { value: "15-20", label: "15-20 Lac" },
-                    { value: "20-25", label: "20-25 Lac" },
-                    { value: "30+", label: "30 Lac +" },
+                    { value: "10-20", label: "10-20 Lac" },
+                    { value: "20-30", label: "20-30 Lac" },
+                    { value: "30-40", label: "30-40 Lac" },
+                    { value: "40-50", label: "40-50 Lac" },
+                    { value: "50+", label: "50 Lac +" },
                   ],
                 }}
               />

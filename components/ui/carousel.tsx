@@ -5,9 +5,10 @@ import { useState, useRef, useId, useEffect } from "react";
 
 interface SlideData {
   title?: string;
-  button: JSX.Element;
-  url: string;
-  reelImage: StaticImageData;
+  button?: JSX.Element;
+  url?: string;
+  reelImage?: StaticImageData;
+  image?: StaticImageData;
 }
 
 interface SlideProps {
@@ -64,7 +65,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     event.currentTarget.style.opacity = "1";
   };
 
-  const { reelImage, url, button, title } = slide;
+  const { reelImage, url, button, title, image } = slide;
   const handlePlayClick = () => {
     if (current === index) {
       window.open(url, "_blank");
@@ -74,7 +75,7 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
     <div className="[perspective:1200px] [transform-style:preserve-3d]">
       <li
         ref={slideRef}
-        className="flex flex-1 flex-col items-center justify-center relative text-center text-white opacity-100 transition-all duration-300 ease-in-out w-[50vmin] h-[70vmin] mx-[4vmin] z-10"
+        className="flex flex-1 flex-col items-center justify-center relative text-center text-white opacity-100 transition-all duration-300 ease-in-out w-[80vmin] h-[70vmin] mx-[4vmin] z-10"
         onClick={() => handleSlideClick(index)}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
@@ -106,8 +107,21 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             onLoad={imageLoaded}
             loading="eager"
             decoding="sync"
-            
           />
+
+          {image && (
+            <Image
+              className="absolute inset-0 w-[120%] h-[120%] object-fill opacity-100 transition-opacity duration-600 ease-in-out"
+              style={{
+                opacity: current === index ? 1 : 0.5,
+              }}
+              alt={title || "Slide image"}
+              src={image}
+              onLoad={imageLoaded}
+              loading="lazy"
+              decoding="sync"
+            />
+          )}
 
           {current === index && (
             <div className="absolute inset-0 bg-black/30 transition-all duration-1000" />
@@ -125,12 +139,14 @@ const Slide = ({ slide, index, current, handleSlideClick }: SlideProps) => {
             </h2>
           )}
           <div className="flex justify-center">
-            <button
-              className="mt-6 px-4 py-2 w-fit mx-auto sm:text-sm h-12 text-xs flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
-              onClick={handlePlayClick}
-            >
-              {button}
-            </button>
+            {url && (
+              <button
+                className="mt-6 px-4 py-2 w-fit mx-auto sm:text-sm h-12 text-xs flex justify-center items-center rounded-2xl hover:shadow-lg transition duration-200 shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]"
+                onClick={handlePlayClick}
+              >
+                {button}
+              </button>
+            )}
           </div>
         </article>
       </li>
