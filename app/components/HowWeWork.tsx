@@ -31,10 +31,10 @@ export function HowWeWork() {
           <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata">
             How We Work
           </h2>
-          <p className=" max-w-3xl mx-auto md:text-lg text-sm lg:text-lg font-montserrat">
+          {/* <p className=" max-w-3xl mx-auto md:text-lg text-sm lg:text-lg font-montserrat">
             From Elegant Homes To Modern Offices, We Create Stylish, Functional,
             And Personalized Interiors.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 max-w-6xl mx-auto">

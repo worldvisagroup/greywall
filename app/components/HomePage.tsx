@@ -77,12 +77,14 @@ export default function Homepage({ isLandingPage }: Props) {
                   <h2 className="text-[#CECECE] text-2xl md:text-3xl font-literata">
                     Transform Your Space
                   </h2>
-                  <h3 className="text-white text-3xl md:text-4xl lg:text-6xl font-serif">
-                    With Stunning Interiors
+                  <h3 className="text-white text-2xl md:text-4xl lg:text-5xl font-serif">
+                    YOUR SPACE SPEAKS YOUR STORY !
                   </h3>
                 </div>
                 <p className="text-[#FFEDE6] lg:text-lg md:text-lg text-sm max-w-xl font-montserrat">
-                From luxurious homes to modern workspaces, we specialize in creating sophisticated, functional, and bespoke interiors tailored to your unique vision
+                  From luxurious homes to modern workspaces, we specialize in
+                  creating sophisticated, functional, and bespoke interiors
+                  tailored to your unique vision
                 </p>
               </div>
             ) : (
@@ -126,18 +128,16 @@ export default function Homepage({ isLandingPage }: Props) {
                 }}
                 options={{
                   projectType: [
-                    { value: "2bhk", label: "2BHK" },
-                    { value: "3bhk", label: "3BHK" },
-                    { value: "villa", label: "Villa" },
-                    { value: "apartment", label: "Apartment" },
-                    { value: "house", label: "House" },
+                    { value: "2BHK", label: "2BHK" },
+                    { value: "3BHK", label: "3BHK" },
+                    { value: "Villa/Independent House", label: "Villa/Independent House" },
+                    { value: "Commercial", label: "Commercial" },
                   ],
                   budget: [
                     { value: "10-20", label: "10-20 Lac" },
                     { value: "20-30", label: "20-30 Lac" },
                     { value: "30-40", label: "30-40 Lac" },
-                    { value: "40-50", label: "40-50 Lac" },
-                    { value: "50+", label: "50 Lac +" },
+                    { value: "40+", label: "40 Lac +" },
                   ],
                 }}
               />

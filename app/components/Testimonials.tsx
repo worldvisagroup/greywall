@@ -21,10 +21,10 @@ const Testimonials = async ({ isLandingPage }: Props) => {
               <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata text-white">
                 Testimonials
               </h2>
-              <p className="text-white/85 max-w-3xl mx-auto text-sm lg:text-lg md:text-lg font-montserrat">
+              {/* <p className="text-white/85 max-w-3xl mx-auto text-sm lg:text-lg md:text-lg font-montserrat">
                 From Elegant Homes To Modern Offices, We Create Stylish,
                 Functional, And Personalized Interiors.
-              </p>
+              </p> */}
             </div>
           </>
         ) : (

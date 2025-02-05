@@ -123,8 +123,8 @@ const Contact = <T extends FieldValues>({
                   height={500}
                 /> */}
               </div>
-              <p className="lg:text-7xl font-literata md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
-                Let&apos;s Talk!
+              <p className="lg:text-6xl font-literata md:text-4xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
+                Readly to Transform your space?
               </p>
             </div>
           ) : (
@@ -211,9 +211,7 @@ const Contact = <T extends FieldValues>({
                 </a>
               </div>
               <div>
-                <h2 className="text-lg font-medium mb-2">
-                  CONNECT US ON SOCIAL MEDIA
-                </h2>
+                <h2 className="text-lg font-medium mb-2">Follow Us </h2>
                 <div className="flex gap-[28px] py-[12px]">
                   <a
                     href="https://www.instagram.com/the_greywall_interiors/"

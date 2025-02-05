@@ -6,12 +6,12 @@ export function AboutUslandingPage() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-5xl lg:text-[48px] font-literata  text-zinc-800">
-            About The Grey Wall
+            About us
           </h2>
-          <p className="text-zinc-600 max-w-3xl mx-auto lg:text-lg text-sm md:text-lg font-montserrat">
+          {/* <p className="text-zinc-600 max-w-3xl mx-auto lg:text-lg text-sm md:text-lg font-montserrat">
             From Elegant Homes To Modern Offices, We Create Stylish, Functional,
             And Personalized Interiors.
-          </p>
+          </p> */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-2 items-start max-w-7xl mx-auto">
@@ -24,7 +24,7 @@ export function AboutUslandingPage() {
             />
           </div>
 
-          <div className="space-y-8">
+          <div className="space-y-8 capitalize">
             <p className="text-[#2C2C2CF] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               At <span className="text-zinc-950 font-semibold  ">The Grey Wall</span>, We Redefine Architecture, Civil
               Construction, And Luxury Interior Design By Seamlessly Blending
