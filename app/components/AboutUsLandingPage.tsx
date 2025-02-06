@@ -15,12 +15,13 @@ export function AboutUslandingPage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-2 items-start max-w-7xl mx-auto">
-          <div className="relative aspect-square lg:w-full lg:max-w-md mx-auto">
+          <div className="relative w-full max-w-md mx-auto">
             <Image
               src="/images/landingPage/Aboutus_image.webp"
               alt="Luxurious interior design"
-              fill
-              className="object-cover rounded-lg"
+              width={500}
+              height={500}
+              className="object-cover rounded-lg w-full h-auto"
             />
           </div>
 
