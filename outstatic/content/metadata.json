@@ -1,6 +1,6 @@
 {
-  "commit": "04b196ef277d5d9c4f8e4f74d45843d1d70241d6",
-  "generated": "2025-02-06T13:18:01.144Z",
+  "commit": "4593ec11c6971c1f0ecbc4194633e893258139eb",
+  "generated": "2025-02-06T13:23:40.532Z",
   "metadata": [
     {
       "__outstatic": {
@@ -727,25 +727,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f3971c94a9be951ecea1ae1c08613956e7b68f57",
-        "hash": "3669820554",
-        "path": "outstatic/content/reels/reel1.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
-      "description": "",
-      "publishedAt": "2025-02-06T07:31:16.010Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
-      "slug": "reel1",
-      "status": "published",
-      "title": "Reel1"
-    },
-    {
-      "__outstatic": {
         "commit": "5f6193539c109dac3c6d74559745d6470447311e",
         "hash": "4102049957",
         "path": "outstatic/content/reels/reel2.md"
@@ -781,6 +762,25 @@
       "slug": "reel3",
       "status": "published",
       "title": "Reel3"
+    },
+    {
+      "__outstatic": {
+        "commit": "4593ec11c6971c1f0ecbc4194633e893258139eb",
+        "hash": "472208837",
+        "path": "outstatic/content/reels/reel1.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738844451/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.40.00_656bf60b_osuoic.jpg",
+      "description": "",
+      "publishedAt": "2025-02-06T07:31:16.010Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738848076/greywall/reels/Video-179_qc68g5.mp4",
+      "slug": "reel1",
+      "status": "published",
+      "title": "Reel1"
     }
   ]
 }
