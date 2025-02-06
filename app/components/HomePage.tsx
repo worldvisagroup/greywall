@@ -23,7 +23,7 @@ export default function Homepage({ isLandingPage }: Props) {
   };
 
   return (
-    <div className="relative min-h-screen text-white flex flex-col">
+    <div className="relative min-h-screen text-white flex flex-col overflow-hidden">
       <Image
         src="/images/bg-svg.svg"
         alt="Background"
@@ -64,7 +64,7 @@ export default function Homepage({ isLandingPage }: Props) {
           className={cn(
             `${
               isLandingPage
-                ? "flex flex-grow lg:flex-row md:flex-col flex-col justify-evenly min-h-screen gap-12 items-center"
+                ? "flex flex-grow lg:flex-row sm:flex-col md:flex-col flex-col justify-evenly min-h-screen gap-12 items-center"
                 : "justify-center text-left px-6 md:px-24 flex-grow flex flex-col items-start"
             }`
           )}
@@ -75,7 +75,8 @@ export default function Homepage({ isLandingPage }: Props) {
                 {/* Heading Section */}
                 <div className="lg:space-y-6 md:space-y-3 space-y-3">
                   <h3 className="text-[#CDCDCD] text-2xl md:text-3xl lg:text-5xl font-serif">
-                    YOUR <span className="text-white">SPACE</span> SPEAKS <span className="text-white">YOUR STORY !</span>
+                    YOUR <span className="text-white">SPACE</span> SPEAKS{" "}
+                    <span className="text-white">YOUR STORY !</span>
                   </h3>
                 </div>
                 <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] font-montserrat ">
@@ -113,7 +114,7 @@ export default function Homepage({ isLandingPage }: Props) {
             </>
           )}
           {isLandingPage && (
-            <div className="md:mb-10 lg:mb-0 mb-10">
+            <div className="md:mb-10 lg:mb-0 mb-10 border border-red-600 mx-auto">
               <ContactForm
                 schema={ContactSchema}
                 defaultValues={{
@@ -127,7 +128,10 @@ export default function Homepage({ isLandingPage }: Props) {
                   projectType: [
                     { value: "2BHK", label: "2BHK" },
                     { value: "3BHK", label: "3BHK" },
-                    { value: "Villa/Independent House", label: "Villa/Independent House" },
+                    {
+                      value: "Villa/Independent House",
+                      label: "Villa/Independent House",
+                    },
                     { value: "Commercial Space", label: "Commercial Space" },
                   ],
                   budget: [
