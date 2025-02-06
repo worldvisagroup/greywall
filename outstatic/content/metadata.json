@@ -1,6 +1,6 @@
 {
-  "commit": "33ef52800b850bae6c594e8a60a4ed3b3bd612b2",
-  "generated": "2025-02-06T12:21:07.404Z",
+  "commit": "2d8f3d118ff8022710a7f3373190447c8ad2886e",
+  "generated": "2025-02-06T12:21:41.392Z",
   "metadata": [
     {
       "__outstatic": {
@@ -724,25 +724,6 @@
       "videoOne": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482876/greywall/projects/woodland-construction/IMG_7704_qet2hi.mov",
       "videoThree": "",
       "videoTwo": "https://res.cloudinary.com/djvvz62dw/video/upload/v1730482855/greywall/projects/woodland-construction/IMG_7703_a5rxom.mov"
-    },
-    {
-      "__outstatic": {
-        "commit": "07bbfd80246abc8a353ec5bfd1bbe9106a38300d",
-        "hash": "2858384716",
-        "path": "outstatic/content/reels/reel4.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825233/greywall/reels/ReelCoverImage/reel4_ndxsp6.webp",
-      "description": "",
-      "publishedAt": "2025-02-06T07:35:58.950Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824761/greywall/reels/AQMLZA8tDlAtkSzGhmWRkgsjotyAgb439zUKh-yBZSWB7uqzDqBUPQ3iPmb7jIGzchvPxbnG8LxDnOfLdaGb1L3MYopSE8kyA6M_GfI_xf0njh.mp4",
-      "slug": "reel4",
-      "status": "published",
-      "title": "Reel4"
     },
     {
       "__outstatic": {
