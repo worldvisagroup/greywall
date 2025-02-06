@@ -1,0 +1,13 @@
+{
+  "title": "reels",
+  "type": "object",
+  "properties": {
+    "reelUrl": {
+      "required": true,
+      "description": "Reel url ",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "reel_url"
+    }
+  }
+}
