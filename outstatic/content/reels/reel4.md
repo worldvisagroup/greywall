@@ -2,7 +2,7 @@
 author:
   name: 'World Visa Consultants'
   picture: 'https://avatars.githubusercontent.com/u/178646765?v=4'
-coverImage: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel5_cexlex.webp'
+coverImage: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1738825233/greywall/reels/ReelCoverImage/reel4_ndxsp6.webp'
 title: 'Reel4'
 status: 'published'
 slug: 'reel4'
