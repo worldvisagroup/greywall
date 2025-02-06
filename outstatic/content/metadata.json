@@ -1,6 +1,6 @@
 {
-  "commit": "2293f0b1653c391412cf673a91c128254986b2e7",
-  "generated": "2025-02-06T07:01:47.254Z",
+  "commit": "f5a83cd19d1892ae86df9c5f94eb09279e8c35e0",
+  "generated": "2025-02-06T07:02:52.550Z",
   "metadata": [
     {
       "__outstatic": {
@@ -762,6 +762,25 @@
       "slug": "reel1",
       "status": "published",
       "title": "Reel1"
+    },
+    {
+      "__outstatic": {
+        "commit": "f5a83cd19d1892ae86df9c5f94eb09279e8c35e0",
+        "hash": "3667831905",
+        "path": "outstatic/content/reels/reel3.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
+      "description": "",
+      "publishedAt": "2025-02-06T07:35:11.126Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824807/greywall/reels/Video-602_yjdtfv.mp4",
+      "slug": "reel3",
+      "status": "draft",
+      "title": "Reel3"
     }
   ]
 }
