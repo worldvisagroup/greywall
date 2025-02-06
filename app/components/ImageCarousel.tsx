@@ -9,6 +9,7 @@ import {
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
 
+
 const ImageCarousel = ({ slideData }) => {
   return (
     <Carousel className="w-full lg:max-w-7xl mx-auto">
