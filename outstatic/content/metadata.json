@@ -1,6 +1,6 @@
 {
-  "commit": "7cb79de4d1041bb8384a99137a67beafd0ff2291",
-  "generated": "2025-02-06T07:03:52.046Z",
+  "commit": "9598512e96d13b6ee442ddf0ce13bec4b5036b4b",
+  "generated": "2025-02-06T07:04:13.659Z",
   "metadata": [
     {
       "__outstatic": {
@@ -765,25 +765,6 @@
     },
     {
       "__outstatic": {
-        "commit": "f5a83cd19d1892ae86df9c5f94eb09279e8c35e0",
-        "hash": "3667831905",
-        "path": "outstatic/content/reels/reel3.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
-      "description": "",
-      "publishedAt": "2025-02-06T07:35:11.126Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824807/greywall/reels/Video-602_yjdtfv.mp4",
-      "slug": "reel3",
-      "status": "draft",
-      "title": "Reel3"
-    },
-    {
-      "__outstatic": {
         "commit": "7cb79de4d1041bb8384a99137a67beafd0ff2291",
         "hash": "1013044453",
         "path": "outstatic/content/reels/reel4.md"
@@ -800,6 +781,25 @@
       "slug": "reel4",
       "status": "published",
       "title": "Reel4"
+    },
+    {
+      "__outstatic": {
+        "commit": "9598512e96d13b6ee442ddf0ce13bec4b5036b4b",
+        "hash": "94497543",
+        "path": "outstatic/content/reels/reel3.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
+      "description": "",
+      "publishedAt": "2025-02-06T07:35:11.126Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824807/greywall/reels/Video-602_yjdtfv.mp4",
+      "slug": "reel3",
+      "status": "published",
+      "title": "Reel3"
     }
   ]
 }
