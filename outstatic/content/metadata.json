@@ -1,6 +1,6 @@
 {
-  "commit": "2d8f3d118ff8022710a7f3373190447c8ad2886e",
-  "generated": "2025-02-06T12:21:41.392Z",
+  "commit": "04b196ef277d5d9c4f8e4f74d45843d1d70241d6",
+  "generated": "2025-02-06T13:18:01.144Z",
   "metadata": [
     {
       "__outstatic": {
@@ -765,8 +765,8 @@
     },
     {
       "__outstatic": {
-        "commit": "33ef52800b850bae6c594e8a60a4ed3b3bd612b2",
-        "hash": "423051796",
+        "commit": "04b196ef277d5d9c4f8e4f74d45843d1d70241d6",
+        "hash": "24096430",
         "path": "outstatic/content/reels/reel3.md"
       },
       "author": {
@@ -774,7 +774,7 @@
         "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
       },
       "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738844451/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.40.00_656bf60b_osuoic.jpg",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738847765/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.34.13_df804b83_pbeg2p.jpg",
       "description": "",
       "publishedAt": "2025-02-06T07:35:11.126Z",
       "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738844380/greywall/reels/Auguste_Skin_Interior_-_The_Grey_Walls_ofbq6l.mp4",
