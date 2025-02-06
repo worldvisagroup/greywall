@@ -79,7 +79,7 @@ const Contact = <T extends FieldValues>({
       id="contact"
       className={cn(
         `${
-          isLandingPage ? "bg-[#FFFBFA]" : "bg-[#FFEDE6]"
+          isLandingPage ? "bg-[#FFF1EC]" : "bg-[#FFF1EC]"
         } text-[#fff] p-8 md:p-16`
       )}
     >
@@ -123,8 +123,8 @@ const Contact = <T extends FieldValues>({
                   height={500}
                 /> */}
               </div>
-              <p className="lg:text-6xl font-literata md:text-4xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
-                Readly to Transform your space?
+              <p className="lg:text-5xl font-literata md:text-4xl text-2xl  text-[#4B4B4B] lg:mb-16 mb-5 items-center text-center">
+                Ready to transform your space?
               </p>
             </div>
           ) : (

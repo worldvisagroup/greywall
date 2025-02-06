@@ -3,7 +3,7 @@ import AboutUsImage from "@/public/images/landingPage/Aboutus_image.webp";
 
 export function AboutUslandingPage() {
   return (
-    <section className="w-full bg-[#FFFBFA] py-24">
+    <section className="w-full bg-[#FFF1EC] py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane  text-[#2C2C2C]">

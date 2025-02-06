@@ -1,12 +1,10 @@
 "use client";
 import React, { useState } from "react";
-import ReelCard from "./ReelCard";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { Play } from "lucide-react";
 
@@ -18,7 +16,7 @@ const ReelCarousel = ({ slideData }) => {
   };
 
   return (
-    <div className="flex flex-row gap-8 justify-center">
+    <div className="flex flex-row gap-8 justify-center ">
       <Carousel className="w-full max-w-6xl">
         <CarouselContent className="-ml-5">
           {slideData.map((slide, index) => (
@@ -27,7 +25,7 @@ const ReelCarousel = ({ slideData }) => {
               className="pl-1 md:basis-1/4 lg:basis-1/4"
             >
               <div className="p-1">
-                <div className="w-[252px] h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto ">
+                <div className="w-[252px] h-[418px]  rounded-lg shadow-lg flex flex-row justify-center mx-auto ">
                   {playingVideoIndex === index ? (
                     <video
                       className="w-full h-full object-cover"

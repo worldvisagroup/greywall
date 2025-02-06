@@ -3,6 +3,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import commericalImage1 from "@/public/images/portfolioImage/commerical1.webp";
 import commericalImage2 from "@/public/images/portfolioImage/commerical2.webp";
 import commericalImage3 from "@/public/images/portfolioImage/commerical3.webp";
+import commericalImage4 from "@/public/images/portfolioImage/res_image.webp";
+import commericalImage5 from "@/public/images/landingPage/Aboutus_image.webp";
+
 import ReelCarousel from "./ReelCarousel";
 import ImageCarousel from "./ImageCarousel";
 import { getDocuments } from "outstatic/server";
@@ -17,12 +20,18 @@ const residencialSlideData = [
   {
     image: commericalImage3,
   },
+  {
+    image: commericalImage4,
+  },
+  {
+    image: commericalImage5,
+  },
 ];
 
 const WorkPortfolio = async () => {
   const data = await getAllReels();
   return (
-    <div className="bg-[#FFFBFA] max-h-screen container mx-auto py-20">
+    <div className="bg-[#FFF1EC] max-h-screen container mx-auto lg:py-20 md:py-18 py-4">
       <div className="text-center mb-8 space-y-4">
         <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane text-[#2C2C2C]">
           Our Work
@@ -33,26 +42,26 @@ const WorkPortfolio = async () => {
           elevate your lifestyle.
         </p> */}
       </div>
-      <Tabs defaultValue="Commerical" className="w-full">
-        <TabsList className="flex justify-center lg:h-[40%] lg:w-[70%] md:w-[70%] w-full mx-auto gap-10 mb-8">
+      <Tabs defaultValue="Commercial" className="w-full">
+        <TabsList className="flex justify-center lg:h-[40%] lg:w-[70%] md:w-[70%] bg-[#FEF7F1] w-full mx-auto gap-10 mb-8">
           <TabsTrigger
             className="lg:w-[50%] md:w-[50%] w-full mx-4 min-h-10 rounded-lg font-montserrat data-[state=active]:bg-[#2C2C2C] data-[state=active]:text-[#FFFBFA]"
-            value="Commerical"
+            value="Commercial"
           >
-            Commerical
+            Commercial
           </TabsTrigger>
           <TabsTrigger
             className="lg:w-[50%] md:w-[50%] w-full mx-4 min-h-10 rounded-lg font-montserrat data-[state=active]:bg-[#2C2C2C] data-[state=active]:text-[#FFFBFA]"
-            value="Residencial"
+            value="Residential"
           >
-            Residencial
+            Residential
           </TabsTrigger>
         </TabsList>
 
-        <TabsContent value="Commerical">
+        <TabsContent value="Commercial">
           <ReelCarousel slideData={data} />
         </TabsContent>
-        <TabsContent value="Residencial">
+        <TabsContent value="Residential">
           <ImageCarousel slideData={residencialSlideData} />
         </TabsContent>
       </Tabs>
@@ -64,7 +73,7 @@ export default WorkPortfolio;
 
 export async function getAllReels() {
   try {
-    const allReels = getDocuments("reels",["reelUrl","coverImage"]);
+    const allReels = getDocuments("reels", ["reelUrl", "coverImage"]);
     return allReels;
   } catch (error) {
     console.error("Error fetching reels:", error);
