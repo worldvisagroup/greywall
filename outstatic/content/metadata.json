@@ -1,6 +1,6 @@
 {
-  "commit": "07bbfd80246abc8a353ec5bfd1bbe9106a38300d",
-  "generated": "2025-02-06T09:58:19.977Z",
+  "commit": "ecdd85cf1392a7218893d055f76d2c6fce5947d9",
+  "generated": "2025-02-06T10:04:54.014Z",
   "metadata": [
     {
       "__outstatic": {
@@ -746,25 +746,6 @@
     },
     {
       "__outstatic": {
-        "commit": "2293f0b1653c391412cf673a91c128254986b2e7",
-        "hash": "3134251613",
-        "path": "outstatic/content/reels/reel1.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825235/greywall/reels/ReelCoverImage/reel2_n5togr.webp",
-      "description": "",
-      "publishedAt": "2025-02-06T07:31:16.010Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824812/greywall/reels/Video-936_qba0qs.mp4",
-      "slug": "reel1",
-      "status": "published",
-      "title": "Reel1"
-    },
-    {
-      "__outstatic": {
         "commit": "9598512e96d13b6ee442ddf0ce13bec4b5036b4b",
         "hash": "94497543",
         "path": "outstatic/content/reels/reel3.md"
@@ -800,6 +781,25 @@
       "slug": "reel4",
       "status": "published",
       "title": "Reel4"
+    },
+    {
+      "__outstatic": {
+        "commit": "ecdd85cf1392a7218893d055f76d2c6fce5947d9",
+        "hash": "2127811850",
+        "path": "outstatic/content/reels/reel1.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738836280/greywall/reels/ReelCoverImage/reelthumbnail1_ojnof6.webp",
+      "description": "",
+      "publishedAt": "2025-02-06T07:31:16.010Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824812/greywall/reels/Video-936_qba0qs.mp4",
+      "slug": "reel1",
+      "status": "published",
+      "title": "Reel1"
     }
   ]
 }
