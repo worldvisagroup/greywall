@@ -1,6 +1,6 @@
 {
-  "commit": "0bff264ba8a96540439d33b1ddc8eeb6ba9a071f",
-  "generated": "2025-02-06T10:09:23.717Z",
+  "commit": "6df445d70b5c41ac9913ed90105a57e0cb65a9db",
+  "generated": "2025-02-06T10:09:49.013Z",
   "metadata": [
     {
       "__outstatic": {
@@ -727,25 +727,6 @@
     },
     {
       "__outstatic": {
-        "commit": "9598512e96d13b6ee442ddf0ce13bec4b5036b4b",
-        "hash": "94497543",
-        "path": "outstatic/content/reels/reel3.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
-      "description": "",
-      "publishedAt": "2025-02-06T07:35:11.126Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824807/greywall/reels/Video-602_yjdtfv.mp4",
-      "slug": "reel3",
-      "status": "published",
-      "title": "Reel3"
-    },
-    {
-      "__outstatic": {
         "commit": "07bbfd80246abc8a353ec5bfd1bbe9106a38300d",
         "hash": "2858384716",
         "path": "outstatic/content/reels/reel4.md"
@@ -800,6 +781,25 @@
       "slug": "reel2",
       "status": "published",
       "title": "Reel2"
+    },
+    {
+      "__outstatic": {
+        "commit": "6df445d70b5c41ac9913ed90105a57e0cb65a9db",
+        "hash": "544518740",
+        "path": "outstatic/content/reels/reel3.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738836523/greywall/reels/ReelCoverImage/reelthumbnail2_akm5mq.webp",
+      "description": "",
+      "publishedAt": "2025-02-06T07:35:11.126Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738824807/greywall/reels/Video-602_yjdtfv.mp4",
+      "slug": "reel3",
+      "status": "published",
+      "title": "Reel3"
     }
   ]
 }
