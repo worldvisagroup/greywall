@@ -16,13 +16,13 @@ const ReelCarousel = ({ slideData }) => {
   };
 
   return (
-    <div className="flex flex-row gap-8 overflow-hidden justify-center mx-auto">
-      <Carousel className="min-w-full lg:max-w-6xl">
-        <CarouselContent className="-ml-5">
+    <div className="flex flex-row overflow-hidden">
+      <Carousel className="w-full mx-auto">
+        <CarouselContent className="-ml-1 flex justify-center">
           {slideData.map((slide, index) => (
             <CarouselItem
               key={index}
-              className="pl-1 md:basis-1/2 lg:basis-1/4" 
+              className="md:basis-1/2 lg:basis-1/4 " 
             >
               <div className="p-1">
                 <div className="w-[252px] h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto ">

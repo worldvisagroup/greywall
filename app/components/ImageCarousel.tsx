@@ -12,7 +12,7 @@ import { Card } from "@/components/ui/card";
 const ImageCarousel = ({ slideData }) => {
   return (
     <Carousel className="w-full lg:max-w-7xl mx-auto">
-      <CarouselContent className="-ml-1">
+      <CarouselContent className="-ml-1 ">
         {slideData.map((slide, index) => (
           <CarouselItem key={index} className="pl-1 md:basis-1/2 lg:basis-1/3">
             <Card className="p-1 lg:w-[500px] h-[350px] flex m-2">
@@ -27,8 +27,8 @@ const ImageCarousel = ({ slideData }) => {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <CarouselPrevious className="hidden lg:block md:block" />
-      <CarouselNext className="hidden lg:block md:block" />
+      <CarouselPrevious className="hidden lg:block md:hidden" />
+      <CarouselNext className="hidden lg:block md:hidden" />
       <div className="flex justify-center mt-2 lg:hidden">
         {slideData.map((_, index) => (
           <span

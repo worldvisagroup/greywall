@@ -114,7 +114,7 @@ export default function Homepage({ isLandingPage }: Props) {
             </>
           )}
           {isLandingPage && (
-            <div className="md:mb-10 lg:mb-0 mb-10 border border-red-600 mx-auto">
+            <div className="md:mb-10 lg:mb-0 mb-10 mx-auto">
               <ContactForm
                 schema={ContactSchema}
                 defaultValues={{
