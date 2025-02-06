@@ -15,40 +15,38 @@ export function AboutUslandingPage() {
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-2 items-start max-w-7xl mx-auto">
-          <div className="relative aspect-square w-full max-w-sm mx-auto">
+          <div className="relative aspect-square lg:w-full lg:max-w-md mx-auto">
             <Image
-              src="/images/interior_design.png"
+              src="/images/landingPage/Aboutus_image.webp"
               alt="Luxurious interior design"
               fill
               className="object-cover rounded-lg"
             />
           </div>
 
-          <div className="space-y-8 capitalize">
+          <div className="space-y-8 ">
             <p className="text-[#2C2C2CF] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               At{" "}
               <span className="text-zinc-950 font-semibold  ">
                 The Grey Wall
               </span>
-              , We Redefine Architecture, Civil Construction, And Luxury
-              Interior Design By Seamlessly Blending Sustainability With
-              Exceptional Craftsmanship. Our Zero-Carbon Methodology Ensures
-              That Every Project Is A True Reflection Of Our Clients&apos;
-              Unique Vision And Personality.
+              we transform architecture, civil construction, and luxury interior
+              design by combining sustainability with exceptional craftsmanship.
+              Our zero-carbon methodology ensures each project is tailored to
+              reflect the distinct personality of our clients.
             </p>
 
             <p className="text-[#2C2C2C] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
-              From Iconic Architectural Landmarks To Intricate Civil Projects
-              And Exquisite Interiors, We Merge Innovation With Deep Client
-              Insight To Craft Spaces That Inspire. Whether Designing
-              Residential Or Commercial Spaces, We Prioritize Aesthetics,
-              Structural Integrity, And Environmental Responsibility, Delivering
-              Designs That Stand The Test Of Time.
+              Whether shaping architectural landmarks, executing intricate civil
+              projects, or designing exquisite interiors, we blend innovation
+              with deep client insight.
             </p>
 
             <p className="text-[#2C2C2C] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
-              We Don&apos;t Just Build Spaces—We Create Legacies That Embody
-              Elegance, Sustainability, And Innovation.
+              From residential to commercial spaces, we deliver not only on
+              aesthetics and structural integrity but also on our unwavering
+              commitment to environmental stewardship and enduring elegance. We
+              don&apos;t just build spaces we create legacies.
             </p>
           </div>
         </div>

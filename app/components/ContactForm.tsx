@@ -105,7 +105,7 @@ const ContactForm = <T extends FieldValues>({
                 name={field as Path<T>}
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="capitalize">
+                    <FormLabel className="capitalize font-montserrat">
                       {FIELD_NAMES[field.name as keyof typeof FIELD_NAMES]}
                     </FormLabel>
                     <FormControl>
@@ -123,6 +123,7 @@ const ContactForm = <T extends FieldValues>({
                                 <SelectItem
                                   key={option.value}
                                   value={option.value}
+                                  className="font-montserrat"
                                 >
                                   {option.label}
                                 </SelectItem>

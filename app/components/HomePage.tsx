@@ -36,7 +36,7 @@ export default function Homepage({ isLandingPage }: Props) {
       {isLandingPage && (
         <div className="absolute md:left-[8%] left-[5%] top-5 md:top-10 z-30 md:w-[257px] md:h-[111px] w-[150px] h-[90px]">
           <Image
-            src="/logo/The-greywall-logo.svg"
+            src="/logo/new_logo.svg"
             alt="Logo"
             width={1000}
             height={1000}
@@ -71,17 +71,14 @@ export default function Homepage({ isLandingPage }: Props) {
         >
           <div>
             {isLandingPage ? (
-              <div className="lg:space-y-6 md:space-y-5 space-y-4 flex flex-col lg:items-start md:items-center lg:text-start md:text-center text-center items-center px-4 mt-[40%] md:mt-[30%] lg:mt-[20%]">
+              <div className="lg:space-y-8 md:space-y-5 space-y-4 flex flex-col lg:items-center md:items-center lg:text-center md:text-center text-center items-center px-4 mt-[40%] md:mt-[30%] lg:mt-[20%]">
                 {/* Heading Section */}
-                <div className="lg:space-y-4 md:space-y-3 space-y-3">
-                  <h2 className="text-[#CECECE] text-2xl md:text-3xl font-literata">
-                    Transform Your Space
-                  </h2>
-                  <h3 className="text-white text-2xl md:text-4xl lg:text-5xl font-serif">
-                    YOUR SPACE SPEAKS YOUR STORY !
+                <div className="lg:space-y-6 md:space-y-3 space-y-3">
+                  <h3 className="text-[#CDCDCD] text-2xl md:text-4xl lg:text-5xl font-serif">
+                    YOUR <span className="text-white">SPACE</span> SPEAKS <span className="text-white">YOUR STORY !</span>
                   </h3>
                 </div>
-                <p className="text-[#FFEDE6] lg:text-lg md:text-lg text-sm max-w-xl font-montserrat">
+                <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] font-montserrat ">
                   From luxurious homes to modern workspaces, we specialize in
                   creating sophisticated, functional, and bespoke interiors
                   tailored to your unique vision
@@ -131,7 +128,7 @@ export default function Homepage({ isLandingPage }: Props) {
                     { value: "2BHK", label: "2BHK" },
                     { value: "3BHK", label: "3BHK" },
                     { value: "Villa/Independent House", label: "Villa/Independent House" },
-                    { value: "Commercial", label: "Commercial" },
+                    { value: "Commercial Space", label: "Commercial Space" },
                   ],
                   budget: [
                     { value: "10-20", label: "10-20 Lac" },

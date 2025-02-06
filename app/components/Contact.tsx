@@ -213,7 +213,7 @@ const Contact = <T extends FieldValues>({
                   -560038
                 </a>
               </div>
-              <div>
+              <div className="lg:mx-2">
                 <h2 className="text-lg font-medium mb-2 font-montserrat">
                   Follow Us{" "}
                 </h2>
