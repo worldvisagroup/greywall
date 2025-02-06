@@ -5,6 +5,7 @@ import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import AnalyticsProvider from "./components/providers/AnalyticsProvider";
 
+
 const northWell = localFont({
   src: "./fonts/Northwell.ttf",
   variable: "--font-northwell",

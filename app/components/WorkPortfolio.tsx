@@ -3,42 +3,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import commericalImage1 from "@/public/images/portfolioImage/commerical1.webp";
 import commericalImage2 from "@/public/images/portfolioImage/commerical2.webp";
 import commericalImage3 from "@/public/images/portfolioImage/commerical3.webp";
-// import ReelCarousel from "./ReelCarousel";
+import ReelCarousel from "./ReelCarousel";
 import ImageCarousel from "./ImageCarousel";
 import { getDocuments } from "outstatic/server";
-
-// const commericalSlideDate = [
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/DE7P42bvnnw/",
-//     reelImage: reelImage1,
-//   },
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/DFe8J__yIAo/",
-//     reelImage: reelImage2,
-//   },
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/CuY4gyFsiLX/",
-//     reelImage: reelImage3,
-//   },
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/DFIKEauS_nP/",
-//     reelImage: reelImage4,
-//   },
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/C2fSLrJPEGU/",
-//     reelImage: reelImage5,
-//   },
-//   {
-//     button: <Play />,
-//     url: "https://www.instagram.com/reel/C0s-a9kvQLF/",
-//     reelImage: reelImage6,
-//   },
-// ];
 
 const residencialSlideData = [
   {
@@ -54,8 +21,6 @@ const residencialSlideData = [
 
 const WorkPortfolio = async () => {
   const data = await getAllReels();
-  console.log("reels data", data);
-
   return (
     <div className="bg-[#FFFBFA] max-h-screen container mx-auto my-20">
       <div className="text-center mb-8 space-y-4">
@@ -85,10 +50,10 @@ const WorkPortfolio = async () => {
         </TabsList>
 
         <TabsContent value="Commerical">
-          {/* <ReelCarousel slideDate={} /> */}
+          <ReelCarousel slideData={data} />
         </TabsContent>
         <TabsContent value="Residencial">
-          <ImageCarousel slideDate={residencialSlideData} />
+          <ImageCarousel slideData={residencialSlideData} />
         </TabsContent>
       </Tabs>
     </div>
@@ -99,20 +64,10 @@ export default WorkPortfolio;
 
 export async function getAllReels() {
   try {
-    const allReels = getDocuments("reels");
-    console.log(allReels);
+    const allReels = getDocuments("reels",["reelUrl","coverImage"]);
     return allReels;
   } catch (error) {
     console.error("Error fetching reels:", error);
     return [];
   }
 }
-
-// export async function getAllProjects() {
-//   const allServices = getDocuments("homepage-all-projects", [
-//     "title",
-//     "slug",
-//     "coverImage",
-//   ]);
-//   return allServices;
-// }

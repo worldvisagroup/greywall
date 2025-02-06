@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import AnalyticsProvider from "../components/providers/AnalyticsProvider";
 
+
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
