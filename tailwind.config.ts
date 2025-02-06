@@ -66,7 +66,7 @@ const config: Config = {
         northwell: ["var(--font-northwell)"],
         literata: ["var(--font-literata)"],
         montserrat: ["var(--font-montserrat)"],
-        hurricane: ["var(--font-hurricane)"],
+        hurricane: ["Hurricane", "serif"],
         geistSans: ["var(--font-geist-sans)"],
         geistMono: ["var(--font-geist-mono)"],
       },
