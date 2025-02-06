@@ -31,7 +31,7 @@ const residencialSlideData = [
 const WorkPortfolio = async () => {
   const data = await getAllReels();
   return (
-    <div className="bg-[#FFF1EC] max-h-screen  lg:py-20 md:py-18 py-4">
+    <div className="bg-[#FFF1EC] max-h-screen  lg:pb-24 md:py-18 py-4">
       <div className="text-center mb-8 space-y-4">
         <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane text-[#2C2C2C]">
           Our Work
