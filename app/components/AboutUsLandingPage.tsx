@@ -1,4 +1,5 @@
 import Image from "next/image";
+import AboutUsImage from "@/public/images/landingPage/Aboutus_image.webp";
 
 export function AboutUslandingPage() {
   return (
@@ -17,7 +18,7 @@ export function AboutUslandingPage() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-2 items-start max-w-7xl mx-auto">
           <div className="relative w-full max-w-md mx-auto">
             <Image
-              src="/images/landingPage/Aboutus_image.webp"
+              src={AboutUsImage}
               alt="Luxurious interior design"
               width={500}
               height={500}
@@ -28,7 +29,7 @@ export function AboutUslandingPage() {
           <div className="space-y-8 ">
             <p className="text-[#2C2C2CF] text-sm lg:text-lg md:text-lg leading-relaxed font-montserrat">
               At{" "}
-              <span className="text-zinc-950 font-semibold  ">
+              <span className="text-zinc-950 font-semibold mr-1">
                 The Grey Wall
               </span>
               we transform architecture, civil construction, and luxury interior
