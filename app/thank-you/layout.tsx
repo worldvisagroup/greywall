@@ -6,7 +6,7 @@ const Layout = ({ children }: { children: ReactNode }) => {
     <html lang="en">
       <head>
         <AnalyticsProvider />
-        {/* Event snippet for Submit Lead Form - interior-designers conversion page */}
+        {/* Event snippet for Submit Lead Form - interior-designers conversion page only for thankyou page */}
         <script
           dangerouslySetInnerHTML={{
             __html: `gtag('event', 'conversion', {'send_to': 'AW-11130135653/EnlYCJGFlpkaEOXIobsp'});`,
