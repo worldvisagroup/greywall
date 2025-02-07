@@ -16,7 +16,7 @@ import {
   FormControl,
   FormField,
   FormItem,
-  FormLabel,
+  // FormLabel,
   FormMessage,
 } from "@/components/ui/form";
 import {
@@ -105,9 +105,9 @@ const ContactForm = <T extends FieldValues>({
                 name={field as Path<T>}
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="capitalize font-montserrat">
+                    {/* <FormLabel className="capitalize font-montserrat">
                       {FIELD_NAMES[field.name as keyof typeof FIELD_NAMES]}
-                    </FormLabel>
+                    </FormLabel> */}
                     <FormControl>
                       {["projectType", "budget"].includes(field.name) ? (
                         <>
@@ -116,7 +116,13 @@ const ContactForm = <T extends FieldValues>({
                             value={field.value}
                           >
                             <SelectTrigger>
-                              <SelectValue placeholder="Select" />
+                              <SelectValue 
+                                placeholder={
+                                  field.name === "projectType" 
+                                    ? "Select Project Type" 
+                                    : "Select Budget"
+                                } 
+                              />
                             </SelectTrigger>
                             <SelectContent>
                               {options[field.name].map((option) => (
@@ -136,6 +142,9 @@ const ContactForm = <T extends FieldValues>({
                           required
                           type={
                             FIELD_TYPES[field.name as keyof typeof FIELD_TYPES]
+                          }
+                          placeholder={
+                            FIELD_NAMES[field.name as keyof typeof FIELD_NAMES]
                           }
                           {...field}
                           className="w-full min-h-10 border border-slate-300 text-base font-semibold font-montserrat placeholder:font-normal placeholder:text-slate-300

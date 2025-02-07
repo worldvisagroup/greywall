@@ -43,7 +43,7 @@ const WorkPortfolio = async () => {
         </p> */}
       </div>
       <Tabs defaultValue="Commercial" className="w-full">
-        <TabsList className="flex justify-center lg:h-[40%] lg:w-[70%] md:w-[70%] bg-[#FEF7F1] w-full mx-auto gap-10 mb-8">
+        <TabsList className="flex justify-center lg:h-[40%] lg:w-[70%] md:w-[70%] bg-[#FEF7F1] w-[90%] mx-auto gap-10 mb-8">
           <TabsTrigger
             className="lg:w-[50%] md:w-[50%] w-full mx-4 min-h-10 rounded-lg font-montserrat data-[state=active]:bg-[#2C2C2C] data-[state=active]:text-[#FFFBFA]"
             value="Commercial"
