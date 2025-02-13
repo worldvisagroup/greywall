@@ -38,7 +38,7 @@
       "title": "ImageFive"
     },
     "onImageText": {
-      "required": false,
+      "required": true,
       "description": "",
       "fieldType": "String",
       "dataType": "string",
