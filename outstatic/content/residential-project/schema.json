@@ -1,0 +1,13 @@
+{
+  "title": "residential-project",
+  "type": "object",
+  "properties": {
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "imageOne"
+    }
+  }
+}
