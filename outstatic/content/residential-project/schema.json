@@ -36,6 +36,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "ImageFive"
+    },
+    "onImageText": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "OnImageText"
     }
   }
 }
