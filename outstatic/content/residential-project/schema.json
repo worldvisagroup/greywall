@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "imageOne"
+    },
+    "imageTwo": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "ImageTwo"
     }
   }
 }
