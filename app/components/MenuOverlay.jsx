@@ -26,7 +26,7 @@ export default function MenuOverlay({ isOpen, onClose }) {
           <Link
             key={section}
             href={`#${section}`}
-            className="block hover:text-[#535353e1]"
+            className="block hover:text-[#535353e1] font-montserrat"
             onClick={(e) => {
               e.preventDefault();
               onClose();

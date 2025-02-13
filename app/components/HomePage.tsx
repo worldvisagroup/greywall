@@ -23,7 +23,7 @@ export default function Homepage({ isLandingPage }: Props) {
   };
 
   return (
-    <div className="relative min-h-screen text-white flex flex-col">
+    <div className="relative min-h-screen text-white flex flex-col overflow-hidden">
       <Image
         src="/images/bg-svg.svg"
         alt="Background"
@@ -36,10 +36,10 @@ export default function Homepage({ isLandingPage }: Props) {
       {isLandingPage && (
         <div className="absolute md:left-[8%] left-[5%] top-5 md:top-10 z-30 md:w-[257px] md:h-[111px] w-[150px] h-[90px]">
           <Image
-            src="/logo/The-greywall-logo.svg"
+            src="/logo/new_logo.svg"
             alt="Logo"
-            width={500}
-            height={500}
+            width={1000}
+            height={1000}
           />
         </div>
       )}
@@ -64,26 +64,25 @@ export default function Homepage({ isLandingPage }: Props) {
           className={cn(
             `${
               isLandingPage
-                ? "flex flex-grow lg:flex-row md:flex-col flex-col justify-evenly min-h-screen gap-12 items-center"
+                ? "flex flex-grow lg:flex-row sm:flex-col md:flex-col flex-col justify-evenly min-h-screen gap-12 items-center"
                 : "justify-center text-left px-6 md:px-24 flex-grow flex flex-col items-start"
             }`
           )}
         >
           <div>
             {isLandingPage ? (
-              <div className="lg:space-y-6 md:space-y-5 space-y-4 flex flex-col lg:items-start md:items-center lg:text-start md:text-center text-center items-center px-4 mt-[50%] md:mt-[30%] lg:mt-[20%]">
+              <div className="lg:space-y-8 md:space-y-5 space-y-4 flex flex-col lg:items-center md:items-center lg:text-center md:text-center text-center items-center px-4 mt-[40%] md:mt-[30%] lg:mt-[20%]">
                 {/* Heading Section */}
-                <div className="lg:space-y-4 md:space-y-3 space-y-3">
-                  <h2 className="text-[#CECECE] text-2xl md:text-3xl font-literata">
-                    Transform Your Space
-                  </h2>
-                  <h3 className="text-white text-3xl md:text-4xl lg:text-6xl font-serif">
-                    With Stunning Interiors
+                <div className="lg:space-y-6 md:space-y-3 space-y-3">
+                  <h3 className="text-[#CDCDCD] text-2xl md:text-3xl lg:text-5xl font-serif">
+                    YOUR <span className="text-white">SPACE</span> SPEAKS{" "}
+                    <span className="text-white">YOUR STORY !</span>
                   </h3>
                 </div>
-                <p className="text-[#FFEDE6] lg:text-lg md:text-lg text-sm max-w-xl font-montserrat">
-                  From Elegant Homes To Modern Offices, We Create Stylish,
-                  Functional, And Personalized Interiors.
+                <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] font-montserrat ">
+                  From luxurious homes to modern workspaces, we specialize in
+                  creating sophisticated, functional, and bespoke interiors
+                  tailored to your unique vision
                 </p>
               </div>
             ) : (
@@ -115,32 +114,32 @@ export default function Homepage({ isLandingPage }: Props) {
             </>
           )}
           {isLandingPage && (
-            <div className="md:mb-10 lg:mb-0 mb-10">
+            <div className="md:mb-10 lg:mb-0 mb-10 mx-auto">
               <ContactForm
                 schema={ContactSchema}
                 defaultValues={{
                   name: "",
                   phoneNumber: "",
+                  // location: "",
                   projectType: "",
                   budget: "",
                 }}
                 options={{
                   projectType: [
-                    { value: "2bhk", label: "2BHK" },
-                    { value: "3bhk", label: "3BHK" },
-                    { value: "villa", label: "Villa" },
-                    { value: "apartment", label: "Apartment" },
-                    { value: "house", label: "House" },
+                    { value: "2BHK", label: "2BHK" },
+                    { value: "3BHK", label: "3BHK" },
+                    {
+                      value: "Villa/Independent House",
+                      label: "Villa/Independent House",
+                    },
+                    { value: "Commercial Space", label: "Commercial Space" },
                   ],
                   budget: [
-                    { value: "10-15", label: "10-15 Lac" },
-                    { value: "15-20", label: "15-20 Lac" },
-                    { value: "20-25", label: "20-25 Lac" },
-                    { value: "30+", label: "30 Lac +" },
+                    { value: "10-20", label: "10-20 Lac" },
+                    { value: "20-30", label: "20-30 Lac" },
+                    { value: "30-40", label: "30-40 Lac" },
+                    { value: "40+", label: "40 Lac +" },
                   ],
-                }}
-                onSubmit={() => {
-                  return null;
                 }}
               />
             </div>

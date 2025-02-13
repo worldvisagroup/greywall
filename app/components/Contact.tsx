@@ -7,48 +7,68 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import PlaceIcon from "@mui/icons-material/Place";
 import { cn } from "@/lib/utils";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import {
+  DefaultValues,
+  FieldValues,
+  Path,
+  SubmitHandler,
+  useForm,
+  UseFormReturn,
+} from "react-hook-form";
+import { ZodType } from "zod";
+import { ENQUIRY_FIELD_NAME, ENQUIRY_FIELD_TYPE } from "@/constants";
+import { toast } from "@/hooks/use-toast";
 
-interface Props {
+interface Props<T extends FieldValues> {
+  schema?: ZodType<T>;
+  defaultValues?: T;
   isLandingPage?: boolean;
 }
 
-const Contact = ({ isLandingPage }: Props) => {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
+const Contact = <T extends FieldValues>({
+  isLandingPage,
+  schema,
+  defaultValues = {} as T,
+}: Props<T>) => {
+  const form: UseFormReturn<T> = useForm({
+    resolver: zodResolver(schema),
+    defaultValues: defaultValues as DefaultValues<T>,
   });
+
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [submitStatus, setSubmitStatus] = useState(null);
 
-  const handleInputChange = (e) => {
-    const { id, value } = e.target;
-    setFormData((prev) => ({ ...prev, [id]: value }));
-  };
-
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleSubmit: SubmitHandler<T> = async (data) => {
     setIsSubmitting(true);
-    setSubmitStatus(null);
-
     try {
       const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       });
 
       if (response.ok) {
-        setSubmitStatus("success");
-        setFormData({ name: "", email: "", phone: "" });
-      } else {
-        setSubmitStatus("error");
+        toast({
+          title: "Success",
+          description: `Message sent successfully!`,
+        });
       }
     } catch (error) {
       console.error("Error sending email:", error);
-      setSubmitStatus("error");
+      toast({
+        title: "Error",
+        description: `${error}`,
+      });
     } finally {
       setIsSubmitting(false);
     }
@@ -59,7 +79,7 @@ const Contact = ({ isLandingPage }: Props) => {
       id="contact"
       className={cn(
         `${
-          isLandingPage ? "bg-[#FFFBFA]" : "bg-[#FFEDE6]"
+          isLandingPage ? "bg-[#FFF1EC]" : "bg-[#FFF1EC]"
         } text-[#fff] p-8 md:p-16`
       )}
     >
@@ -96,91 +116,67 @@ const Contact = ({ isLandingPage }: Props) => {
           {isLandingPage ? (
             <div className="flex flex-col">
               <div className=" md:w-[257px] md:h-[111px] w-[150px] h-[90px]">
-                <Image
+                {/* <Image
                   src="/logo/footer-logo.svg"
                   alt="Logo"
                   width={500}
                   height={500}
-                />
+                /> */}
               </div>
-              <p className="lg:text-5xl md:text-3xl text-2xl md:mb-5 text-[#4B4B4B] lg:mt-10 items-center text-center">
-                Let&apos;s Talk!
+              <p className="lg:text-5xl font-literata md:text-4xl text-2xl  text-[#4B4B4B] lg:mb-16 mb-5 items-center text-center">
+                Ready to transform your space?
               </p>
             </div>
           ) : (
             <>
               <div className="w-full md:w-1/2 md:pr-8">
-                <form className="space-y-4" onSubmit={handleSubmit}>
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Name
-                    </label>
-                    <Input
-                      id="name"
-                      value={formData.name}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Full name"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Email Id
-                    </label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Email Address"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="phone"
-                      className="block text-base text-[#313131] font-medium mb-2"
-                    >
-                      Phone number
-                    </label>
-                    <Input
-                      id="phone"
-                      type="tel"
-                      value={formData.phone}
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] bg-white placeholder:text-black/60 text-black font-montserrat"
-                      placeholder="Enter your Phone Number"
-                      onChange={handleInputChange}
-                      required
-                    />
-                  </div>
+                <Form {...form}>
+                  <form
+                    onSubmit={form.handleSubmit(handleSubmit)}
+                    className="w-full space-y-3"
+                  >
+                    {Object.keys(defaultValues).map((field) => (
+                      <FormField
+                        key={field}
+                        control={form.control}
+                        name={field as Path<T>}
+                        render={({ field }) => (
+                          <FormItem>
+                            <FormLabel className="capitalize font-montserrat text-[#2C2C2C]">
+                              {
+                                ENQUIRY_FIELD_NAME[
+                                  field.name as keyof typeof ENQUIRY_FIELD_NAME
+                                ]
+                              }
+                            </FormLabel>
+                            <FormControl>
+                              <Input
+                                required
+                                type={
+                                  ENQUIRY_FIELD_TYPE[
+                                    field.name as keyof typeof ENQUIRY_FIELD_TYPE
+                                  ]
+                                }
+                                {...field}
+                                className="lg:w-[60%] w-full min-h-10 border 
+                                text-[#2C2C2C] border-slate-300 text-base font-semibold font-montserrat placeholder:font-normal placeholder:text-slate-300
+                          focus-visible:ring-0 focus-visible:shadow-none "
+                              />
+                            </FormControl>
+                            <FormMessage />
+                          </FormItem>
+                        )}
+                      />
+                    ))}
 
-                  <div className="py-4 lg:py-[22px]">
                     <Button
                       type="submit"
-                      className="w-full lg:w-[70%] xl:w-[50%] 2xl:w-[55%] py-4 bg-[#313131] text-[#ffff] hover:bg-[#BFBFBF] transition-colors duration-300 font-semibold shadow-md hover:shadow-lg"
-                      disabled={isSubmitting}
+                      className="mt-6 min-h-8 lg:w-[60%] w-full bg-[#2C2C2C] hover:bg-[#3C3C3C] text-[14px] font-montserrat"
                     >
                       {isSubmitting ? "Submitting..." : "Submit"}
                     </Button>
-                  </div>
-
-                  {submitStatus === "success" && (
-                    <p className="text-green-500">Message sent successfully!</p>
-                  )}
-                  {submitStatus === "error" && (
-                    <p className="text-red-500">
-                      Error sending message. Please try again.
-                    </p>
-                  )}
-                </form>
+                  </form>
+                </Form>
               </div>
             </>
           )}
@@ -188,7 +184,10 @@ const Contact = ({ isLandingPage }: Props) => {
             <div className="bg-[#383838] p-4 lg:p-12 space-y-6 w-full md:w-auto shadow-lg shadow-gray-700/50 rounded-lg transition-all duration-300 hover:shadow-xl hover:shadow-gray-600/50">
               <div className="flex items-center gap-4">
                 <CallIcon className="h-8 w-8 md:h-8 md:w-8" />
-                <a href="tel:+919900104114" className="hover:underline">
+                <a
+                  href="tel:+919900104114"
+                  className="hover:underline font-montserrat"
+                >
                   +91 9900104114
                 </a>
               </div>
@@ -197,7 +196,7 @@ const Contact = ({ isLandingPage }: Props) => {
                 <a
                   href="mailto:info@thegreywalinteriors.com"
                   target="_blank"
-                  className="break-all hover:underline"
+                  className="break-all hover:underline font-montserrat"
                 >
                   info@thegreywalinteriors.com
                 </a>
@@ -208,15 +207,15 @@ const Contact = ({ isLandingPage }: Props) => {
                   href="https://www.google.com/maps/search/?api=1&query=464+Shri+Krishna+Temple+Rd+Indira+Nagar+1st+Stage+Bengaluru+560038"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:underline"
+                  className="hover:underline font-montserrat"
                 >
                   464, Shri Krishna Temple Rd, Indira Nagar 1st Stage, Bengaluru
                   -560038
                 </a>
               </div>
-              <div>
-                <h2 className="text-lg font-medium mb-2">
-                  CONNECT US ON SOCIAL MEDIA
+              <div className="lg:mx-2">
+                <h2 className="text-lg font-medium mb-2 font-montserrat">
+                  Follow Us{" "}
                 </h2>
                 <div className="flex gap-[28px] py-[12px]">
                   <a
@@ -252,7 +251,7 @@ const Contact = ({ isLandingPage }: Props) => {
         </div>
       </div>
       <div className="text-center mt-8">
-        <p className="text-sm text-gray-400">
+        <p className="text-sm text-gray-400 font-montserrat">
           &copy; {new Date().getFullYear()} The Grey Wall. All rights reserved.
         </p>
       </div>

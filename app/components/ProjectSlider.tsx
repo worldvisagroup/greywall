@@ -165,7 +165,7 @@ const ProjectSlider: React.FC<ProjectSliderProps> = ({
         {title}
         {inProgress ? <span> (Under Development)</span> : <></>}
       </h2>
-      <p className="text-lg mb-8">{location}</p>
+      <p className="text-lg mb-8 font-playfair">{location}</p>
       {/* Embla carousel container */}
       <div className="embla overflow-hidden">
         <div className="embla__viewport" ref={emblaRef}>

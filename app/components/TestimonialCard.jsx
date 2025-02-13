@@ -35,7 +35,7 @@ const TestimonialCard = ({ review }) => {
           </div>
         </div>
       </div>
-      <p className="text-[#FFEDE6] leading-relaxed mt-3 text-sm">
+      <p className="text-[#FFEDE6] font-montserrat leading-relaxed mt-3 text-sm">
         &ldquo;{review.content}&rdquo;
       </p>
     </div>

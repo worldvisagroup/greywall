@@ -9,6 +9,22 @@ import Link from "next/link";
 import { getDocumentSlugs, load } from "outstatic/server";
 import path from "path";
 
+interface Props {
+  title : string
+  imageOne : string
+  imageTwo : string
+  imageThree : string
+  imageFour : string
+  imageFive : string
+  imageSix : string
+  location : string
+  inProgress : boolean
+  videoOne : string
+  videoTwo : string
+  videoThree : string
+  videoFour : string
+}
+
 export default async function Index({
   params,
 }: {
@@ -85,7 +101,7 @@ export default async function Index({
                       videoTwo,
                       videoThree,
                       videoFour,
-                    }: any) => (
+                    }: Props) => (
                       <div key={title}>
                         <ProjectSlider
                           title={title}
