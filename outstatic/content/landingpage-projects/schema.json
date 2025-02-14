@@ -36,6 +36,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "ImageFive"
+    },
+    "sqft": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "sqft"
     }
   }
 }
