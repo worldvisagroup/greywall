@@ -1,6 +1,6 @@
 {
-  "commit": "69f0a367ed2fc21699ad86a5ffd116b66ba39a4a",
-  "generated": "2025-02-14T06:42:14.222Z",
+  "commit": "d2647ebe55ad1a230cb6e03f0a0932d5e5837a91",
+  "generated": "2025-02-14T09:43:42.087Z",
   "metadata": [
     {
       "__outstatic": {
@@ -808,30 +808,6 @@
     },
     {
       "__outstatic": {
-        "commit": "99e779f5688494011bd16d78fc2b64b46ed8e1f8",
-        "hash": "3716643848",
-        "path": "outstatic/content/landingpage-projects/villa.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "landingpage-projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512945/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/C_tg0kcg.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512942/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/A_wch6rs.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512944/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/F_omynxk.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512943/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/B_atzk24.webp",
-      "publishedAt": "2025-02-14T06:36:04.714Z",
-      "slug": "villa",
-      "sqft": "5500",
-      "status": "published",
-      "title": "Villa"
-    },
-    {
-      "__outstatic": {
         "commit": "bcbfe5b804209af59055c2866f597fca02e29210",
         "hash": "3722669603",
         "path": "outstatic/content/landingpage-projects/office.md"
@@ -901,6 +877,25 @@
       "sqft": "1200 ",
       "status": "published",
       "title": "2 BHK Apartment "
+    },
+    {
+      "__outstatic": {
+        "commit": "61e5806af2911735276a6d90792aee4881dadd14",
+        "hash": "1942829414",
+        "path": "outstatic/content/reels/reel4.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
+      "description": "",
+      "publishedAt": "2025-02-14T10:15:43.406Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
+      "slug": "reel4",
+      "status": "published",
+      "title": "Reel4"
     }
   ]
 }
