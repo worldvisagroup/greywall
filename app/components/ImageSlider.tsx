@@ -3,7 +3,8 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
-const ImageSlider = ({ images }) => {
+const ImageSlider = ({ data: { imageOne, imageTwo, imageThree, imageFour, imageFive, title, sqft } }) => {
+  const images = [imageOne, imageTwo, imageThree, imageFour, imageFive];
   const [currentIndex, setCurrentIndex] = useState(1);
   const [isHovered, setIsHovered] = useState(false);
   const touchStartX = useRef(0);
@@ -56,7 +57,7 @@ const ImageSlider = ({ images }) => {
         >
           <div className="min-w-full relative">
             <Image
-              src={images[images.length - 1].image.src}
+              src={images[images.length - 1]}
               className="w-full h-96 object-cover"
               alt="Image"
               width={500}
@@ -65,10 +66,10 @@ const ImageSlider = ({ images }) => {
             />
           </div>
 
-          {images.map((imageObj, index) => (
+          {images.map((src, index) => (
             <div key={index} className="min-w-full relative">
               <Image
-                src={imageObj.image.src}
+                src={src}
                 className="w-full h-96 object-cover"
                 alt="Image"
                 width={500}
@@ -76,15 +77,18 @@ const ImageSlider = ({ images }) => {
                 loading="lazy"
               />
               {/* Text Overlay */}
-              <div className="absolute bottom-[86%] left-12 transform -translate-x-1/2 bg-white text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-md text-center text-xs">
-                2BHK
+              <div className="absolute bottom-[86%] left-16 transform -translate-x-1/2 bg-white/95 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-md text-center text-xs">
+                {title}
+              </div>
+              <div className="absolute bottom-[78%] left-12 transform -translate-x-1/2 bg-white/85 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-md text-center text-xs">
+                {sqft} sqft
               </div>
             </div>
           ))}
 
           <div className="min-w-full relative">
             <Image
-              src={images[0].image.src}
+              src={images[0]}
               className="w-full h-96 object-cover"
               alt="Image"
               width={500}
@@ -124,9 +128,9 @@ const ImageSlider = ({ images }) => {
         </div>
       </div>
 
-      <h1 className="text-[16px] font-medium flex justify-center my-4">
-        Project name
-      </h1>
+      {/* <h1 className="text-[16px] font-medium flex justify-center my-4">
+        {title}
+      </h1> */}
     </>
   );
 };
