@@ -79,7 +79,7 @@ const Contact = <T extends FieldValues>({
       id="contact"
       className={cn(
         `${
-          isLandingPage ? "bg-[#FFF1EC]" : "bg-[#FFF1EC]"
+          isLandingPage ? "bg-[#F5F1F0]" : "bg-[#FFF1EC]"
         } text-[#fff] p-8 md:p-16`
       )}
     >

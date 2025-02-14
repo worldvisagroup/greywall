@@ -7,6 +7,7 @@ import Contact from "../components/Contact";
 import FAQ from "../components/FAQ";
 import WhyChooseUs from "../components/WhyChooseUs";
 import HowWeWork from "../components/HowWeWork";
+import VideoTestimonials from "../components/VideoTestimonials";
 
 const Page = () => {
   return (
@@ -14,10 +15,11 @@ const Page = () => {
       <Homepage isLandingPage={true} />
       <WorkPortfolio />
       <HowWeWork />
-      <WhyChooseUs />
+      <VideoTestimonials />
       <AboutUslandingPage />
-      <FAQ />
+      <WhyChooseUs />
       <Testimonials isLandingPage={true} />
+      <FAQ />
       <Contact isLandingPage={true} />
     </div>
   );

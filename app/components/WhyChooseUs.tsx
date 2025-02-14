@@ -1,50 +1,55 @@
-import React from "react";
-import Specialization from "@/public/images/landingPage/specilization.svg";
-import Sustainability from "@/public/images/landingPage/Sustainability.svg";
-import Value from "@/public/images/landingPage/Value.svg";
-import Image from "next/image";
+import {  BadgeDollarSign, Eye, Sparkle } from "lucide-react";
 
 const WhyChooseUs = () => {
-  const chooseUs = [
-    {
-      title: "Specialization",
-      image: Specialization,
-    },
-    {
-      title: "Sustainability",
-      image: Sustainability,
-    },
-    { title: "Value", image: Value },
-  ];
-
   return (
-    <div className="bg-[#FFF1EC] min-h-screen w-full items-center flex flex-col py-20 justify-center overflow-hidden ">
-      <div className="text-center mb-8 space-y-4">
-        <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane text-[#2C2C2C]">
-          Why choose us
+    <div className="bg-[#FFF1EC] py-12 md:py-16 lg:py-20">
+      <div className="container mx-auto px-4">
+        <h2 className="text-center text-3xl md:text-4xl lg:text-5xl font-medium font-hurricane mb-12 md:mb-16">
+          Why Choose Us
         </h2>
-      </div>
-      <div className="flex sm:flex-row flex-col justify-center items-center sm:gap-16 sm:mt-5">
-        {chooseUs?.map((point, index) => {
-          return (
-            <div key={index} className="sm:w-[333px] px-6">
-              <p className="text-[#4B4B4B] sm:text-xl text-lg">#{index + 1}</p>
-              <h2 className="font-medium sm:text-3xl text-2xl text-[#2C2C2C] my-3">
-                {point.title}
-              </h2>
-              <div className="sm:w-[333px] sm:h-[288px] w-[300px] h-[300px] shadow-lg">
-                <Image
-                  src={point.image}
-                  alt={point.title}
-                  width={500}
-                  height={500}
-                  className="object-cover"
-                  loading="lazy"
-                />
-              </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 max-w-6xl mx-auto font-montserrat">
+          <div className="text-center space-y-4">
+            <div className="mx-auto rounded-full flex items-center justify-center ">
+              <BadgeDollarSign  className="w-10 h-10" />
             </div>
-          );
-        })}
+            <h3 className="text-lg md:text-xl font-semibold">
+              No-Cost EMI Options
+            </h3>
+            <p className="text-sm md:text-sm text-[#383838] leading-relaxed max-w-xs mx-auto">
+              Transform Your Space Without Financial Stress! Our No-Cost EMI
+              Plans Make It Easier To Bring Your Dream Interiors To Life With
+              Flexible Payment Solutions.
+            </p>
+          </div>
+
+          <div className="text-center space-y-4">
+            <div className="mx-auto flex items-center justify-center ">
+              <Eye className="w-10 h-10" />
+            </div>
+            <h3 className="text-xl md:text-xl font-semibold">
+              Boutique Interior Firm
+            </h3>
+            <p className="text-sm md:text-sm text-[#383838] leading-relaxed max-w-xs mx-auto">
+              As A Boutique Interior Design Firm, We Offer A Highly
+              Personalized, Client-Focused Experience, Ensuring Each Design
+              Reflects Your Unique Style And Needs.
+            </p>
+          </div>
+
+          <div className="text-center space-y-4">
+            <div className="mx-auto flex items-center justify-center ">
+              <Sparkle className="w-10 h-10" />
+            </div>
+            <h3 className="text-xl md:text-xl font-semibold">
+              Render To Reality
+            </h3>
+            <p className="text-sm md:text-sm text-[#383838] leading-relaxed max-w-xs mx-auto">
+              We Guarantee Precision In Execution, Bringing 3D Designs To Life
+              Exactly As Envisioned For A Seamless And Flawless Result.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
