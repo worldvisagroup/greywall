@@ -1,6 +1,6 @@
 {
-  "commit": "61e5806af2911735276a6d90792aee4881dadd14",
-  "generated": "2025-02-14T09:43:21.292Z",
+  "commit": "d2647ebe55ad1a230cb6e03f0a0932d5e5837a91",
+  "generated": "2025-02-14T09:43:42.087Z",
   "metadata": [
     {
       "__outstatic": {
@@ -805,30 +805,6 @@
       "sqft": "1600",
       "status": "published",
       "title": "3 BHK Apartment"
-    },
-    {
-      "__outstatic": {
-        "commit": "99e779f5688494011bd16d78fc2b64b46ed8e1f8",
-        "hash": "3716643848",
-        "path": "outstatic/content/landingpage-projects/villa.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "landingpage-projects",
-      "coverImage": "",
-      "description": "",
-      "imageFive": "",
-      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512945/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/C_tg0kcg.webp",
-      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512942/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/A_wch6rs.webp",
-      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512944/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/F_omynxk.webp",
-      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512943/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/B_atzk24.webp",
-      "publishedAt": "2025-02-14T06:36:04.714Z",
-      "slug": "villa",
-      "sqft": "5500",
-      "status": "published",
-      "title": "Villa"
     },
     {
       "__outstatic": {
