@@ -40,9 +40,9 @@ const HowWeWork = () => {
   ];
 
   return (
-    <div className="bg-zinc-800 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#2C2C2C] min-h-screen py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl text-white text-center mb-16 font-hurricane">
+        <h2 className="text-4xl sm:text-[48px] text-white text-center mb-16 font-hurricane">
           How We Work
         </h2>
         <div className="space-y-16">
@@ -55,7 +55,7 @@ const HowWeWork = () => {
                 <div className="text-4xl font-light text-zinc-500 w-12 sm:w-16 flex-shrink-0">
                   {step.number}
                 </div>
-                <div className="text-zinc-500 w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
+                <div className="text-[#FFEDE6] w-8 h-8 sm:w-12 sm:h-12 flex-shrink-0">
                   <step.icon className="w-full h-full" />
                 </div>
               </div>

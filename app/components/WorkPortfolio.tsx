@@ -7,9 +7,9 @@ const WorkPortfolio = async () => {
   const data = await getAllProjects();
   const allReels = await getAllReels();
   return (
-    <div className="bg-[#FFF1EC] min-h-screen w-full items-center flex flex-col pb-9 justify-center overflow-hidden ">
+    <div className="bg-[#FFF1EC] min-h-screen w-full items-center flex flex-col py-20 justify-center overflow-hidden ">
       <div className="text-center mb-8 space-y-4">
-        <h2 className="text-3xl md:text-5xl lg:text-[48px] sm:mb-10 my-5 font-hurricane text-[#2C2C2C]">
+        <h2 className="text-3xl md:text-5xl lg:text-[48px] font-medium font-hurricane text-[#2C2C2C]">
           Our Work
         </h2>
       </div>

@@ -114,8 +114,9 @@ const ContactForm = <T extends FieldValues>({
                           <Select
                             onValueChange={(value) => field.onChange(value)}
                             value={field.value}
+                            
                           >
-                            <SelectTrigger>
+                            <SelectTrigger className="font-montserrat">
                               <SelectValue 
                                 placeholder={
                                   field.name === "projectType" 
