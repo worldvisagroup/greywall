@@ -48,10 +48,10 @@ const FAQ = () => {
         >
           {sampleFAQ.map((faq, index) => (
             <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="sm:text-lg text-xs text-start">
+              <AccordionTrigger className="sm:text-lg text-sm text-start">
                 {faq.question}
               </AccordionTrigger>
-              <AccordionContent className="sm:text-[16px] text-xs">
+              <AccordionContent className="sm:text-[16px] text-sm">
                 {faq.answer}
               </AccordionContent>
             </AccordionItem>
