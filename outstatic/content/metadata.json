@@ -1,6 +1,6 @@
 {
-  "commit": "bcbfe5b804209af59055c2866f597fca02e29210",
-  "generated": "2025-02-14T06:05:14.451Z",
+  "commit": "6da84cb5d552f19a3068118392378851fae5d205",
+  "generated": "2025-02-14T06:06:46.115Z",
   "metadata": [
     {
       "__outstatic": {
@@ -877,6 +877,30 @@
       "sqft": "18000",
       "status": "published",
       "title": "Office"
+    },
+    {
+      "__outstatic": {
+        "commit": "6da84cb5d552f19a3068118392378851fae5d205",
+        "hash": "1222849534",
+        "path": "outstatic/content/landingpage-projects/holiday-home.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512950/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-09-12_at_9.34.47_PM_ffkxio.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512950/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.05_AM_2_bashud.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512953/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.04_AM_1_whe3gg.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512951/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.07_AM_1_xgmtun.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512952/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.04_AM_2_gcs04e.webp",
+      "publishedAt": "2025-02-14T06:38:37.286Z",
+      "slug": "holiday-home",
+      "sqft": "7000",
+      "status": "published",
+      "title": "Holiday Home"
     }
   ]
 }
