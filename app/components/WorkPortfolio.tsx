@@ -50,7 +50,6 @@ export async function getAllProjects() {
       "title",
       "sqft",
     ]);
-    console.log("all projeccts", allProjects);
     return allProjects;
   } catch (error) {
     console.error("Error fetching reels:", error);
