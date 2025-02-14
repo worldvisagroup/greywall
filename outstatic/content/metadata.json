@@ -1,6 +1,6 @@
 {
-  "commit": "574a0c43964b453f6c838d69f7435fbc00a473e3",
-  "generated": "2025-02-14T05:33:56.940Z",
+  "commit": "2040f9164cbd6dedc4e5e3c762c83deffd81baf3",
+  "generated": "2025-02-14T05:55:40.838Z",
   "metadata": [
     {
       "__outstatic": {
@@ -781,6 +781,30 @@
       "slug": "reel1",
       "status": "published",
       "title": "Reel1"
+    },
+    {
+      "__outstatic": {
+        "commit": "2040f9164cbd6dedc4e5e3c762c83deffd81baf3",
+        "hash": "2246426230",
+        "path": "outstatic/content/landingpage-projects/2-bhk-apartment.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/E_njys8x.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/F_q5tqj5.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-11-21_at_12.58.51_AM_it2hsu.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-11-25_at_7.38.26_PM_wvxn1v.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-12-14_at_7.29.06_PM_cf36mc.webp",
+      "publishedAt": "2025-02-14T06:20:20.059Z",
+      "slug": "2-bhk-apartment",
+      "sqft": "1200 sqft",
+      "status": "published",
+      "title": "2 BHK Apartment "
     }
   ]
 }
