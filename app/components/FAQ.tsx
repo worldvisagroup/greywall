@@ -9,30 +9,29 @@ import {
 const FAQ = () => {
   const sampleFAQ = [
     {
-      question: "What is the best color scheme for a small living room?",
+      question: "What makes your interior design services unique?",
       answer:
-        "Light colors such as whites, creams, and pastels can make a small living room feel more spacious and open.",
+        "We specialize in creating personalized, functional, and aesthetically stunning interiors tailored to your lifestyle. Our team blends modern design trends with timeless elements, ensuring every space reflects your personality while maximizing comfort and efficiency.",
     },
     {
-      question: "How can I make my bedroom more cozy?",
+      question: "How do you ensure designs fit my budget?",
       answer:
-        "Adding layers with soft textiles like throws and cushions, using warm lighting, and incorporating personal touches can make your bedroom feel more cozy.",
+        "We believe great design should be accessible to everyone. Our team works closely with you to develop a plan that aligns with your budget while maintaining quality and creativity. We provide transparent pricing with no hidden costs.",
     },
     {
-      question: "What are some tips for choosing the right furniture?",
+      question: "Do you offer end-to-end interior solutions?",
       answer:
-        "Consider the size of your space, the functionality you need, and your personal style. It's also important to ensure that the furniture is proportionate to the room.",
+        "Yes! From concept design and material selection to execution and final styling, we manage every detail of your project. Whether it's a home, office, or commercial space, we handle everything for a hassle-free experience",
     },
     {
-      question: "How do I create a focal point in a room?",
+      question: "How long does the design and execution process take?",
       answer:
-        "You can create a focal point by using a bold piece of art, a statement piece of furniture, or an accent wall with a different color or texture.",
+        "Timelines vary based on project size and complexity, but we ensure efficient planning and execution. On average, design finalization takes 2-4 weeks, and project completion ranges from 6-12 weeks. We provide a clear project timeline from the start.",
     },
     {
-      question:
-        "What are some ways to incorporate plants into interior design?",
+      question: "Can I see a 3D visualization of my space before execution?",
       answer:
-        "Plants can be used as decorative elements on shelves, as centerpieces on tables, or as hanging installations. They add life and color to any space.",
+        "Absolutely! We offer high-quality 3D renders and virtual walkthroughs, allowing you to visualize your space before any work begins. This ensures that you're fully satisfied with the design before implementation.",
     },
   ];
 
