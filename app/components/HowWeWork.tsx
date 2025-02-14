@@ -1,63 +1,78 @@
-import { Eye, Layers, Grid, Shield, Handshake } from "lucide-react";
+import { Eye, Layers, Grid2X2, Shield, HandshakeIcon } from "lucide-react";
 
-export function HowWeWork() {
+const HowWeWork = () => {
   const steps = [
     {
+      number: "01",
       icon: Eye,
-      title: "Understanding\nYour Vision",
+      title: "Understanding Your Vision",
       description:
-        "We start by learning your style, needs, and preferences to craft a personalized design plan.",
+        "We Start By Learning Your Style, Needs, And Preferences To Craft A Personalized Design Plan.",
     },
     {
+      number: "02",
       icon: Layers,
-      title: "Concept\nVisualization",
+      title: "Understanding Your Vision",
       description:
-        "Our experts create detailed layouts and designs to bring your ideas to life.",
+        "Our Experts Create Detailed Layouts And Designs To Bring Your Ideas To Life.",
     },
     {
-      icon: Grid,
-      title: "Material\nSelection",
-      description: "Concept Visualization",
+      number: "03",
+      icon: Grid2X2,
+      title: "Material Selection",
+      description:
+        "Choose From Premium Materials, Textures, And Finishes To Match Your Aesthetic And Functionality.",
     },
     {
+      number: "04",
       icon: Shield,
-      title: "Execution &\nQuality Control",
+      title: "Understanding Your Vision",
       description:
-        "We start by learning your style, needs, and preferences to craft a personalized design plan.",
+        "Our Skilled Team Ensures Precise Execution With Regular Supervision For Flawless Results.",
     },
     {
-      icon: Handshake,
-      title: "Final Touch &\nHandover",
-      description: "Concept Visualization",
+      number: "05",
+      icon: HandshakeIcon,
+      title: "Final Touch & Handover",
+      description:
+        "We Perfect Every Detail Before Delivering A Space That Exceeds Your Expectations.",
     },
   ];
 
   return (
-    <section className="w-full bg-[#2C2C2C] py-24 text-[#FFEDE6]">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16 space-y-4">
-          <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane">
-            How We Work
-          </h2>
-          {/* <p className=" max-w-3xl mx-auto md:text-lg text-sm lg:text-lg font-montserrat">
-            From Elegant Homes To Modern Offices, We Create Stylish, Functional,
-            And Personalized Interiors.
-          </p> */}
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12 max-w-6xl mx-auto">
-          {steps.map((step, index) => (
-            <div key={index} className="text-center space-y-4">
-              <div className="mx-auto w-16 h-16 flex items-center justify-center">
-                <step.icon className="w-12 h-12 " strokeWidth={1} />
+    <div className="bg-zinc-800 min-h-screen py-16 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-4xl text-white text-center mb-16 font-hurricane">
+          How We Work
+        </h2>
+        <div className="space-y-16">
+          {steps.map((step) => (
+            <div
+              key={step.number}
+              className="flex flex-col sm:flex-row sm:items-start items-center gap-6 sm:gap-8"
+            >
+              <div className="flex items-center gap-4 text-center sm:text-left">
+                <div className="text-4xl font-light text-zinc-500 w-12 sm:w-16 flex-shrink-0">
+                  {step.number}
+                </div>
+                <div className="text-zinc-500 w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
+                  <step.icon className="w-full h-full" />
+                </div>
               </div>
-              <h3 className="font-medium md:text-lg text-sm lg:text-lg whitespace-pre-line">
-                {step.title}
-              </h3>
+              <div className="flex-1 mt-4 sm:mt-0 text-center sm:text-left">
+                <h3 className="text-xl sm:text-2xl font-light text-[#FADDC4] mb-2 font-montserrat">
+                  {step.title}
+                </h3>
+                <p className="text-sm sm:text-base text-zinc-400 leading-relaxed font-montserrat">
+                  {step.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
       </div>
-    </section>
+    </div>
   );
-}
+};
+
+export default HowWeWork;

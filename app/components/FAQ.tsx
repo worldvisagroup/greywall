@@ -37,22 +37,28 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="bg-[#FFF1EC] w-full items-center flex flex-col pb-9 justify-center overflow-hidden">
+    <div className="bg-[#FFF1EC] w-full items-center flex flex-col pb-9 justify-center overflow-hidden px-2">
       <div className="flex justify-center my-5">
         <h1 className="text-4xl font-semibold font-hurricane">FAQ</h1>
       </div>
-      <Accordion
-        type="single"
-        collapsible
-        className="sm:w-[80%] w-full font-montserrat"
-      >
-        {sampleFAQ.map((faq, index) => (
-          <AccordionItem key={index} value={`item-${index}`}>
-            <AccordionTrigger>{faq.question}</AccordionTrigger>
-            <AccordionContent>{faq.answer}</AccordionContent>
-          </AccordionItem>
-        ))}
-      </Accordion>
+      <div className="p-2 w-full flex flex-col justify-center mx-auto items-center">
+        <Accordion
+          type="single"
+          collapsible
+          className="sm:w-[80%] w-full font-montserrat"
+        >
+          {sampleFAQ.map((faq, index) => (
+            <AccordionItem key={index} value={`item-${index}`}>
+              <AccordionTrigger className="sm:text-sm text-xs text-start">
+                {faq.question}
+              </AccordionTrigger>
+              <AccordionContent className="sm:text-sm text-xs">
+                {faq.answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
+      </div>
     </div>
   );
 };
