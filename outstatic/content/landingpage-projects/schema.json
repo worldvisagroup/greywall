@@ -1,0 +1,48 @@
+{
+  "title": "landingpage-projects",
+  "type": "object",
+  "properties": {
+    "imageOne": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "imageOne"
+    },
+    "imageTwo": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "imageTwo"
+    },
+    "imageThree": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "ImageThree"
+    },
+    "imageFour": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "ImageFour"
+    },
+    "imageFive": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "ImageFive"
+    },
+    "sqft": {
+      "required": true,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "sqft"
+    }
+  }
+}

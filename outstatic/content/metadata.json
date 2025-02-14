@@ -1,6 +1,6 @@
 {
-  "commit": "4593ec11c6971c1f0ecbc4194633e893258139eb",
-  "generated": "2025-02-06T13:23:40.532Z",
+  "commit": "6da84cb5d552f19a3068118392378851fae5d205",
+  "generated": "2025-02-14T06:06:46.115Z",
   "metadata": [
     {
       "__outstatic": {
@@ -781,6 +781,126 @@
       "slug": "reel1",
       "status": "published",
       "title": "Reel1"
+    },
+    {
+      "__outstatic": {
+        "commit": "2040f9164cbd6dedc4e5e3c762c83deffd81baf3",
+        "hash": "2246426230",
+        "path": "outstatic/content/landingpage-projects/2-bhk-apartment.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/E_njys8x.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/F_q5tqj5.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-11-21_at_12.58.51_AM_it2hsu.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-11-25_at_7.38.26_PM_wvxn1v.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-12-14_at_7.29.06_PM_cf36mc.webp",
+      "publishedAt": "2025-02-14T06:20:20.059Z",
+      "slug": "2-bhk-apartment",
+      "sqft": "1200 sqft",
+      "status": "published",
+      "title": "2 BHK Apartment "
+    },
+    {
+      "__outstatic": {
+        "commit": "698b0be9e018dfbbaf41efb7551c4b2a755a515c",
+        "hash": "3663930630",
+        "path": "outstatic/content/landingpage-projects/3-bhk-apartment.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512728/greywall/landing-page%20Projects/3%20BHK%20Apartment%20%281600%20sqft%29/E_t9awv1.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512728/greywall/landing-page%20Projects/3%20BHK%20Apartment%20%281600%20sqft%29/B_qtpmhx.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512726/greywall/landing-page%20Projects/3%20BHK%20Apartment%20%281600%20sqft%29/A_gekmvr.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512727/greywall/landing-page%20Projects/3%20BHK%20Apartment%20%281600%20sqft%29/D_j6jtg7.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512726/greywall/landing-page%20Projects/3%20BHK%20Apartment%20%281600%20sqft%29/C_gqripi.webp",
+      "publishedAt": "2025-02-14T06:32:47.788Z",
+      "slug": "3-bhk-apartment",
+      "sqft": "1600",
+      "status": "published",
+      "title": "3 BHK Apartment"
+    },
+    {
+      "__outstatic": {
+        "commit": "99e779f5688494011bd16d78fc2b64b46ed8e1f8",
+        "hash": "3716643848",
+        "path": "outstatic/content/landingpage-projects/villa.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512945/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/C_tg0kcg.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512942/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/A_wch6rs.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512944/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/F_omynxk.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512943/greywall/landing-page%20Projects/Villa%20%285500%20sqft%29/B_atzk24.webp",
+      "publishedAt": "2025-02-14T06:36:04.714Z",
+      "slug": "villa",
+      "sqft": "5500",
+      "status": "published",
+      "title": "Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "bcbfe5b804209af59055c2866f597fca02e29210",
+        "hash": "3722669603",
+        "path": "outstatic/content/landingpage-projects/office.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512973/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F16_ztplzf.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512977/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/R4_ffx4wr.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512974/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/M3_yeyp0w.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512976/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F7_mgpvh9.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512974/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F12_cq6bzt.webp",
+      "publishedAt": "2025-02-14T06:37:05.850Z",
+      "slug": "office",
+      "sqft": "18000",
+      "status": "published",
+      "title": "Office"
+    },
+    {
+      "__outstatic": {
+        "commit": "6da84cb5d552f19a3068118392378851fae5d205",
+        "hash": "1222849534",
+        "path": "outstatic/content/landingpage-projects/holiday-home.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512950/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-09-12_at_9.34.47_PM_ffkxio.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512950/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.05_AM_2_bashud.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512953/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.04_AM_1_whe3gg.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512951/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.07_AM_1_xgmtun.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512952/greywall/landing-page%20Projects/Holiday%20Home%20%287000%20sqft%29/WhatsApp_Image_2024-08-24_at_12.37.04_AM_2_gcs04e.webp",
+      "publishedAt": "2025-02-14T06:38:37.286Z",
+      "slug": "holiday-home",
+      "sqft": "7000",
+      "status": "published",
+      "title": "Holiday Home"
     }
   ]
 }
