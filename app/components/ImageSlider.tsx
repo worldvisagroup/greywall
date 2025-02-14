@@ -44,7 +44,7 @@ const ImageSlider = ({ data: { imageOne, imageTwo, imageThree, imageFour, imageF
   return (
     <>
       <div
-        className="relative w-[300px] h-[300px] mx-auto overflow-hidden rounded-lg"
+        className="relative sm:w-[300px] sm:h-[300px] w-full mx-auto overflow-hidden rounded-lg"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onTouchStart={handleTouchStart}
@@ -77,10 +77,10 @@ const ImageSlider = ({ data: { imageOne, imageTwo, imageThree, imageFour, imageF
                 loading="lazy"
               />
               {/* Text Overlay */}
-              <div className="absolute bottom-[86%] left-16 transform -translate-x-1/2 bg-white/95 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-md text-center text-xs">
+              <div className="absolute bottom-[86%] left-16 transform -translate-x-14  bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-start items-center rounded-full text-center text-xs">
                 {title}
               </div>
-              <div className="absolute bottom-[78%] left-12 transform -translate-x-1/2 bg-white/85 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-md text-center text-xs">
+              <div className="absolute bottom-[78%] left-12 transform -translate-x-1/2 bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-full text-center text-xs">
                 {sqft} sqft
               </div>
             </div>

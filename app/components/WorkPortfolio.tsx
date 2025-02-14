@@ -1,10 +1,11 @@
 import React from "react";
 import { getDocuments } from "outstatic/server";
 import ImageSlider from "./ImageSlider";
+import ReelCarousel from "./ReelCarousel";
 
 const WorkPortfolio = async () => {
   const data = await getAllProjects();
-  console.log(data);
+  const allReels = await getAllReels();
   return (
     <div className="bg-[#FFF1EC] min-h-screen w-full items-center flex flex-col pb-9 justify-center overflow-hidden ">
       <div className="text-center mb-8 space-y-4">
@@ -12,7 +13,7 @@ const WorkPortfolio = async () => {
           Our Work
         </h2>
       </div>
-      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 flex-col gap-6 justify-center items-center ">
+      <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 flex-col gap-6 justify-center items-center p-4 ">
         {data?.map((project, index) => (
           <div key={index} className="">
             <ImageSlider
@@ -28,6 +29,9 @@ const WorkPortfolio = async () => {
             />
           </div>
         ))}
+      </div>
+      <div>
+        <ReelCarousel slideData={allReels} />
       </div>
     </div>
   );
@@ -48,6 +52,16 @@ export async function getAllProjects() {
     ]);
     console.log("all projeccts", allProjects);
     return allProjects;
+  } catch (error) {
+    console.error("Error fetching reels:", error);
+    return [];
+  }
+}
+
+export async function getAllReels() {
+  try {
+    const allReels = getDocuments("reels", ["reelUrl", "coverImage"]);
+    return allReels;
   } catch (error) {
     console.error("Error fetching reels:", error);
     return [];

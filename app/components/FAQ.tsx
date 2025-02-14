@@ -37,7 +37,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="bg-[#FFFBFA]  w-full items-center flex flex-col pb-9 justify-center overflow-hidden">
+    <div className="bg-[#FFF1EC] w-full items-center flex flex-col pb-9 justify-center overflow-hidden">
       <div className="flex justify-center my-5">
         <h1 className="text-4xl font-semibold font-hurricane">FAQ</h1>
       </div>

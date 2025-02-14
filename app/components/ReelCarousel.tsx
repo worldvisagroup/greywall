@@ -16,11 +16,51 @@ const ReelCarousel = ({ slideData }) => {
   };
 
   return (
-    <div className="flex flex-row overflow-hidden">
-      <Carousel className="w-full mx-auto">
-        <CarouselContent className="lg:ml-[20%] -ml-1">
+    <div className="flex flex-row justify-center  w-full">
+      <div className="hidden md:block w-full mx-auto">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {slideData.map((slide, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
+            <div key={index} className="p-1">
+              <div className="w-[300px] h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto">
+                {playingVideoIndex === index ? (
+                  <video
+                    className="w-full h-full object-cover rounded-lg"
+                    src={slide.reelUrl}
+                    controls={false}
+                    muted
+                    autoPlay
+                  />
+                ) : (
+                  <div className="relative overflow-hidden rounded-lg">
+                    <Image
+                      src={slide.coverImage}
+                      alt="CoverImage"
+                      width={1000}
+                      height={1000}
+                      className="object-cover rounded-lg"
+                    />
+                    <button
+                      className="absolute inset-0 flex items-center justify-center"
+                      onClick={() => handlePlayButtonClick(index)}
+                    >
+                      <div className="w-10 h-10 flex justify-center items-center rounded-full bg-white/85">
+                        <Play className="text-black" />
+                      </div>
+                    </button>
+                  </div>
+                )}
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <Carousel className="w-full mx-auto md:hidden">
+        <CarouselContent className="mt-10">
+          {slideData.map((slide, index) => (
+            <CarouselItem
+              key={index}
+              className=" md:basis-1/3 lg:basis-1/4 -ml-1"
+            >
               <div className="p-1">
                 <div className="w-[252px] h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto">
                   {playingVideoIndex === index ? (
