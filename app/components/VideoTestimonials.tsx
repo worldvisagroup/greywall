@@ -38,7 +38,7 @@ const VideoTestimonials = () => {
 
   return (
     <div className="bg-[#FFF1EC] min-h-screen w-full flex sm:flex-row flex-col py-20 sm:justify-evenly justify-center items-center overflow-hidden relative">
-        <div className="sm:w-[343px] w-full h-[617px] relative p-2">
+        <div className="w-[343px] h-[617px] relative p-2">
           <video
             ref={videoRef}
             src="https://res.cloudinary.com/djvvz62dw/video/upload/v1739535131/greywall/Testimonial%20Video/Testimonial_video_for_the_ad_pxqeut.mp4"
