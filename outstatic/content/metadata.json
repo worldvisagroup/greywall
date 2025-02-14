@@ -1,6 +1,6 @@
 {
-  "commit": "99e779f5688494011bd16d78fc2b64b46ed8e1f8",
-  "generated": "2025-02-14T06:03:59.861Z",
+  "commit": "bcbfe5b804209af59055c2866f597fca02e29210",
+  "generated": "2025-02-14T06:05:14.451Z",
   "metadata": [
     {
       "__outstatic": {
@@ -853,6 +853,30 @@
       "sqft": "5500",
       "status": "published",
       "title": "Villa"
+    },
+    {
+      "__outstatic": {
+        "commit": "bcbfe5b804209af59055c2866f597fca02e29210",
+        "hash": "3722669603",
+        "path": "outstatic/content/landingpage-projects/office.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "landingpage-projects",
+      "coverImage": "",
+      "description": "",
+      "imageFive": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512973/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F16_ztplzf.webp",
+      "imageFour": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512977/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/R4_ffx4wr.webp",
+      "imageOne": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512974/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/M3_yeyp0w.webp",
+      "imageThree": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512976/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F7_mgpvh9.webp",
+      "imageTwo": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739512974/greywall/landing-page%20Projects/Office%20%2818%2C000%20sqft%29/F12_cq6bzt.webp",
+      "publishedAt": "2025-02-14T06:37:05.850Z",
+      "slug": "office",
+      "sqft": "18000",
+      "status": "published",
+      "title": "Office"
     }
   ]
 }
