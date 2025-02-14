@@ -12,8 +12,8 @@ imageTwo: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywal
 imageThree: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/WhatsApp_Image_2019-11-25_at_7.38.26_PM_wvxn1v.webp'
 imageFour: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/F_q5tqj5.webp'
 imageFive: 'https://res.cloudinary.com/djvvz62dw/image/upload/v1739512226/greywall/landing-page%20Projects/2%20BHK%20Apartment%20%281200%20sqft%29/E_njys8x.webp'
-sqft: '1200 sqft'
+sqft: '1200 '
 publishedAt: '2025-02-14T06:20:20.059Z'
 ---
 
-2 BHK Apartment 
+2 BHK Apartment
