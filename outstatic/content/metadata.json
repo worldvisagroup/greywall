@@ -1,6 +1,6 @@
 {
-  "commit": "69f0a367ed2fc21699ad86a5ffd116b66ba39a4a",
-  "generated": "2025-02-14T06:42:14.222Z",
+  "commit": "61e5806af2911735276a6d90792aee4881dadd14",
+  "generated": "2025-02-14T09:43:21.292Z",
   "metadata": [
     {
       "__outstatic": {
@@ -901,6 +901,25 @@
       "sqft": "1200 ",
       "status": "published",
       "title": "2 BHK Apartment "
+    },
+    {
+      "__outstatic": {
+        "commit": "61e5806af2911735276a6d90792aee4881dadd14",
+        "hash": "1942829414",
+        "path": "outstatic/content/reels/reel4.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
+      "description": "",
+      "publishedAt": "2025-02-14T10:15:43.406Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
+      "slug": "reel4",
+      "status": "published",
+      "title": "Reel4"
     }
   ]
 }
