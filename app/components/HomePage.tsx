@@ -23,7 +23,7 @@ export default function Homepage({ isLandingPage }: Props) {
   };
 
   return (
-    <div className="relative min-h-screen text-white flex flex-col overflow-hidden">
+    <div className="relative lg:px-6 min-h-screen text-white flex flex-col overflow-hidden">
       <Image
         src="/images/bg-svg.svg"
         alt="Background"

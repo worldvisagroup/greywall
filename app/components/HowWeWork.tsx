@@ -5,22 +5,30 @@ export function HowWeWork() {
     {
       icon: Eye,
       title: "Understanding\nYour Vision",
+      description:
+        "We start by learning your style, needs, and preferences to craft a personalized design plan.",
     },
     {
       icon: Layers,
       title: "Concept\nVisualization",
+      description:
+        "Our experts create detailed layouts and designs to bring your ideas to life.",
     },
     {
       icon: Grid,
       title: "Material\nSelection",
+      description: "Concept Visualization",
     },
     {
       icon: Shield,
       title: "Execution &\nQuality Control",
+      description:
+        "We start by learning your style, needs, and preferences to craft a personalized design plan.",
     },
     {
       icon: Handshake,
       title: "Final Touch &\nHandover",
+      description: "Concept Visualization",
     },
   ];
 
@@ -41,10 +49,7 @@ export function HowWeWork() {
           {steps.map((step, index) => (
             <div key={index} className="text-center space-y-4">
               <div className="mx-auto w-16 h-16 flex items-center justify-center">
-                <step.icon
-                  className="w-12 h-12 "
-                  strokeWidth={1}
-                />
+                <step.icon className="w-12 h-12 " strokeWidth={1} />
               </div>
               <h3 className="font-medium md:text-lg text-sm lg:text-lg whitespace-pre-line">
                 {step.title}
