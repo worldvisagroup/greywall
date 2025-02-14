@@ -21,7 +21,7 @@ const ReelCarousel = ({ slideData }) => {
         <div className="mt-10 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {slideData.map((slide, index) => (
             <div key={index} className="p-4">
-              <div className="w-full rounded-lg shadow-lg flex flex-row justify-center mx-auto ">
+              <div className="sm:w-[290px] w-full sm:h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto">
                 {playingVideoIndex === index ? (
                   <video
                     className="w-full h-full object-cover rounded-lg"

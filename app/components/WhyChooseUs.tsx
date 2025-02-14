@@ -32,7 +32,7 @@ const WhyChooseUs = () => {
               <h2 className="font-medium sm:text-3xl text-2xl text-[#2C2C2C] my-3">
                 {point.title}
               </h2>
-              <div className="sm:w-[333px] sm:h-[288px] w-[300px] h-[300px]">
+              <div className="sm:w-[333px] sm:h-[288px] w-[300px] h-[300px] shadow-lg">
                 <Image
                   src={point.image}
                   alt={point.title}
