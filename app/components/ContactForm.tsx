@@ -86,7 +86,7 @@ const ContactForm = <T extends FieldValues>({
   };
 
   return (
-    <Card className="lg:w-[340px] md:w-[320px] w-[320px] shadow-lg">
+    <Card className="lg:w-[340px] md:w-[320px] w-[330px] shadow-lg">
       <CardHeader>
         <h1 className="lg:text-xl md:text-xl text-xl font-semibold flex justify-center font-montserrat">
           Get Free Consultation!
@@ -96,7 +96,7 @@ const ContactForm = <T extends FieldValues>({
         <Form {...form}>
           <form
             onSubmit={form.handleSubmit(handleSubmit)}
-            className="w-full space-y-3"
+            className="w-full space-y-3 "
           >
             {Object.keys(defaultValues).map((field) => (
               <FormField
