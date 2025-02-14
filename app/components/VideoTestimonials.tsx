@@ -48,14 +48,14 @@ const VideoTestimonials = () => {
           />
           <button
             onClick={toggleMute}
-            className="absolute sm:bottom-10 bottom-20 right-4 bg-black text-white p-2 rounded-full"
+            className="absolute lg:bottom-10 md:bottom-14 bottom-12 right-5 bg-black text-white p-2 rounded-full"
           >
             {isMuted ? <VolumeX size={18} /> : <Volume2 size={18} />}
           </button>
         </div>
         <div className="text-[#2C2C2C]">
           <p className=" sm:text-3xl text-2xl font-medium">Witness the</p>
-          <p className="sm:text-7xl text-4xl font-medium my-4">Transformation!</p>
+          <p className="lg:text-6xl md:text-5xl text-4xl font-medium my-4">Transformation!</p>
         </div>
     </div>
   );

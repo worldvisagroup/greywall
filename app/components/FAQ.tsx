@@ -38,7 +38,7 @@ const FAQ = () => {
   return (
     <div className="bg-[#FFF1EC] w-full items-center flex flex-col pb-9 justify-center overflow-hidden px-2">
       <div className="flex justify-center my-14">
-        <h1 className="text-4xl font-semibold font-hurricane">FAQ</h1>
+        <h1 className="sm:text-4xl text-3xl font-semibold font-hurricane">FAQ</h1>
       </div>
       <div className="p-2 w-full flex flex-col justify-center mx-auto items-center">
         <Accordion

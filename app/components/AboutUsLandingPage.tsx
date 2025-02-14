@@ -5,14 +5,10 @@ export function AboutUslandingPage() {
   return (
     <section className="w-full bg-[#2C2C2C] py-24 ">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16 space-y-4">
+        <div className="text-center sm:mb-16 mb-8">
           <h2 className="text-3xl md:text-5xl lg:text-[48px] font-hurricane  text-[#fff]">
             About us
           </h2>
-          {/* <p className="text-zinc-600 max-w-3xl mx-auto lg:text-lg text-sm md:text-lg font-montserrat">
-            From Elegant Homes To Modern Offices, We Create Stylish, Functional,
-            And Personalized Interiors.
-          </p> */}
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 lg:gap-2 items-start max-w-7xl mx-auto">
