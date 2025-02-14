@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Montserrat, Literata, Hurricane } from "next/font/google";
+import { Montserrat, Literata, Hurricane, Antic } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
 import AnalyticsProvider from "./components/providers/AnalyticsProvider";
-
 
 const northWell = localFont({
   src: "./fonts/Northwell.ttf",
@@ -31,7 +30,7 @@ const tenPearl = localFont({
 const montserrat = Montserrat({ weight: ["400", "600"], subsets: ["latin"] });
 const literata = Literata({ weight: ["400", "700"], subsets: ["latin"] });
 const hurricane = Hurricane({ weight: ["400"], subsets: ["latin"] });
-
+const antic = Antic({ weight: ["400"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "The Grey Wall",
@@ -40,7 +39,6 @@ export const metadata: Metadata = {
     icon: "/favicon2.ico",
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -53,7 +51,7 @@ export default function RootLayout({
         <AnalyticsProvider />
       </head>
       <body
-         className={`${geistSans.variable} ${geistMono.variable} ${tenPearl.variable} antialiased ${montserrat.className} ${northWell.variable} ${literata.className} ${hurricane.className}`}
+        className={`${geistSans.variable} ${geistMono.variable} ${tenPearl.variable} antialiased ${montserrat.className} ${northWell.variable} ${literata.className} ${hurricane.className} ${antic.className}`}
       >
         <noscript>
           <iframe

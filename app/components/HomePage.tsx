@@ -73,13 +73,13 @@ export default function Homepage({ isLandingPage }: Props) {
             {isLandingPage ? (
               <div className="lg:space-y-8 md:space-y-5 space-y-4 flex flex-col lg:items-center md:items-center lg:text-center md:text-center text-center items-center px-4 mt-[40%] md:mt-[30%] lg:mt-[20%]">
                 {/* Heading Section */}
-                <div className="lg:space-y-6 md:space-y-3 space-y-3">
-                  <h3 className="text-[#CDCDCD] text-2xl md:text-3xl lg:text-5xl font-serif">
-                    YOUR <span className="text-white">SPACE</span> SPEAKS{" "}
+                <div className="lg:space-y-6 md:space-y-3 space-y-3 font-antic">
+                  <h3 className="text-[#CDCDCD] text-4xl md:text-4xl lg:text-5xl font-serif text-start">
+                    YOUR SPACE <span className="text-white">SPEAKS</span>{" "}
                     <span className="text-white">YOUR STORY !</span>
                   </h3>
                 </div>
-                <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] font-montserrat ">
+                <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] font-montserrat sm:text-center text-start ">
                   From luxurious homes to modern workspaces, we specialize in
                   creating sophisticated, functional, and bespoke interiors
                   tailored to your unique vision
