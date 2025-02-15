@@ -1,6 +1,6 @@
 {
-  "commit": "4e0d66fbbb309c7ba367d545326ef21effe8c884",
-  "generated": "2025-02-15T06:01:20.605Z",
+  "commit": "72e9812feb5fab9ed6b67dc9c74c26def26602e9",
+  "generated": "2025-02-15T06:05:56.403Z",
   "metadata": [
     {
       "__outstatic": {
@@ -823,25 +823,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1e51e9193b706142d113af418d02f89b66c630dd",
-        "hash": "2659074448",
-        "path": "outstatic/content/reels/reel4.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_ixta7t.jpg",
-      "description": "",
-      "publishedAt": "2025-02-14T10:15:43.406Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
-      "slug": "reel4",
-      "status": "published",
-      "title": "Spa"
-    },
-    {
-      "__outstatic": {
         "commit": "53d63a826a00957af2ba167a757674e0f4733f7e",
         "hash": "2763727958",
         "path": "outstatic/content/reels/reel3.md"
@@ -899,6 +880,26 @@
       "sqft": "3000",
       "status": "published",
       "title": "Restaurant"
+    },
+    {
+      "__outstatic": {
+        "commit": "72e9812feb5fab9ed6b67dc9c74c26def26602e9",
+        "hash": "1796047601",
+        "path": "outstatic/content/reels/reel4.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_ixta7t.jpg",
+      "description": "",
+      "publishedAt": "2025-02-14T10:15:43.406Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
+      "slug": "reel4",
+      "sqft": "3500",
+      "status": "published",
+      "title": "Spa"
     }
   ]
 }
