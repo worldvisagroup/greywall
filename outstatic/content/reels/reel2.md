@@ -1,5 +1,5 @@
 ---
-title: 'Reel2'
+title: 'Restaurant'
 status: 'published'
 author:
   name: 'World Visa Consultants'
@@ -11,4 +11,4 @@ reelUrl: 'https://res.cloudinary.com/djvvz62dw/video/upload/v1738844194/greywall
 publishedAt: '2025-02-06T07:31:51.183Z'
 ---
 
-reel2
+Restaurant
