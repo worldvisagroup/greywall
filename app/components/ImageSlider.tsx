@@ -3,7 +3,9 @@ import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
-const ImageSlider = ({ data: { imageOne, imageTwo, imageThree, imageFour, imageFive, title, sqft } }) => {
+const ImageSlider = ({
+  data: { imageOne, imageTwo, imageThree, imageFour, imageFive, title, sqft },
+}) => {
   const images = [imageOne, imageTwo, imageThree, imageFour, imageFive];
   const [currentIndex, setCurrentIndex] = useState(1);
   const [isHovered, setIsHovered] = useState(false);
