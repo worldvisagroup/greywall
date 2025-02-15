@@ -6,6 +6,20 @@ import ReelCarousel from "./ReelCarousel";
 const WorkPortfolio = async () => {
   const data = await getAllProjects();
   const allReels = await getAllReels();
+
+  const normalizeTitle = (title) => {
+    return title.trim().toLowerCase().replace(/\s+/g, "");
+  };
+
+  // Sort the projects based on the desired order
+  const orderedData = data.sort((a, b) => {
+    const order = ["2bhkapartment", "3bhkapartment", "holidayhome", "office"];
+    const indexA = order.indexOf(normalizeTitle(a.title));
+    const indexB = order.indexOf(normalizeTitle(b.title));
+
+    return indexA - indexB;
+  });
+
   return (
     <div className="bg-[#FFF1EC] min-h-screen w-full items-center flex flex-col py-20 justify-center overflow-hidden ">
       <div className="text-center mb-8 space-y-4">
@@ -14,7 +28,7 @@ const WorkPortfolio = async () => {
         </h2>
       </div>
       <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 flex-col gap-6 justify-center items-center p-4 ">
-        {data?.map((project, index) => (
+        {orderedData?.map((project, index) => (
           <div key={index} className="">
             <ImageSlider
               data={{
