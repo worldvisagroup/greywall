@@ -8,6 +8,13 @@
       "fieldType": "String",
       "dataType": "string",
       "title": "reel_url"
+    },
+    "sqft": {
+      "required": false,
+      "description": "",
+      "fieldType": "String",
+      "dataType": "string",
+      "title": "sqft"
     }
   }
 }
