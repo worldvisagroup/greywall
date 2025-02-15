@@ -41,7 +41,7 @@ const VideoTestimonials = () => {
         <div className="w-[343px] h-[617px] relative p-2">
           <video
             ref={videoRef}
-            src="https://res.cloudinary.com/djvvz62dw/video/upload/v1739535131/greywall/Testimonial%20Video/Testimonial_video_for_the_ad_pxqeut.mp4"
+            src="https://res.cloudinary.com/djvvz62dw/video/upload/v1739535168/greywall/Testimonial%20Video/Testimonial_video_for_landing_page_h7aodu.mp4"
             className="object-cover rounded-lg "
             muted
             playsInline
