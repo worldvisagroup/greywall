@@ -1,6 +1,6 @@
 {
-  "commit": "61e01d6aaf010cd019df0328e46f30db9613bf59",
-  "generated": "2025-02-15T05:08:15.812Z",
+  "commit": "952881745a6ee88c95cee29c2544a29dc3b57f0d",
+  "generated": "2025-02-15T05:09:35.758Z",
   "metadata": [
     {
       "__outstatic": {
@@ -727,25 +727,6 @@
     },
     {
       "__outstatic": {
-        "commit": "4593ec11c6971c1f0ecbc4194633e893258139eb",
-        "hash": "472208837",
-        "path": "outstatic/content/reels/reel1.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738844451/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.40.00_656bf60b_osuoic.jpg",
-      "description": "",
-      "publishedAt": "2025-02-06T07:31:16.010Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738848076/greywall/reels/Video-179_qc68g5.mp4",
-      "slug": "reel1",
-      "status": "published",
-      "title": "Reel1"
-    },
-    {
-      "__outstatic": {
         "commit": "698b0be9e018dfbbaf41efb7551c4b2a755a515c",
         "hash": "3663930630",
         "path": "outstatic/content/landingpage-projects/3-bhk-apartment.md"
@@ -896,6 +877,25 @@
       "slug": "reel2",
       "status": "published",
       "title": "Reel2"
+    },
+    {
+      "__outstatic": {
+        "commit": "952881745a6ee88c95cee29c2544a29dc3b57f0d",
+        "hash": "125430562",
+        "path": "outstatic/content/reels/reel1.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738844451/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.40.00_656bf60b_osuoic.jpg",
+      "description": "",
+      "publishedAt": "2025-02-06T07:31:16.010Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738848076/greywall/reels/Video-179_qc68g5.mp4",
+      "slug": "reel1",
+      "status": "published",
+      "title": "Retail Store"
     }
   ]
 }
