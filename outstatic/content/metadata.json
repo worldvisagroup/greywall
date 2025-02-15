@@ -1,6 +1,6 @@
 {
-  "commit": "d2647ebe55ad1a230cb6e03f0a0932d5e5837a91",
-  "generated": "2025-02-14T09:43:42.087Z",
+  "commit": "bf15aeac71546e87664a9ef4b975198d0696fa2b",
+  "generated": "2025-02-15T05:03:26.799Z",
   "metadata": [
     {
       "__outstatic": {
@@ -880,8 +880,8 @@
     },
     {
       "__outstatic": {
-        "commit": "61e5806af2911735276a6d90792aee4881dadd14",
-        "hash": "1942829414",
+        "commit": "bf15aeac71546e87664a9ef4b975198d0696fa2b",
+        "hash": "2590596247",
         "path": "outstatic/content/reels/reel4.md"
       },
       "author": {
@@ -889,7 +889,7 @@
         "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
       },
       "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738825234/greywall/reels/ReelCoverImage/reel6_bd4um0.webp",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_ixta7t.jpg",
       "description": "",
       "publishedAt": "2025-02-14T10:15:43.406Z",
       "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
