@@ -80,9 +80,13 @@ export default function Homepage({ isLandingPage }: Props) {
                   </h3>
                 </div>
                 <p className="text-[#FFEDE6] lg:text-xl md:text-lg text-sm lg:w-[681px] md:ml-0 md:text-center lg:ml-0 ml-3 font-montserrat  text-start lg:text-start ">
-                  From luxurious homes to modern workspaces, we specialize in
-                  creating sophisticated, functional, and bespoke interiors
-                  tailored to your unique vision
+                  Expert{" "}
+                  <span className="font-medium">
+                    interior designers in Bangalore
+                  </span>{" "}
+                  specializing in bespoke home and office
+                  transformations—crafting luxurious, functional, and
+                  sophisticated spaces tailored to your unique vision.
                 </p>
               </div>
             ) : (
