@@ -12,7 +12,7 @@ export const ContactSchema = z.object({
   }),
   projectType: z.string().nonempty("Select your project type!"),
   budget: z.string().nonempty("Select your budget"),
-  projectName: z.string().nonempty("Please,Enter the property name"),
+  propertyName: z.string().nonempty("Please,Enter the property name"),
 });
 
 export const EnquiryContactFormSchema = z.object({

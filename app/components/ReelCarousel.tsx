@@ -18,10 +18,10 @@ const ReelCarousel = ({ slideData }) => {
   return (
     <div className="flex sm:flex-row flex-col justify-center  w-full">
       <div className=" w-full mx-auto">
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {slideData.map((slide, index) => (
-            <div key={index} className="p-4">
-              <div className="sm:w-[290px] w-full sm:h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto">
+            <div key={index} className="p-4 sm:p-0">
+              <div className="sm:w-[300px] w-full sm:h-[418px] rounded-lg shadow-lg flex flex-row justify-center mx-auto">
                 {playingVideoIndex === index ? (
                   <video
                     className="w-full h-full object-cover rounded-lg"
@@ -43,7 +43,7 @@ const ReelCarousel = ({ slideData }) => {
                     <div className="absolute bottom-[90%] left-16 transform -translate-x-14  bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-start items-center rounded-full text-center text-xs">
                       {slide.title}
                     </div>
-                    <div className="absolute sm:bottom-[83%] bottom-[80%] left-12 transform -translate-x-1/2 bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-full text-center text-xs">
+                    <div className="absolute sm:bottom-[83%] bottom-[85%] left-12 transform -translate-x-1/2 bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-full text-center text-xs">
                       {slide.sqft ? slide.sqft : "1500"} sqft
                     </div>
                     <button

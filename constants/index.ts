@@ -2,7 +2,7 @@ export const FIELD_TYPES = {
   name: "text",
   phoneNumber: "number",
   projectType: "text",
-  projectName: "text",
+  propertyName: "text",
   budget: "text",
 };
 
@@ -10,7 +10,7 @@ export const FIELD_NAMES = {
   name: "Name",
   phoneNumber: "Phone Number",
   projectType: "Project Type",
-  projectName: "Project Name",
+  propertyName: "Property Name",
   budget: "Budget",
 };
 
