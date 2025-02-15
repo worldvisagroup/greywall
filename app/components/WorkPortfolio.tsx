@@ -59,7 +59,12 @@ export async function getAllProjects() {
 
 export async function getAllReels() {
   try {
-    const allReels = getDocuments("reels", ["reelUrl", "coverImage"]);
+    const allReels = getDocuments("reels", [
+      "reelUrl",
+      "coverImage",
+      "title",
+      "sqft",
+    ]);
     return allReels;
   } catch (error) {
     console.error("Error fetching reels:", error);

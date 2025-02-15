@@ -39,6 +39,13 @@ const ReelCarousel = ({ slideData }) => {
                       height={1000}
                       className="object-cover rounded-lg"
                     />
+                     <div className="absolute inset-0 bg-black opacity-20 rounded-lg"></div>
+                    <div className="absolute bottom-[86%] left-16 transform -translate-x-14  bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-start items-center rounded-full text-center text-xs">
+                      {slide.title}
+                    </div>
+                    <div className="absolute bottom-[78%] left-12 transform -translate-x-1/2 bg-white/75 text-black px-4 py-2 font-medium h-6 flex justify-center items-center rounded-full text-center text-xs">
+                      {slide.sqft ? slide.sqft : "1500"} sqft
+                    </div>
                     <button
                       className="absolute inset-0 flex items-center justify-center"
                       onClick={() => handlePlayButtonClick(index)}
