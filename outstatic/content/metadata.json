@@ -1,6 +1,6 @@
 {
-  "commit": "952881745a6ee88c95cee29c2544a29dc3b57f0d",
-  "generated": "2025-02-15T05:09:35.758Z",
+  "commit": "1e51e9193b706142d113af418d02f89b66c630dd",
+  "generated": "2025-02-15T05:10:01.463Z",
   "metadata": [
     {
       "__outstatic": {
@@ -823,25 +823,6 @@
     },
     {
       "__outstatic": {
-        "commit": "bf15aeac71546e87664a9ef4b975198d0696fa2b",
-        "hash": "2590596247",
-        "path": "outstatic/content/reels/reel4.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_ixta7t.jpg",
-      "description": "",
-      "publishedAt": "2025-02-14T10:15:43.406Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
-      "slug": "reel4",
-      "status": "published",
-      "title": "Reel4"
-    },
-    {
-      "__outstatic": {
         "commit": "1485ab0016d579bc220047b10be35ef3b6ae9cf3",
         "hash": "3041331964",
         "path": "outstatic/content/reels/reel3.md"
@@ -896,6 +877,25 @@
       "slug": "reel1",
       "status": "published",
       "title": "Retail Store"
+    },
+    {
+      "__outstatic": {
+        "commit": "1e51e9193b706142d113af418d02f89b66c630dd",
+        "hash": "2659074448",
+        "path": "outstatic/content/reels/reel4.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_ixta7t.jpg",
+      "description": "",
+      "publishedAt": "2025-02-14T10:15:43.406Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738843829/greywall/reels/Video-597_qpdt6x.mp4",
+      "slug": "reel4",
+      "status": "published",
+      "title": "Spa"
     }
   ]
 }
