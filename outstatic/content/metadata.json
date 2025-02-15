@@ -1,6 +1,6 @@
 {
-  "commit": "26c94cb9f0503205e9eaba6fcbffa1a14a09b7de",
-  "generated": "2025-02-15T05:46:11.053Z",
+  "commit": "53d63a826a00957af2ba167a757674e0f4733f7e",
+  "generated": "2025-02-15T06:00:30.665Z",
   "metadata": [
     {
       "__outstatic": {
@@ -823,25 +823,6 @@
     },
     {
       "__outstatic": {
-        "commit": "1485ab0016d579bc220047b10be35ef3b6ae9cf3",
-        "hash": "3041331964",
-        "path": "outstatic/content/reels/reel3.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_1_t0p6yl.jpg",
-      "description": "",
-      "publishedAt": "2025-02-06T07:35:11.126Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738844380/greywall/reels/Auguste_Skin_Interior_-_The_Grey_Walls_ofbq6l.mp4",
-      "slug": "reel3",
-      "status": "published",
-      "title": "Reel3"
-    },
-    {
-      "__outstatic": {
         "commit": "1e51e9193b706142d113af418d02f89b66c630dd",
         "hash": "2659074448",
         "path": "outstatic/content/reels/reel4.md"
@@ -897,6 +878,26 @@
       "sqft": "",
       "status": "published",
       "title": "Retail Store"
+    },
+    {
+      "__outstatic": {
+        "commit": "53d63a826a00957af2ba167a757674e0f4733f7e",
+        "hash": "2763727958",
+        "path": "outstatic/content/reels/reel3.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_1_t0p6yl.jpg",
+      "description": "",
+      "publishedAt": "2025-02-06T07:35:11.126Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738844380/greywall/reels/Auguste_Skin_Interior_-_The_Grey_Walls_ofbq6l.mp4",
+      "slug": "reel3",
+      "sqft": "3500",
+      "status": "published",
+      "title": "Facial studio"
     }
   ]
 }
