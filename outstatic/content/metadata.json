@@ -1,6 +1,6 @@
 {
-  "commit": "f95362b3b8da7d28b98f5045e7ee22e11cab13e0",
-  "generated": "2025-02-15T05:10:59.805Z",
+  "commit": "26c94cb9f0503205e9eaba6fcbffa1a14a09b7de",
+  "generated": "2025-02-15T05:46:11.053Z",
   "metadata": [
     {
       "__outstatic": {
@@ -842,25 +842,6 @@
     },
     {
       "__outstatic": {
-        "commit": "952881745a6ee88c95cee29c2544a29dc3b57f0d",
-        "hash": "125430562",
-        "path": "outstatic/content/reels/reel1.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738844451/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.40.00_656bf60b_osuoic.jpg",
-      "description": "",
-      "publishedAt": "2025-02-06T07:31:16.010Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738848076/greywall/reels/Video-179_qc68g5.mp4",
-      "slug": "reel1",
-      "status": "published",
-      "title": "Retail Store"
-    },
-    {
-      "__outstatic": {
         "commit": "1e51e9193b706142d113af418d02f89b66c630dd",
         "hash": "2659074448",
         "path": "outstatic/content/reels/reel4.md"
@@ -896,6 +877,26 @@
       "slug": "reel2",
       "status": "published",
       "title": "Restaurant"
+    },
+    {
+      "__outstatic": {
+        "commit": "26c94cb9f0503205e9eaba6fcbffa1a14a09b7de",
+        "hash": "2536421226",
+        "path": "outstatic/content/reels/reel1.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739597629/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-15_at_10.43.49_47e1f196_rpmx5c.jpg",
+      "description": "",
+      "publishedAt": "2025-02-06T07:31:16.010Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738848076/greywall/reels/Video-179_qc68g5.mp4",
+      "slug": "reel1",
+      "sqft": "",
+      "status": "published",
+      "title": "Retail Store"
     }
   ]
 }
