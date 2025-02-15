@@ -1,6 +1,6 @@
 {
-  "commit": "bf15aeac71546e87664a9ef4b975198d0696fa2b",
-  "generated": "2025-02-15T05:03:26.799Z",
+  "commit": "1485ab0016d579bc220047b10be35ef3b6ae9cf3",
+  "generated": "2025-02-15T05:04:34.934Z",
   "metadata": [
     {
       "__outstatic": {
@@ -746,25 +746,6 @@
     },
     {
       "__outstatic": {
-        "commit": "04b196ef277d5d9c4f8e4f74d45843d1d70241d6",
-        "hash": "24096430",
-        "path": "outstatic/content/reels/reel3.md"
-      },
-      "author": {
-        "name": "World Visa Consultants",
-        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
-      },
-      "collection": "reels",
-      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1738847765/greywall/reels/ReelCoverImage/WhatsApp_Image_2025-02-06_at_17.34.13_df804b83_pbeg2p.jpg",
-      "description": "",
-      "publishedAt": "2025-02-06T07:35:11.126Z",
-      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738844380/greywall/reels/Auguste_Skin_Interior_-_The_Grey_Walls_ofbq6l.mp4",
-      "slug": "reel3",
-      "status": "published",
-      "title": "Reel3"
-    },
-    {
-      "__outstatic": {
         "commit": "4593ec11c6971c1f0ecbc4194633e893258139eb",
         "hash": "472208837",
         "path": "outstatic/content/reels/reel1.md"
@@ -896,6 +877,25 @@
       "slug": "reel4",
       "status": "published",
       "title": "Reel4"
+    },
+    {
+      "__outstatic": {
+        "commit": "1485ab0016d579bc220047b10be35ef3b6ae9cf3",
+        "hash": "3041331964",
+        "path": "outstatic/content/reels/reel3.md"
+      },
+      "author": {
+        "name": "World Visa Consultants",
+        "picture": "https://avatars.githubusercontent.com/u/178646765?v=4"
+      },
+      "collection": "reels",
+      "coverImage": "https://res.cloudinary.com/djvvz62dw/image/upload/v1739595723/greywall/reels/ReelCoverImage/ezgif-frame-001_1_t0p6yl.jpg",
+      "description": "",
+      "publishedAt": "2025-02-06T07:35:11.126Z",
+      "reelUrl": "https://res.cloudinary.com/djvvz62dw/video/upload/v1738844380/greywall/reels/Auguste_Skin_Interior_-_The_Grey_Walls_ofbq6l.mp4",
+      "slug": "reel3",
+      "status": "published",
+      "title": "Reel3"
     }
   ]
 }
