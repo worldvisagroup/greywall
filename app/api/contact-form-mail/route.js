@@ -10,7 +10,7 @@ export async function POST(request) {
   try {
     const data = await resend.emails.send({
       from: "The Grey Wall <info@thegreywallinteriors.com>",
-      to: [`thegreywall7@gmail.com`, `vishnuvardhan14102002@gmail.com`],
+      to: [`thegreywall7@gmail.com`],
       subject: "New Contact Form Submission",
       react: (
         <ContactFormEmailTemplate
