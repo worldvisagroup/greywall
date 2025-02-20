@@ -6,7 +6,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export async function POST(request) {
   const { name, phoneNumber, projectType, budget, propertyName } =
     await request.json();
-  console.log("request",name, phoneNumber, projectType, budget, propertyName );
   try {
     const data = await resend.emails.send({
       from: "The Grey Wall <info@thegreywallinteriors.com>",
