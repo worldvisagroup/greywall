@@ -1,6 +1,6 @@
 export const FIELD_TYPES = {
   name: "text",
-  phoneNumber: "number",
+  phoneNumber: "text",
   projectType: "text",
   propertyName: "text",
   budget: "text",

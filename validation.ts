@@ -7,9 +7,9 @@ export const ContactSchema = z.object({
     .refine((val) => /^[a-zA-Z\s]+$/.test(val), {
       message: "Name must contain only letters and spaces",
     }),
-  phoneNumber: z.string().refine((val) => /^\d{10}$/.test(val), {
-    message: "Phone number must be exactly 10 digits",
-  }),
+    phoneNumber: z.string().refine((val) => /^\d{10}$/.test(val), {
+      message: "Phone number must be exactly 10 digits and contain only numbers",
+    }),
   projectType: z.string().nonempty("Select your project type!"),
   budget: z.string().nonempty("Select your budget"),
   propertyName: z.string().nonempty("Please,Enter the property name"),
